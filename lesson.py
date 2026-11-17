@@ -20,6 +20,8 @@ import wave
 
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 
+from tts_routes import TTSRoutes, is_key_env
+
 
 ASSETS = Path(__file__).resolve().parent / "assets"
 FONT = ASSETS / "noto-sans-latin.ttf"
@@ -259,7 +261,7 @@ def tone_wav(speaker):
     return stream.getvalue()
 
 
-def speech_track(story, folder, key, model):
+def speech_track(story, folder, key, model, *, routes=None):
     speakers = list(dict.fromkeys(turn["speaker"] for turn in story["turns"]))
     multi = len(speakers) == 2
     speech_config = {"speakers": [{"speaker": name, "voice": VOICES[name]} for name in speakers]} if multi else [
@@ -280,6 +282,8 @@ def speech_track(story, folder, key, model):
     path = folder / f"speech-{digest}.wav"
     if path.is_file():
         return path, read_pcm(path.read_bytes())
+    if routes is not None:
+        key = routes.reserve()
     print(f"Generating the whole lesson in one TTS request ({model}).", flush=True)
     block = gemini(key, "audio", **request)
     wav_bytes = base64.b64decode(block["data"], validate=True)
@@ -394,7 +398,7 @@ def srt_time(ms):
     return f"{hours:02}:{minutes:02}:{seconds:02},{millis:03}"
 
 
-def render(story, output, key=None, model=TTS_MODEL, demo=False):
+def render(story, output, key=None, model=TTS_MODEL, demo=False, *, routes=None):
     validate_story(story)
     output.mkdir(parents=True, exist_ok=True)
     (output / "script.json").write_text(json.dumps(story, ensure_ascii=False, indent=2) + "\n",
@@ -407,7 +411,7 @@ def render(story, output, key=None, model=TTS_MODEL, demo=False):
             import stable_whisper
         except ImportError as exc:
             raise RuntimeError('Install local alignment first: python -m pip install "stable-ts==2.19.1"') from exc
-        recording, pcm = speech_track(story, output, key, model)
+        recording, pcm = speech_track(story, output, key, model, routes=routes)
         intervals = align_speech(stable_whisper, recording, story, len(pcm) // 2)
         pcm, intervals = add_pauses(pcm, intervals, turns)
 
@@ -484,6 +488,8 @@ def main():
                          help="Use an exact free OpenRouter model for script writing only.")
     parser.add_argument("--gemini-key-env", default="GEMINI_API_KEY", metavar="NAME",
                         help="Environment variable holding the Gemini key for this run (default: GEMINI_API_KEY).")
+    parser.add_argument("--tts-routes", type=Path, metavar="FILE",
+                        help="Use ordered Gemini project budgets for speech, from a JSON config.")
     parser.add_argument("--tts-model", default=TTS_MODEL,
                         help=f"Default: {TTS_MODEL}. Alternative: {ALT_TTS_MODEL}.")
     parser.add_argument("--demo", action="store_true", help="Use offline test tones with --script.")
@@ -498,21 +504,22 @@ def main():
         parser.error("Dialogue and mixed mode need at least 2 turns.")
     if not shutil.which("ffmpeg"):
         parser.error("Install FFmpeg and put it on PATH.")
-    if not re.fullmatch(r"(?:GEMINI|GOOGLE|GOOGLE_AI)_API_KEY[0-9]*", args.gemini_key_env):
+    if not is_key_env(args.gemini_key_env):
         parser.error("--gemini-key-env must name a GEMINI_API_KEY, GOOGLE_API_KEY, or GOOGLE_AI_API_KEY variable.")
     key = os.environ.get(args.gemini_key_env)
-    if not args.demo and not key:
-        parser.error(f"Set {args.gemini_key_env} in your environment, or use --demo with a script.")
     use_openrouter = args.openrouter_text_model is not None
+    if not args.demo and not key and (not args.tts_routes or (args.topic and not use_openrouter)):
+        parser.error(f"Set {args.gemini_key_env} for Gemini requests that do not use --tts-routes.")
     writer_key = os.environ.get("OPENROUTER_API_KEY") if use_openrouter else key
     if use_openrouter and not writer_key:
         parser.error("Set OPENROUTER_API_KEY to use --openrouter-text-model.")
     try:
+        routes = TTSRoutes(args.tts_routes) if args.tts_routes and not args.demo else None
         story = (json.loads(args.script.read_text(encoding="utf-8-sig")) if args.script else
                  write_story(args.topic, args.language, args.level, args.mode, args.turns,
                              writer_key, args.openrouter_text_model if use_openrouter else args.text_model,
                              openrouter=use_openrouter))
-        target = render(story, args.output, key, args.tts_model, args.demo)
+        target = render(story, args.output, key, args.tts_model, args.demo, routes=routes)
     except (OSError, ValueError, RuntimeError, wave.Error, KeyError, EOFError,
             subprocess.CalledProcessError) as error:
         parser.exit(1, f"Error: {error}\n")

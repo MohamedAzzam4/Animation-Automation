@@ -105,8 +105,8 @@ class LessonTests(unittest.TestCase):
             with patch.dict(os.environ, env, clear=True), patch.object(sys, "argv", args), \
                     patch.object(lesson.shutil, "which", return_value="ffmpeg"), \
                     patch.object(lesson, "urlopen", side_effect=responses) as call, \
-                    patch.object(lesson, "render", side_effect=lambda s, o, k, m, _:
-                                 lesson.speech_track(s, o, k, m)[0]):
+                    patch.object(lesson, "render", side_effect=lambda s, o, k, m, _, routes=None:
+                                 lesson.speech_track(s, o, k, m, routes=routes)[0]):
                 lesson.main()
             self.assertEqual(call.call_count, 2)
             writer, speaker = [invocation.args[0] for invocation in call.call_args_list]

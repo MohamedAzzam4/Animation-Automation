@@ -41,7 +41,7 @@ python lesson.py --topic "A lost dog finds its way home" --language en-US --leve
 
 `--language` accepts `de-DE`, `en-US`, and `es-ES`. `--level` accepts A1–C2. `--mode` can be `auto`, `dialogue`, `narration`, or `mixed` (Martin plus one character). The default 12 speaking turns still cost one TTS request. A topic adds a separate writing request. [Gemini supports at most two voices in one multi-speaker request](https://ai.google.dev/gemini-api/docs/speech-generation#limitations), so scripts with a third speaker are rejected before TTS.
 
-The default models are Gemini 3.5 Flash-Lite for writing and Gemini 3.8 Flash-Lite TTS for speech. If you hit a 429, the error shows the model and any reported limit or retry delay. The script does not retry automatically, rotate keys, or change the speech model. Check your [active Google AI Studio limits](https://ai.google.dev/gemini-api/docs/rate-limits) before resuming.
+The default models are Gemini 3.5 Flash-Lite for writing and Gemini 3.8 Flash-Lite TTS for speech. If you hit a 429, the error shows the model and any reported limit or retry delay. The script does not retry or change the speech model on an API error. Check your [active Google AI Studio limits](https://ai.google.dev/gemini-api/docs/rate-limits) before resuming.
 
 The output folder contains `video.mp4`, `audio.wav`, `subtitles.srt`, `script.json`, `timeline.json`, and a cached original `speech-*.wav`. To resume, run with `--script path/to/script.json`, the **same output folder**, and the **same TTS model**. A matching cached WAV costs no new TTS request. Changing the spoken text, voices, or delivery regenerates the whole take. Old per-turn `clips/` caches are not reused by the new path. JSON input supports UTF-8 with or without a BOM. Script output is always UTF-8 without a BOM.
 
@@ -55,7 +55,29 @@ Set `OPENROUTER_API_KEY` in your environment, then pass the exact ID of an [Open
 python lesson.py --topic "Buying a train ticket" --language de-DE --level A1 --openrouter-text-model openai/gpt-oss-20b:free --output output/train
 ```
 
-OpenRouter only receives the story prompt. Speech still uses the same Gemini TTS model, voice IDs, and single-request audio path. No OpenRouter account or key is needed with `--script`. If using a separately authorized Gemini project, select its environment variable explicitly with `--gemini-key-env GOOGLE_AI_API_KEY2`. The default is `GEMINI_API_KEY`, and a run uses only the selected Gemini key.
+OpenRouter only receives the story prompt. Speech still uses the same Gemini TTS model, voice IDs, and single-request audio path. No OpenRouter account or key is needed with `--script`. To use one Gemini project, set `GEMINI_API_KEY` or select a different environment variable with `--gemini-key-env GOOGLE_AI_API_KEY2`.
+
+## Lesson Studio
+
+```sh
+python lesson_studio.py --demo
+```
+
+Open [http://127.0.0.1:8765](http://127.0.0.1:8765). Choose the language and level, optionally enter a topic, and copy the prompt into any AI chat. A blank topic tells the AI to choose one. Paste the resulting JSON into the ticket field and render. The browser previews the video and offers the MP4, audio, subtitles, and ticket for download. The prompt is also available in [lesson_prompt.txt](lesson_prompt.txt).
+
+Use **Load example** to test without a chat AI. Demo mode uses test tones. After installing the local aligner and setting a Gemini key, restart with `python lesson_studio.py` for real voices. The studio listens only on your machine and never asks you to paste credentials into the browser.
+
+## Optional TTS project budgets
+
+Copy [tts-routes.example.json](tts-routes.example.json) to `tts-routes.json`. Keep **only environment variable names and daily request counts** in the file. Set the matching keys outside the repo. Use one entry per independently authorized project, since two keys for the same Gemini project share Google's quota.
+
+```sh
+python lesson_studio.py --tts-routes tts-routes.json
+# Or use the same route budgets from the CLI.
+python lesson.py --script example.json --tts-routes tts-routes.json --output output/cafe
+```
+
+The app uses routes in file order and moves to the next one when it reaches an app-set daily request cap. A cap of zero disables a route. A local SQLite file next to the config tracks attempts across restarts and resets the count by UTC date. Cache hits use no budget. The counts only cover this app and are not a spending limit or a Google quota meter. If Google itself returns 429, the app reports it and stops. Every route uses the same Gemini speech model and voice IDs.
 
 ## Check
 
@@ -63,4 +85,4 @@ OpenRouter only receives the story prompt. Speech still uses the same Gemini TTS
 python -m unittest -v
 ```
 
-The tests need FFmpeg and ffprobe. They check video timing, speaker changes, accented captions, Windows JSON compatibility, one-request TTS, provider routing, caching, and quota errors without sending API requests.
+The tests need FFmpeg and ffprobe. They check video timing, speaker changes, Windows JSON compatibility, provider routing, studio renders, budget handoff, and caching without live API requests.
