@@ -41,11 +41,21 @@ python lesson.py --topic "A lost dog finds its way home" --language en-US --leve
 
 `--language` accepts `de-DE`, `en-US`, and `es-ES`. `--level` accepts A1–C2. `--mode` can be `auto`, `dialogue`, `narration`, or `mixed` (Martin plus one character). The default 12 speaking turns still cost one TTS request. A topic adds a separate writing request. [Gemini supports at most two voices in one multi-speaker request](https://ai.google.dev/gemini-api/docs/speech-generation#limitations), so scripts with a third speaker are rejected before TTS.
 
-The default models are Gemini 3.5 Flash-Lite for writing and Gemini 3.8 Flash-Lite TTS for speech. If you hit a 429, the error shows the model and any reported limit or retry delay. The script does not retry automatically. Check your [active Google AI Studio limits](https://ai.google.dev/gemini-api/docs/rate-limits), or explicitly use `--tts-model gemini-3.8-flash-tts` if that model still has quota.
+The default models are Gemini 3.5 Flash-Lite for writing and Gemini 3.8 Flash-Lite TTS for speech. If you hit a 429, the error shows the model and any reported limit or retry delay. The script does not retry automatically, rotate keys, or change the speech model. Check your [active Google AI Studio limits](https://ai.google.dev/gemini-api/docs/rate-limits) before resuming.
 
 The output folder contains `video.mp4`, `audio.wav`, `subtitles.srt`, `script.json`, `timeline.json`, and a cached original `speech-*.wav`. To resume, run with `--script path/to/script.json`, the **same output folder**, and the **same TTS model**. A matching cached WAV costs no new TTS request. Changing the spoken text, voices, or delivery regenerates the whole take. Old per-turn `clips/` caches are not reused by the new path. JSON input supports UTF-8 with or without a BOM. Script output is always UTF-8 without a BOM.
 
 Portraits and the reusable backdrop are in `assets/`. The renderer uses still portraits with speaker highlights. It doesn't generate new imagery for each topic.
+
+## Optional free script writer
+
+Set `OPENROUTER_API_KEY` in your environment, then pass the exact ID of an [OpenRouter free text model](https://openrouter.ai/collections/free-models) that supports [structured outputs](https://openrouter.ai/docs/guides/features/structured-outputs).
+
+```sh
+python lesson.py --topic "Buying a train ticket" --language de-DE --level A1 --openrouter-text-model openai/gpt-oss-20b:free --output output/train
+```
+
+OpenRouter only receives the story prompt. Speech still uses the same Gemini TTS model, voice IDs, and single-request audio path. No OpenRouter account or key is needed with `--script`. If using a separately authorized Gemini project, select its environment variable explicitly with `--gemini-key-env GOOGLE_AI_API_KEY2`. The default is `GEMINI_API_KEY`, and a run uses only the selected Gemini key.
 
 ## Check
 
@@ -53,4 +63,4 @@ Portraits and the reusable backdrop are in `assets/`. The renderer uses still po
 python -m unittest -v
 ```
 
-The tests need FFmpeg and ffprobe. They check video timing, speaker changes, accented captions, Windows JSON compatibility, one-request TTS payloads, caching, and quota errors without sending API requests.
+The tests need FFmpeg and ffprobe. They check video timing, speaker changes, accented captions, Windows JSON compatibility, one-request TTS, provider routing, caching, and quota errors without sending API requests.
