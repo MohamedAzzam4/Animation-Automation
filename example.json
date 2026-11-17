@@ -1,0 +1,11 @@
+{
+  "title": "Ein Tee, bitte!",
+  "language": "de-DE",
+  "level": "A1",
+  "turns": [
+    {"speaker": "anna", "text": "Guten Morgen! Ich möchte einen Tee, bitte.", "delivery": "Friendly and polite", "pause_ms": 450},
+    {"speaker": "ben", "text": "Gerne. Möchten Sie Zucker?", "delivery": "Warm and inquisitive", "pause_ms": 500},
+    {"speaker": "anna", "text": "Nein, danke. Aber ein Stück Kuchen, bitte.", "delivery": "Bright and cheerful", "pause_ms": 400},
+    {"speaker": "ben", "text": "Sehr gern! Das macht fünf Euro.", "delivery": "Upbeat and welcoming", "pause_ms": 650}
+  ]
+}
