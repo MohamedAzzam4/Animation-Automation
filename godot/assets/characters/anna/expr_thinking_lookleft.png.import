@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dhaocpon7s3jr"
-path="res://.godot/imported/reference_canonical.png-47e258eea2e09c65c00db21590495c74.ctex"
+uid="uid://cucfgap7k6lmf"
+path="res://.godot/imported/expr_thinking_lookleft.png-f2ccafe34f934d5afee9d9ff44f02ca3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/characters/anna/reference_canonical.png"
-dest_files=["res://.godot/imported/reference_canonical.png-47e258eea2e09c65c00db21590495c74.ctex"]
+source_file="res://assets/characters/anna/expr_thinking_lookleft.png"
+dest_files=["res://.godot/imported/expr_thinking_lookleft.png-f2ccafe34f934d5afee9d9ff44f02ca3.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cjfge5smqvgej"
-path="res://.godot/imported/gesture_whoa.png-09903681dda662d122ff10eb41836712.ctex"
+uid="uid://dgnjuk6quu77q"
+path="res://.godot/imported/expr_thinking_lookleft.png-1699da07e45298bad7381e900f5bac3c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/characters/ben/gesture_whoa.png"
-dest_files=["res://.godot/imported/gesture_whoa.png-09903681dda662d122ff10eb41836712.ctex"]
+source_file="res://assets/characters/ben/expr_thinking_lookleft.png"
+dest_files=["res://.godot/imported/expr_thinking_lookleft.png-1699da07e45298bad7381e900f5bac3c.ctex"]
 
 [params]
 

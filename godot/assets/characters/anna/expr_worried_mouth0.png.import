@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://i5q0mdcafowe"
-path="res://.godot/imported/reference_canonical.png-6c1f174c78cd4b86403ca2baaad72c40.ctex"
+uid="uid://c3j5cgplkhbi3"
+path="res://.godot/imported/expr_worried_mouth0.png-7485def23294bb5bb841ba7da2269bc5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/characters/ben/reference_canonical.png"
-dest_files=["res://.godot/imported/reference_canonical.png-6c1f174c78cd4b86403ca2baaad72c40.ctex"]
+source_file="res://assets/characters/anna/expr_worried_mouth0.png"
+dest_files=["res://.godot/imported/expr_worried_mouth0.png-7485def23294bb5bb841ba7da2269bc5.ctex"]
 
 [params]
 

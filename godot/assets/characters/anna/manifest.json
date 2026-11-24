@@ -1,0 +1,55 @@
+{
+  "canvas": [
+    251,
+    481
+  ],
+  "eye_anchor": [
+    125,
+    117
+  ],
+  "head_top": 0,
+  "files": [
+    "expr_neutral.png",
+    "expr_neutral_noMouth.png",
+    "expr_neutral_mouth0.png",
+    "expr_neutral_mouth1.png",
+    "expr_neutral_mouth2.png",
+    "expr_neutral_blink.png",
+    "expr_neutral_lookleft.png",
+    "expr_neutral_lookright.png",
+    "expr_happy.png",
+    "expr_happy_noMouth.png",
+    "expr_happy_mouth0.png",
+    "expr_happy_mouth1.png",
+    "expr_happy_mouth2.png",
+    "expr_surprised.png",
+    "expr_surprised_noMouth.png",
+    "expr_surprised_mouth0.png",
+    "expr_surprised_mouth1.png",
+    "expr_surprised_mouth2.png",
+    "expr_thinking.png",
+    "expr_thinking_noMouth.png",
+    "expr_thinking_mouth0.png",
+    "expr_thinking_mouth1.png",
+    "expr_thinking_mouth2.png",
+    "expr_thinking_blink.png",
+    "expr_thinking_lookleft.png",
+    "expr_thinking_lookright.png",
+    "expr_worried.png",
+    "expr_worried_noMouth.png",
+    "expr_worried_mouth0.png",
+    "expr_worried_mouth1.png",
+    "expr_worried_mouth2.png",
+    "expr_worried_blink.png",
+    "expr_worried_lookleft.png",
+    "expr_worried_lookright.png",
+    "gesture_wave.png",
+    "gesture_explain.png",
+    "gesture_point.png"
+  ],
+  "gestures": {
+    "wave": "gesture_wave.png",
+    "explain": "gesture_explain.png",
+    "point": "gesture_point.png"
+  }
+}

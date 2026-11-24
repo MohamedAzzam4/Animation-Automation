@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dijovd3dql6nb"
-path="res://.godot/imported/gesture_whoa.png-91c81b49b091b22e5a845a90f6e4c261.ctex"
+uid="uid://d1shp5jskriwq"
+path="res://.godot/imported/expr_surprised_mouth0.png-c0ba183a986de588cde5f6a66f7a4420.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/characters/anna/gesture_whoa.png"
-dest_files=["res://.godot/imported/gesture_whoa.png-91c81b49b091b22e5a845a90f6e4c261.ctex"]
+source_file="res://assets/characters/anna/expr_surprised_mouth0.png"
+dest_files=["res://.godot/imported/expr_surprised_mouth0.png-c0ba183a986de588cde5f6a66f7a4420.ctex"]
 
 [params]
 

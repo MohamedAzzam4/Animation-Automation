@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://orni6sy86ml6"
-path="res://.godot/imported/gesture_thinking.png-1071f07f6605f5da2b8af94bf0f32bdb.ctex"
+uid="uid://ccyr0v86aswbj"
+path="res://.godot/imported/expr_thinking_lookright.png-bbfff6379a97ffc6bac5294798ee95b8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/characters/anna/gesture_thinking.png"
-dest_files=["res://.godot/imported/gesture_thinking.png-1071f07f6605f5da2b8af94bf0f32bdb.ctex"]
+source_file="res://assets/characters/anna/expr_thinking_lookright.png"
+dest_files=["res://.godot/imported/expr_thinking_lookright.png-bbfff6379a97ffc6bac5294798ee95b8.ctex"]
 
 [params]
 
