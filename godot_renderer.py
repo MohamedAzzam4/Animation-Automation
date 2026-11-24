@@ -12,8 +12,10 @@ cached WAV, local Whisper alignment); nothing here re-generates speech.
 import hashlib
 import json
 import math
+import os
 import random
 import subprocess
+import time
 from pathlib import Path
 
 import numpy as np
@@ -239,3 +241,173 @@ def write_timeline(timeline, path: Path):
 def source_hash(story, pcm, seed):
     blob = json.dumps(story, sort_keys=True, ensure_ascii=False).encode("utf-8")
     return hashlib.sha256(blob + bytes(seed) + hashlib.sha256(pcm).digest()).hexdigest()[:24]
+
+
+# --------------------------------------------------------------------------- #
+# Phase 6: offline video export (Godot Movie Maker from Python + FFmpeg mux)
+
+
+def find_godot():
+    """Locate the Godot 4 binary: GODOT_BIN env, PATH, common install spots."""
+    import shutil
+    candidates = []
+    env = os.environ.get("GODOT_BIN")
+    if env:
+        candidates.append(env)
+    which = shutil.which("godot") or shutil.which("godot4")
+    if which:
+        candidates.append(which)
+    candidates += [
+        "/usr/local/bin/godot", "/opt/godot/Godot_v4.7.2-stable_linux.x86_64",
+    ]
+    for c in candidates:
+        try:
+            out = subprocess.run([c, "--version"], capture_output=True, text=True,
+                                 timeout=30, check=True).stdout.strip()
+        except (OSError, subprocess.SubprocessError):
+            continue
+        if out.startswith("4."):
+            return c, out
+    raise RuntimeError("Godot 4 binary not found. Set GODOT_BIN or install Godot 4 "
+                       "from https://godotengine.org/download/ .")
+
+
+class _Xvfb:
+    """Owns a private Xvfb display for the render (the sandbox reaps background
+    processes between commands, so each render brings its own display)."""
+
+    def __init__(self):
+        self.proc = None
+        self.display = None
+        self._external = None
+
+    def __enter__(self):
+        self._external = os.environ.get("DISPLAY")
+        if self._external:
+            return self._external
+        display = 90
+        while Path(f"/tmp/.X11-unix/X{display}").exists():
+            display += 1
+        self.display = f":{display}"
+        self.proc = subprocess.Popen(
+            ["Xvfb", self.display, "-screen", "0", "1280x720x24", "-nolisten", "tcp"],
+            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        for _ in range(50):
+            if Path(f"/tmp/.X11-unix/X{self.display[1:]}").exists():
+                return self.display
+            time.sleep(0.1)
+        raise RuntimeError("Could not start Xvfb for the Godot render.")
+
+    def __exit__(self, *exc):
+        if self.proc:
+            self.proc.terminate()
+            try:
+                self.proc.wait(timeout=5)
+            except subprocess.TimeoutExpired:
+                self.proc.kill()
+
+
+def render_godot(story, output, key=None, model=lesson.TTS_MODEL, demo=False, *, routes=None):
+    """Compile + render a lesson through Godot Movie Maker and mux with FFmpeg.
+
+    The audio path is IDENTICAL to the pillow renderer (one whole-lesson TTS request,
+    cached WAV, local Whisper alignment; demo tones offline). Deterministic: same
+    ticket + WAV + seed -> same timeline and same schedule of frames.
+    """
+    import tempfile
+    import wave as wave_mod
+
+    output = Path(output)
+    output.mkdir(parents=True, exist_ok=True)
+    validate_scene_plan(story)
+    turns = story["turns"]
+    (output / "script.json").write_text(
+        json.dumps(story, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    # ---- audio (reused from lesson.py verbatim) ----
+    if demo:
+        pcm, intervals = lesson.demo_track(turns)
+    else:
+        try:
+            import stable_whisper
+        except ImportError as exc:
+            raise RuntimeError('Install local alignment first: python -m pip install '
+                               '"stable-ts==2.19.1"') from exc
+        recording, pcm = lesson.speech_track(story, output, key, model, routes=routes)
+        intervals = lesson.align_speech(stable_whisper, recording, story, len(pcm) // 2)
+        pcm, intervals = lesson.add_pauses(pcm, intervals, turns)
+
+    # ---- cache: identical source -> reuse ----
+    digest = source_hash(story, pcm, 42)
+    assets_digest = _assets_hash()
+    manifest_path = output / "render_manifest.json"
+    wanted = ["video.mp4", "audio.wav", "subtitles.srt", "godot_timeline.json",
+              "render_manifest.json"]
+    if manifest_path.is_file() and all((output / n).is_file() for n in wanted):
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        if (manifest.get("source_hash") == digest
+                and manifest.get("renderer_version") == GODOT_RENDERER_VERSION
+                and manifest.get("assets_hash") == assets_digest):
+            print("Reusing cached Godot render (source hash unchanged).")
+            return output / "video.mp4"
+
+    timeline = compile_timeline(story, pcm, intervals, seed=42)
+    total_frames = timeline["total_frames"]
+    write_timeline(timeline, output / "godot_timeline.json")
+
+    # pad audio to the exact frame count and write the WAV
+    samples = total_frames * SAMPLES_PER_FRAME
+    padded = pcm + bytes(2 * (samples - len(pcm) // 2))
+    with wave_mod.open(str(output / "audio.wav"), "wb") as track:
+        track.setparams((1, 2, RATE, 0, "NONE", "not compressed"))
+        track.writeframesraw(padded)
+    (output / "subtitles.srt").write_text(srt_from_timeline(timeline), encoding="utf-8")
+
+    godot_bin, godot_version = find_godot()
+    godot_project = Path(__file__).resolve().parent / "godot"
+
+    # import pass keeps the GDScript/texture cache fresh (stale caches broke
+    # earlier runs; this is cheap and deterministic)
+    subprocess.run([godot_bin, "--headless", "--path", str(godot_project), "--import"],
+                   check=True, capture_output=True, timeout=300)
+
+    with tempfile.TemporaryDirectory(prefix="godot-render-") as tmp:
+        avi = Path(tmp) / "video.avi"
+        env = dict(os.environ, HOME=str(Path.home()))
+        with _Xvfb() as display:
+            env["DISPLAY"] = display
+            subprocess.run(
+                [godot_bin, "--path", str(godot_project), "--rendering-driver", "opengl3",
+                 "--write-movie", str(avi), "--fixed-fps", "30",
+                 "--quit-after", str(total_frames + 10),
+                 "--", "--timeline", str((output / "godot_timeline.json").resolve())],
+                check=True, capture_output=True, timeout=30 + total_frames, env=env)
+        # mux: Godot video + original (padded) audio; exact duration
+        subprocess.run(
+            ["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-nostdin",
+             "-i", str(avi), "-i", str(output / "audio.wav"),
+             "-map", "0:v", "-map", "1:a",
+             "-c:v", "libx264", "-preset", "fast", "-crf", "20", "-pix_fmt", "yuv420p",
+             "-r", "30", "-c:a", "aac", "-b:a", "128k",
+             "-t", f"{total_frames / FPS:.9f}",
+             "-movflags", "+faststart", str(output / "video.mp4")],
+            check=True, timeout=600)
+
+    manifest = {
+        "renderer": "godot", "renderer_version": GODOT_RENDERER_VERSION,
+        "godot_version": godot_version, "seed": 42,
+        "source_hash": digest, "assets_hash": assets_digest,
+        "total_frames": total_frames, "fps": FPS, "schema": SCHEMA,
+    }
+    manifest_path.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+    return output / "video.mp4"
+
+
+def _assets_hash():
+    base = Path(__file__).resolve().parent / "godot" / "assets"
+    h = hashlib.sha256()
+    for f in sorted(base.rglob("*")):
+        if f.is_file() and f.name != "assets_manifest.json":
+            h.update(f.name.encode())
+            h.update(f.read_bytes())
+    return h.hexdigest()[:16]

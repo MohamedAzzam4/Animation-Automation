@@ -398,8 +398,12 @@ def srt_time(ms):
     return f"{hours:02}:{minutes:02}:{seconds:02},{millis:03}"
 
 
-def render(story, output, key=None, model=TTS_MODEL, demo=False, *, routes=None):
+def render(story, output, key=None, model=TTS_MODEL, demo=False, *, routes=None, renderer="pillow"):
     validate_story(story)
+    output = Path(output)
+    if renderer == "godot":
+        from godot_renderer import render_godot
+        return render_godot(story, output, key, model, demo, routes=routes)
     output.mkdir(parents=True, exist_ok=True)
     (output / "script.json").write_text(json.dumps(story, ensure_ascii=False, indent=2) + "\n",
                                         encoding="utf-8")
@@ -493,6 +497,9 @@ def main():
     parser.add_argument("--tts-model", default=TTS_MODEL,
                         help=f"Default: {TTS_MODEL}. Alternative: {ALT_TTS_MODEL}.")
     parser.add_argument("--demo", action="store_true", help="Use offline test tones with --script.")
+    parser.add_argument("--renderer", choices=("pillow", "godot"), default="pillow",
+                        help="Video renderer: original still-card renderer (pillow) or "
+                             "animated Godot renderer (offline Movie Maker).")
     args = parser.parse_args()
     if args.demo and not args.script:
         parser.error("--demo requires --script and never calls Gemini.")
@@ -519,7 +526,8 @@ def main():
                  write_story(args.topic, args.language, args.level, args.mode, args.turns,
                              writer_key, args.openrouter_text_model if use_openrouter else args.text_model,
                              openrouter=use_openrouter))
-        target = render(story, args.output, key, args.tts_model, args.demo, routes=routes)
+        target = render(story, args.output, key, args.tts_model, args.demo, routes=routes,
+                        renderer=args.renderer)
     except (OSError, ValueError, RuntimeError, wave.Error, KeyError, EOFError,
             subprocess.CalledProcessError) as error:
         parser.exit(1, f"Error: {error}\n")
