@@ -45,6 +45,10 @@ def validate_scene_plan(story):
     pass untouched - defaults are applied at compile time."""
     if not isinstance(story, dict):
         raise ValueError("Ticket must be a JSON object.")
+    version = story.get("schema_version")
+    if version is not None and version != SCHEMA:
+        raise ValueError(f"Unsupported ticket schema_version '{version}'. "
+                         f"This renderer supports '{SCHEMA}'.")
     for key, allowed in (("scene_id", SCENES), ("expression", EXPRESSIONS),
                          ("action", ACTIONS), ("camera", CAMERAS)):
         for number, turn in enumerate(story.get("turns", []), 1):

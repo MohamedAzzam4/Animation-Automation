@@ -167,3 +167,18 @@ def test_lesson_imports_untouched():
     assert lesson.FPS == 30 and lesson.RATE == 24000
     assert "anna" in lesson.VOICES and "maya" in lesson.VOICES
     assert set(lesson.LANGUAGES) == {"de-DE", "en-US", "es-ES"}
+
+
+def test_rejects_wrong_schema_version():
+    story = json.loads(json.dumps(STORY))
+    story["schema_version"] = "scene_plan_v0"
+    with pytest.raises(ValueError) as e:
+        gr.validate_scene_plan(story)
+    assert "scene_plan_v0" in str(e.value)
+
+
+def test_timeline_records_versions_and_seed():
+    pcm = pcm_sine(1.0)
+    t = gr.compile_timeline(STORY, pcm, [(0, 12000), (12000, 24000)], seed=42)
+    assert t["seed"] == 42 and t["renderer_version"] == gr.GODOT_RENDERER_VERSION
+    assert t["fps"] == 30 and t["width"] == 1280 and t["height"] == 720
