@@ -4,7 +4,7 @@
 
 config/name="Language Journey Video Renderer"
 config/features=PackedStringArray("4.7")
-run/main_scene="res://DemoCharacters.tscn"
+run/main_scene="res://Main.tscn"
 
 [display]
 
