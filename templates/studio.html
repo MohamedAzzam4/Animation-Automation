@@ -98,6 +98,14 @@
         <label for="ticket">Lesson JSON</label>
         <textarea id="ticket" name="ticket" placeholder='{ "title": "...", "language": "de-DE", "level": "A1", "turns": [...] }'
                   spellcheck="false" required>{{ text }}</textarea>
+        <label for="renderer">Renderer
+          <select id="renderer" name="renderer">
+            <option value="pillow" {% if renderer_choice == "pillow" %}selected{% endif %}>Still cards (original)</option>
+            <option value="godot" {% if renderer_choice == "godot" %}selected{% endif %}>Godot (animated)</option>
+          </select>
+        </label>
+        <p class="msg">Animated turns may add optional <code>scene_id</code>, <code>expression</code>,
+          <code>action</code> and <code>camera</code> to each turn (scene_plan_v1).</p>
         {% if error %}<p class="error" role="alert">{{ error }}</p>{% endif %}
         <div class="actions">
           <button class="primary" id="render-button" type="submit">{{ "Render demo" if demo else "Generate video" }}</button>
@@ -109,12 +117,14 @@
   {% if job %}
     <section id="result" aria-labelledby="result-title">
       <span class="step">03 / Review</span><h2 id="result-title">{{ title }}</h2>
+      <p class="msg">{{ last_run }}</p>
       <video controls preload="metadata" src="{{ url_for('file', job=job, name='video.mp4') }}"></video>
       <div class="downloads">
         <a class="button primary" href="{{ url_for('file', job=job, name='video.mp4', download=1) }}">Download MP4</a>
         <a class="button" href="{{ url_for('file', job=job, name='subtitles.srt', download=1) }}">Subtitles</a>
         <a class="button" href="{{ url_for('file', job=job, name='audio.wav', download=1) }}">Audio</a>
         <a class="button" href="{{ url_for('file', job=job, name='script.json', download=1) }}">Lesson JSON</a>
+        {% if has_timeline %}<a class="button" href="{{ url_for('file', job=job, name='godot_timeline.json', download=1) }}">Timeline</a>{% endif %}
       </div>
     </section>
   {% endif %}

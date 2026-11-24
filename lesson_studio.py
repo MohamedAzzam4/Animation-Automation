@@ -20,7 +20,8 @@ from tts_routes import TTSRoutes, is_key_env
 
 
 HERE = Path(__file__).resolve().parent
-DOWNLOADS = {"video.mp4", "audio.wav", "subtitles.srt", "script.json"}
+DOWNLOADS = {"video.mp4", "audio.wav", "subtitles.srt", "script.json",
+             "godot_timeline.json", "render_manifest.json"}
 
 
 def read_ticket(text):
@@ -43,15 +44,21 @@ def create_app(output, *, key=None, model=lesson.TTS_MODEL, routes=None, demo=Fa
 
     @app.route("/", methods=["GET", "POST"])
     def index():
+        renderer_choice = "pillow"
         page = dict(prompt=prompt, example=example, token=token, demo=demo,
                     model=model, languages=lesson.LANGUAGES, levels=lesson.LEVELS,
-                    text="", error=None, job=None, title=None)
+                    text="", error=None, job=None, title=None, renderer_choice=renderer_choice,
+                    last_run=None, has_timeline=False)
         if request.method == "GET":
             return render_template("studio.html", **page)
         supplied = request.form.get("token", "")
         if not compare_digest(supplied.encode("utf-8"), token.encode("ascii")):
             abort(403)
         page["text"] = request.form.get("ticket", "")
+        renderer_choice = request.form.get("renderer", "pillow")
+        if renderer_choice not in ("pillow", "godot"):
+            renderer_choice = "pillow"
+        page["renderer_choice"] = renderer_choice
         try:
             ticket = read_ticket(page["text"])
         except ValueError as exc:
@@ -61,12 +68,26 @@ def create_app(output, *, key=None, model=lesson.TTS_MODEL, routes=None, demo=Fa
             page["error"] = "A video is already rendering. Wait for it to finish, then try again."
             return render_template("studio.html", **page), 409
         try:
-            identity = json.dumps([ticket, model, demo], sort_keys=True, ensure_ascii=False)
+            identity = json.dumps([ticket, model, demo, renderer_choice], sort_keys=True, ensure_ascii=False)
             job = hashlib.sha256(identity.encode("utf-8")).hexdigest()[:24]
             folder = output / job
-            if not all((folder / name).is_file() for name in DOWNLOADS):
-                lesson.render(ticket, folder, key, model, demo, routes=routes)
+            if not all((folder / name).is_file() for name in ("video.mp4", "audio.wav",
+                    "subtitles.srt", "script.json")):
+                lesson.render(ticket, folder, key, model, demo, routes=routes,
+                              renderer=renderer_choice)
             page.update(job=job, title=ticket["title"])
+            page["has_timeline"] = (folder / "godot_timeline.json").is_file()
+            manifest = folder / "render_manifest.json"
+            if manifest.is_file():
+                try:
+                    info = json.loads(manifest.read_text(encoding="utf-8"))
+                    page["last_run"] = (f"Animated render · Godot {info.get('godot_version', '?')} · "
+                                        f"{info.get('total_frames', '?')} frames @ {info.get('fps', 30)} fps · "
+                                        f"seed {info.get('seed', 42)}")
+                except (ValueError, OSError):
+                    page["last_run"] = "Animated render (manifest unreadable)."
+            else:
+                page["last_run"] = "Still-card render (original renderer)."
         except (OSError, ValueError, RuntimeError, EOFError, KeyError, wave.Error,
                 subprocess.CalledProcessError) as exc:
             page["error"] = str(exc)

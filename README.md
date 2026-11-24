@@ -86,3 +86,34 @@ python -m unittest -v
 ```
 
 The tests need FFmpeg and ffprobe. They check video timing, speaker changes, Windows JSON compatibility, provider routing, studio renders, budget handoff, and caching without live API requests.
+
+## Animated Godot renderer (new)
+
+The repository now contains a second, fully offline **animated** renderer next to the
+original still-card renderer. Both share the same script, audio, and alignment code
+(one whole-lesson TTS request, cached WAV, local Whisper alignment — unchanged).
+
+```sh
+# animated demo render (offline test tones; no keys)
+GODOT_BIN=/path/to/Godot_v4.x python lesson.py --script art/pack/pilot/lesson_ticket.json     --demo --renderer godot --output output/pilot_demo
+# original renderer stays the default:
+python lesson.py --script example.json --demo --output output/demo
+```
+
+- Lesson Studio gains a **Godot (animated)** renderer choice plus a per-run status line
+  (engine version, frame count, seed) and a timeline download.
+- Requires Godot 4 stable from <https://godotengine.org/download/> (standard GDScript
+  build). `GODOT_BIN` or `godot` on PATH are picked up automatically. On headless Linux
+  the renderer starts its own Xvfb display and renders via Movie Maker
+  (`--write-movie ... --fixed-fps 30`), then FFmpeg muxes the original audio.
+- Deterministic: scene_plan_v1 tickets compile to integer frame events with fixed seed
+  42; the same ticket + WAV + seed produce byte-identical frame schedules (verified).
+- Anna and Ben are animated composite-bust characters (5 expressions, blink, look,
+  speech mouths, gestures, deterministic idle) across four painted scenes
+  (student room, station, café, riverside park) with subtitles in a fixed safe area.
+  Optional per-turn fields: `scene_id`, `expression`, `action`, `camera`.
+  Unknown enum values are rejected with the allowed list before rendering.
+- Cached by content hash: identical ticket + WAV skips the render.
+- `python -m pytest` runs the full suite (original + renderer tests).
+- Phase reports live in `reports/`; the extraction pipeline in `tools/` rebuilds
+  `godot/assets/` from `art/pack/`.
