@@ -1,0 +1,261 @@
+{
+  "generator": "art/extract_characters pipeline",
+  "files": {
+    "assets_manifest.json": {
+      "bytes": 24053,
+      "sha256": "09d27e8fd06a2781"
+    },
+    "backgrounds/cafe.png": {
+      "bytes": 1662950,
+      "sha256": "07b26cf683cd3998"
+    },
+    "backgrounds/riverside_park.png": {
+      "bytes": 2083702,
+      "sha256": "be6cd7f24c56c892"
+    },
+    "backgrounds/station.png": {
+      "bytes": 1777960,
+      "sha256": "386b1058f6b6cbab"
+    },
+    "backgrounds/student_room.png": {
+      "bytes": 1831292,
+      "sha256": "dddb1cd0dbe76b2e"
+    },
+    "characters/anna/expr_happy.png": {
+      "bytes": 118290,
+      "sha256": "5bb9a629e698d12a"
+    },
+    "characters/anna/expr_happy_mouth1.png": {
+      "bytes": 3401,
+      "sha256": "bc9f313ea20a4a18"
+    },
+    "characters/anna/expr_happy_mouth2.png": {
+      "bytes": 4178,
+      "sha256": "b7bb8b68020e0f17"
+    },
+    "characters/anna/expr_happy_noMouth.png": {
+      "bytes": 116389,
+      "sha256": "c5b05ab553790d32"
+    },
+    "characters/anna/expr_neutral.png": {
+      "bytes": 121584,
+      "sha256": "293c95e795471c5d"
+    },
+    "characters/anna/expr_neutral_blink.png": {
+      "bytes": 6378,
+      "sha256": "c8c3dc62760d5852"
+    },
+    "characters/anna/expr_neutral_mouth1.png": {
+      "bytes": 3432,
+      "sha256": "3dc1dc1dbf9fb2c6"
+    },
+    "characters/anna/expr_neutral_mouth2.png": {
+      "bytes": 4195,
+      "sha256": "5653de3f35d3550a"
+    },
+    "characters/anna/expr_neutral_noMouth.png": {
+      "bytes": 120387,
+      "sha256": "d375d619841f76b4"
+    },
+    "characters/anna/expr_surprised.png": {
+      "bytes": 117494,
+      "sha256": "7f07906822241d1b"
+    },
+    "characters/anna/expr_surprised_mouth1.png": {
+      "bytes": 3415,
+      "sha256": "66f9782590e06d54"
+    },
+    "characters/anna/expr_surprised_mouth2.png": {
+      "bytes": 4165,
+      "sha256": "21d725359393a093"
+    },
+    "characters/anna/expr_surprised_noMouth.png": {
+      "bytes": 116633,
+      "sha256": "97f0f9c22fd6d6c8"
+    },
+    "characters/anna/expr_thinking.png": {
+      "bytes": 116941,
+      "sha256": "479e83ae9e552de5"
+    },
+    "characters/anna/expr_thinking_blink.png": {
+      "bytes": 6331,
+      "sha256": "eae1ea91f4b16243"
+    },
+    "characters/anna/expr_thinking_mouth1.png": {
+      "bytes": 3393,
+      "sha256": "7ef04064232bb24d"
+    },
+    "characters/anna/expr_thinking_mouth2.png": {
+      "bytes": 4162,
+      "sha256": "f159712ea0dacc4d"
+    },
+    "characters/anna/expr_thinking_noMouth.png": {
+      "bytes": 116178,
+      "sha256": "48c100569399af0e"
+    },
+    "characters/anna/expr_worried.png": {
+      "bytes": 117470,
+      "sha256": "7a2256fbc5faccdf"
+    },
+    "characters/anna/expr_worried_blink.png": {
+      "bytes": 6352,
+      "sha256": "41f75f056bce3e90"
+    },
+    "characters/anna/expr_worried_mouth1.png": {
+      "bytes": 3415,
+      "sha256": "dd7d45354d111545"
+    },
+    "characters/anna/expr_worried_mouth2.png": {
+      "bytes": 4166,
+      "sha256": "4b68e781c793892e"
+    },
+    "characters/anna/expr_worried_noMouth.png": {
+      "bytes": 116620,
+      "sha256": "0e30eb03944cd781"
+    },
+    "characters/anna/gesture_explain.png": {
+      "bytes": 308427,
+      "sha256": "01fc5ce1fa64af1d"
+    },
+    "characters/anna/gesture_point.png": {
+      "bytes": 315751,
+      "sha256": "4ce4f5f931dc8b37"
+    },
+    "characters/anna/gesture_thinking.png": {
+      "bytes": 324002,
+      "sha256": "1ab213d58d8fe4a6"
+    },
+    "characters/anna/gesture_wave.png": {
+      "bytes": 322736,
+      "sha256": "c4fb00721d7b98db"
+    },
+    "characters/anna/gesture_whoa.png": {
+      "bytes": 348590,
+      "sha256": "6ec99da111b4e316"
+    },
+    "characters/anna/reference_canonical.png": {
+      "bytes": 1443884,
+      "sha256": "5ffd2d07fae01ca6"
+    },
+    "characters/ben/expr_happy.png": {
+      "bytes": 108237,
+      "sha256": "503d04e534a4005d"
+    },
+    "characters/ben/expr_happy_mouth1.png": {
+      "bytes": 5046,
+      "sha256": "fbbe1c754ffba56f"
+    },
+    "characters/ben/expr_happy_mouth2.png": {
+      "bytes": 6102,
+      "sha256": "96db2a4f3e879550"
+    },
+    "characters/ben/expr_happy_noMouth.png": {
+      "bytes": 104415,
+      "sha256": "92c5f6610c2ee668"
+    },
+    "characters/ben/expr_neutral.png": {
+      "bytes": 110391,
+      "sha256": "92f009e644d12111"
+    },
+    "characters/ben/expr_neutral_blink.png": {
+      "bytes": 6389,
+      "sha256": "80ef4f0ca5066895"
+    },
+    "characters/ben/expr_neutral_mouth1.png": {
+      "bytes": 5097,
+      "sha256": "1624a54c1778efb0"
+    },
+    "characters/ben/expr_neutral_mouth2.png": {
+      "bytes": 6140,
+      "sha256": "d4634113c4dd53dd"
+    },
+    "characters/ben/expr_neutral_noMouth.png": {
+      "bytes": 107793,
+      "sha256": "fabb50fbeecdded8"
+    },
+    "characters/ben/expr_surprised.png": {
+      "bytes": 108296,
+      "sha256": "5006608ca31ad8e2"
+    },
+    "characters/ben/expr_surprised_mouth1.png": {
+      "bytes": 5066,
+      "sha256": "76c0095437f25156"
+    },
+    "characters/ben/expr_surprised_mouth2.png": {
+      "bytes": 6112,
+      "sha256": "15ec453b4b762591"
+    },
+    "characters/ben/expr_surprised_noMouth.png": {
+      "bytes": 105383,
+      "sha256": "ec5df2670d6ca5af"
+    },
+    "characters/ben/expr_thinking.png": {
+      "bytes": 110715,
+      "sha256": "bfed87ff62721862"
+    },
+    "characters/ben/expr_thinking_blink.png": {
+      "bytes": 6364,
+      "sha256": "d5187552f12c33a8"
+    },
+    "characters/ben/expr_thinking_mouth1.png": {
+      "bytes": 5065,
+      "sha256": "0073c286ced43255"
+    },
+    "characters/ben/expr_thinking_mouth2.png": {
+      "bytes": 6117,
+      "sha256": "bfbc8818983a05b1"
+    },
+    "characters/ben/expr_thinking_noMouth.png": {
+      "bytes": 108571,
+      "sha256": "6d08d9585dc9f242"
+    },
+    "characters/ben/expr_worried.png": {
+      "bytes": 108436,
+      "sha256": "97aec8820efd87c9"
+    },
+    "characters/ben/expr_worried_blink.png": {
+      "bytes": 6372,
+      "sha256": "ab07ee7ce9f37d11"
+    },
+    "characters/ben/expr_worried_mouth1.png": {
+      "bytes": 5070,
+      "sha256": "967890fce0a26288"
+    },
+    "characters/ben/expr_worried_mouth2.png": {
+      "bytes": 6123,
+      "sha256": "2b0a52e443f05ca3"
+    },
+    "characters/ben/expr_worried_noMouth.png": {
+      "bytes": 106097,
+      "sha256": "2d11fee7c6a3ce21"
+    },
+    "characters/ben/gesture_explain.png": {
+      "bytes": 197325,
+      "sha256": "dcec8bd8fdef1cad"
+    },
+    "characters/ben/gesture_point.png": {
+      "bytes": 245057,
+      "sha256": "42fbb25a61d08025"
+    },
+    "characters/ben/gesture_thinking.png": {
+      "bytes": 240771,
+      "sha256": "783e32de216f2fa6"
+    },
+    "characters/ben/gesture_wave.png": {
+      "bytes": 264052,
+      "sha256": "663ab9f49ae83489"
+    },
+    "characters/ben/gesture_whoa.png": {
+      "bytes": 279595,
+      "sha256": "5d5ad4a088f7e3e0"
+    },
+    "characters/ben/reference_canonical.png": {
+      "bytes": 1472659,
+      "sha256": "9181471143b80b25"
+    },
+    "fonts/noto-sans-latin.ttf": {
+      "bytes": 140920,
+      "sha256": "57e1dc1daef22eca"
+    }
+  }
+}

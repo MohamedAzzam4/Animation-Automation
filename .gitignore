@@ -7,3 +7,6 @@ tts-routes.json
 tts-routes.sqlite3*
 godot/out/
 art/pack/GLM_IMPLEMENTATION_PROMPT.md
+.godot/
+godot/*.avi
+art/staging/
