@@ -1,0 +1,528 @@
+{
+  "pack_version": "1.0",
+  "entries": [
+    {
+      "path": "reference/anna_canonical.png",
+      "exists": true,
+      "sha256": "5ffd2d07fae01ca6b70fc8e226b98ad5e261643d68ccfbec3b28008c1a5a6389",
+      "sha256_matches_manifest": true,
+      "size_px": [
+        1199,
+        1312
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "transparent_pct": 54.65,
+      "semi_pct": 0.54,
+      "opaque_pct": 44.82,
+      "alpha_bbox": [
+        0,
+        32,
+        1006,
+        1312
+      ]
+    },
+    {
+      "path": "reference/ben_canonical.png",
+      "exists": true,
+      "sha256": "9181471143b80b25b7f6c5cdf26647f343711338fd4b7862447c12d4c8556d41",
+      "sha256_matches_manifest": true,
+      "size_px": [
+        1240,
+        1269
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "transparent_pct": 55.2,
+      "semi_pct": 0.47,
+      "opaque_pct": 44.33,
+      "alpha_bbox": [
+        0,
+        17,
+        1188,
+        1269
+      ]
+    },
+    {
+      "path": "design/anna_design.png",
+      "exists": true,
+      "sha256": "05894443eccf494b8a8e6ecd0c4116ee8f3ebbc003dd41aacce1ed15008a09f5",
+      "sha256_matches_manifest": true,
+      "size_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "transparent_pct": 42.24,
+      "semi_pct": 1.61,
+      "opaque_pct": 56.15,
+      "alpha_bbox": [
+        14,
+        16,
+        1122,
+        1402
+      ]
+    },
+    {
+      "path": "design/ben_design.png",
+      "exists": true,
+      "sha256": "4df6c11ea82e5f9cba989133c28becef08619c8a1fe76b5199531d8cbfe734b1",
+      "sha256_matches_manifest": true,
+      "size_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "transparent_pct": 41.09,
+      "semi_pct": 1.62,
+      "opaque_pct": 57.3,
+      "alpha_bbox": [
+        0,
+        3,
+        1122,
+        1402
+      ]
+    },
+    {
+      "path": "parts_sheets/anna_parts.png",
+      "exists": true,
+      "sha256": "96c730cc3a6f3e24282d0d93e64b518e5576616be607750260137ea0fdc1ba88",
+      "sha256_matches_manifest": true,
+      "size_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "transparent_pct": 55.6,
+      "semi_pct": 1.67,
+      "opaque_pct": 42.72,
+      "alpha_bbox": [
+        0,
+        0,
+        1116,
+        1402
+      ],
+      "panel_detection": {
+        "cols": 2,
+        "rows": 2,
+        "col_bands": [
+          [
+            17,
+            158
+          ],
+          [
+            178,
+            548
+          ]
+        ],
+        "row_bands": [
+          [
+            6,
+            572
+          ],
+          [
+            579,
+            689
+          ]
+        ],
+        "grid": "2x2"
+      }
+    },
+    {
+      "path": "parts_sheets/ben_parts.png",
+      "exists": true,
+      "sha256": "3e3d2e57623a831aeace08f521540e4ed259dc817b92d79e86819c529b518d4b",
+      "sha256_matches_manifest": true,
+      "size_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "transparent_pct": 51.04,
+      "semi_pct": 2.15,
+      "opaque_pct": 46.81,
+      "alpha_bbox": [
+        0,
+        0,
+        1122,
+        1402
+      ],
+      "panel_detection": {
+        "cols": 1,
+        "rows": 1,
+        "col_bands": [
+          [
+            8,
+            554
+          ]
+        ],
+        "row_bands": [
+          [
+            6,
+            692
+          ]
+        ],
+        "grid": "1x1"
+      }
+    },
+    {
+      "path": "faces/anna_face_expressions_visemes.png",
+      "exists": true,
+      "sha256": "b30ccbae65a3e757841bc6d08b1ea2499355f098a20ad1834235300f97ce1114",
+      "sha256_matches_manifest": true,
+      "size_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "transparent_pct": 60.28,
+      "semi_pct": 2.23,
+      "opaque_pct": 37.49,
+      "alpha_bbox": [
+        0,
+        16,
+        1122,
+        1402
+      ],
+      "panel_detection": {
+        "cols": 1,
+        "rows": 4,
+        "col_bands": [
+          [
+            4,
+            555
+          ]
+        ],
+        "row_bands": [
+          [
+            9,
+            160
+          ],
+          [
+            170,
+            428
+          ],
+          [
+            546,
+            591
+          ],
+          [
+            612,
+            676
+          ]
+        ],
+        "grid": "1x4"
+      }
+    },
+    {
+      "path": "faces/ben_face_expressions_visemes.png",
+      "exists": true,
+      "sha256": "89084ae72b5173300ceb869f61523ee898f52a97b881cc8e0767f83427c680f4",
+      "sha256_matches_manifest": true,
+      "size_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "transparent_pct": 57.78,
+      "semi_pct": 2.9,
+      "opaque_pct": 39.32,
+      "alpha_bbox": [
+        0,
+        9,
+        1116,
+        1402
+      ],
+      "panel_detection": {
+        "cols": 1,
+        "rows": 4,
+        "col_bands": [
+          [
+            10,
+            545
+          ]
+        ],
+        "row_bands": [
+          [
+            8,
+            165
+          ],
+          [
+            168,
+            457
+          ],
+          [
+            558,
+            624
+          ],
+          [
+            639,
+            689
+          ]
+        ],
+        "grid": "1x4"
+      }
+    },
+    {
+      "path": "poses/anna_gestures.png",
+      "exists": true,
+      "sha256": "b66a7c46e06e1b4cf1683924e6a30644a40e3be784fd9c933f907c74857385bb",
+      "sha256_matches_manifest": true,
+      "size_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "transparent_pct": 38.2,
+      "semi_pct": 1.63,
+      "opaque_pct": 60.16,
+      "alpha_bbox": [
+        0,
+        22,
+        1122,
+        1402
+      ],
+      "panel_detection": {
+        "cols": 2,
+        "rows": 2,
+        "col_bands": [
+          [
+            5,
+            179
+          ],
+          [
+            196,
+            557
+          ]
+        ],
+        "row_bands": [
+          [
+            12,
+            341
+          ],
+          [
+            356,
+            693
+          ]
+        ],
+        "grid": "2x2"
+      }
+    },
+    {
+      "path": "poses/anna_conversation.png",
+      "exists": true,
+      "sha256": "3a9ec7323db8c308b070d6cca91d446039fcea9374deb9dc95db698cfe5315c5",
+      "sha256_matches_manifest": true,
+      "size_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "transparent_pct": 51.98,
+      "semi_pct": 1.7,
+      "opaque_pct": 46.33,
+      "alpha_bbox": [
+        23,
+        0,
+        1096,
+        1402
+      ],
+      "panel_detection": {
+        "cols": 2,
+        "rows": 3,
+        "col_bands": [
+          [
+            19,
+            253
+          ],
+          [
+            268,
+            519
+          ]
+        ],
+        "row_bands": [
+          [
+            6,
+            226
+          ],
+          [
+            227,
+            446
+          ],
+          [
+            450,
+            693
+          ]
+        ],
+        "grid": "2x3"
+      }
+    },
+    {
+      "path": "poses/ben_gestures.png",
+      "exists": true,
+      "sha256": "10e842d95fd5105e07285ae1bf585e99c398760129578866664cc9f3b89a7ebd",
+      "sha256_matches_manifest": true,
+      "size_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "transparent_pct": 48.05,
+      "semi_pct": 1.72,
+      "opaque_pct": 50.23,
+      "alpha_bbox": [
+        0,
+        0,
+        1094,
+        1402
+      ],
+      "panel_detection": {
+        "cols": 2,
+        "rows": 3,
+        "col_bands": [
+          [
+            9,
+            258
+          ],
+          [
+            267,
+            544
+          ]
+        ],
+        "row_bands": [
+          [
+            4,
+            227
+          ],
+          [
+            232,
+            458
+          ],
+          [
+            463,
+            694
+          ]
+        ],
+        "grid": "2x3"
+      }
+    },
+    {
+      "path": "poses/ben_conversation.png",
+      "exists": true,
+      "sha256": "d64fb003afd01adc4ddb19541c3616b822c210c6b1837e508bc6dc53b5bc6e93",
+      "sha256_matches_manifest": true,
+      "size_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "transparent_pct": 53.07,
+      "semi_pct": 1.5,
+      "opaque_pct": 45.43,
+      "alpha_bbox": [
+        0,
+        23,
+        1122,
+        1402
+      ],
+      "panel_detection": {
+        "cols": 2,
+        "rows": 2,
+        "col_bands": [
+          [
+            5,
+            383
+          ],
+          [
+            386,
+            553
+          ]
+        ],
+        "row_bands": [
+          [
+            44,
+            258
+          ],
+          [
+            291,
+            660
+          ]
+        ],
+        "grid": "2x2"
+      }
+    },
+    {
+      "path": "backgrounds/student_room.png",
+      "exists": true,
+      "sha256": "dddb1cd0dbe76b2e34d59a56aebb09efa70b47703db4e6bd259d2918a0fa69f8",
+      "sha256_matches_manifest": true,
+      "size_px": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "backgrounds/station.png",
+      "exists": true,
+      "sha256": "386b1058f6b6cbab93b73c4b0da2160e9db46d922ee43946cf81f2d8f066ce3c",
+      "sha256_matches_manifest": true,
+      "size_px": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "backgrounds/cafe.png",
+      "exists": true,
+      "sha256": "07b26cf683cd39988986ef161d1717a665ba0226c7de2d17e34596608f0fa87a",
+      "sha256_matches_manifest": true,
+      "size_px": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "backgrounds/riverside_park.png",
+      "exists": true,
+      "sha256": "be6cd7f24c56c8924f4bb96ced231c0b43f1151b2e4ba0853167c322bf3a30d7",
+      "sha256_matches_manifest": true,
+      "size_px": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "storyboard/pilot_storyboard.png",
+      "exists": true,
+      "sha256": "a73760a239f84315ab3b09268aa9b2921bd998be9c2e66328fe26132aa53439f",
+      "sha256_matches_manifest": true,
+      "size_px": [
+        1448,
+        1086
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    }
+  ],
+  "notes": [
+    "checksum mismatches: none"
+  ]
+}

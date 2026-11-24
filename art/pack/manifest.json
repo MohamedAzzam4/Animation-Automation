@@ -1,0 +1,204 @@
+{
+  "pack_name": "Language Journey — Anna and Ben 2D Source Assets",
+  "version": "1.0",
+  "ready_for_rigging": false,
+  "character_ids": [
+    "anna",
+    "ben"
+  ],
+  "background_scene_ids": [
+    "student_room",
+    "station",
+    "cafe",
+    "riverside_park"
+  ],
+  "assets": [
+    {
+      "path": "reference/anna_canonical.png",
+      "original_filename": "anna_s_copper_bob_portrait.png",
+      "size_px": [
+        1199,
+        1312
+      ],
+      "mode": "RGBA",
+      "sha256": "5ffd2d07fae01ca6b70fc8e226b98ad5e261643d68ccfbec3b28008c1a5a6389",
+      "status": "SOURCE_REFERENCE_OR_BACKGROUND"
+    },
+    {
+      "path": "reference/ben_canonical.png",
+      "original_filename": "ben_in_a_mustard_overshirt.png",
+      "size_px": [
+        1240,
+        1269
+      ],
+      "mode": "RGBA",
+      "sha256": "9181471143b80b25b7f6c5cdf26647f343711338fd4b7862447c12d4c8556d41",
+      "status": "SOURCE_REFERENCE_OR_BACKGROUND"
+    },
+    {
+      "path": "design/anna_design.png",
+      "original_filename": "anna_character_design_sheet.png",
+      "size_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGBA",
+      "sha256": "05894443eccf494b8a8e6ecd0c4116ee8f3ebbc003dd41aacce1ed15008a09f5",
+      "status": "SOURCE_REFERENCE_OR_BACKGROUND"
+    },
+    {
+      "path": "design/ben_design.png",
+      "original_filename": "ben_character_design_sheet.png",
+      "size_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGBA",
+      "sha256": "4df6c11ea82e5f9cba989133c28becef08619c8a1fe76b5199531d8cbfe734b1",
+      "status": "SOURCE_REFERENCE_OR_BACKGROUND"
+    },
+    {
+      "path": "parts_sheets/anna_parts.png",
+      "original_filename": "anna_character_rig_parts_sheet.png",
+      "size_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGBA",
+      "sha256": "96c730cc3a6f3e24282d0d93e64b518e5576616be607750260137ea0fdc1ba88",
+      "status": "SOURCE_SHEET_NEEDS_EXTRACTION"
+    },
+    {
+      "path": "parts_sheets/ben_parts.png",
+      "original_filename": "ben_s_modular_character_asset_sheet.png",
+      "size_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGBA",
+      "sha256": "3e3d2e57623a831aeace08f521540e4ed259dc817b92d79e86819c529b518d4b",
+      "status": "SOURCE_SHEET_NEEDS_EXTRACTION"
+    },
+    {
+      "path": "faces/anna_face_expressions_visemes.png",
+      "original_filename": "anna_s_expressive_face_asset_sheet.png",
+      "size_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGBA",
+      "sha256": "b30ccbae65a3e757841bc6d08b1ea2499355f098a20ad1834235300f97ce1114",
+      "status": "SOURCE_SHEET_NEEDS_EXTRACTION"
+    },
+    {
+      "path": "faces/ben_face_expressions_visemes.png",
+      "original_filename": "ben_s_expressive_dialogue_asset_sheet.png",
+      "size_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGBA",
+      "sha256": "89084ae72b5173300ceb869f61523ee898f52a97b881cc8e0767f83427c680f4",
+      "status": "SOURCE_SHEET_NEEDS_EXTRACTION"
+    },
+    {
+      "path": "poses/anna_gestures.png",
+      "original_filename": "anna_s_six_expressive_gesture_portraits.png",
+      "size_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGBA",
+      "sha256": "b66a7c46e06e1b4cf1683924e6a30644a40e3be784fd9c933f907c74857385bb",
+      "status": "SOURCE_SHEET_NEEDS_EXTRACTION"
+    },
+    {
+      "path": "poses/anna_conversation.png",
+      "original_filename": "anna_s_conversational_pose_pack.png",
+      "size_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGBA",
+      "sha256": "3a9ec7323db8c308b070d6cca91d446039fcea9374deb9dc95db698cfe5315c5",
+      "status": "SOURCE_SHEET_NEEDS_EXTRACTION"
+    },
+    {
+      "path": "poses/ben_gestures.png",
+      "original_filename": "ben_s_six_expressive_sticker_poses.png",
+      "size_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGBA",
+      "sha256": "10e842d95fd5105e07285ae1bf585e99c398760129578866664cc9f3b89a7ebd",
+      "status": "SOURCE_SHEET_NEEDS_EXTRACTION"
+    },
+    {
+      "path": "poses/ben_conversation.png",
+      "original_filename": "ben_character_pose_collection.png",
+      "size_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGBA",
+      "sha256": "d64fb003afd01adc4ddb19541c3616b822c210c6b1837e508bc6dc53b5bc6e93",
+      "status": "SOURCE_SHEET_NEEDS_EXTRACTION"
+    },
+    {
+      "path": "backgrounds/student_room.png",
+      "original_filename": "cozy_sunlit_student_apartment.png",
+      "size_px": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "sha256": "dddb1cd0dbe76b2e34d59a56aebb09efa70b47703db4e6bd259d2918a0fa69f8",
+      "status": "SOURCE_REFERENCE_OR_BACKGROUND"
+    },
+    {
+      "path": "backgrounds/station.png",
+      "original_filename": "sunlit_german_station_concourse.png",
+      "size_px": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "sha256": "386b1058f6b6cbab93b73c4b0da2160e9db46d922ee43946cf81f2d8f066ce3c",
+      "status": "SOURCE_REFERENCE_OR_BACKGROUND"
+    },
+    {
+      "path": "backgrounds/cafe.png",
+      "original_filename": "sunlit_storybook_café_interior.png",
+      "size_px": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "sha256": "07b26cf683cd39988986ef161d1717a665ba0226c7de2d17e34596608f0fa87a",
+      "status": "SOURCE_REFERENCE_OR_BACKGROUND"
+    },
+    {
+      "path": "backgrounds/riverside_park.png",
+      "original_filename": "golden_hour_riverside_park.png",
+      "size_px": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "sha256": "be6cd7f24c56c8924f4bb96ced231c0b43f1151b2e4ba0853167c322bf3a30d7",
+      "status": "SOURCE_REFERENCE_OR_BACKGROUND"
+    },
+    {
+      "path": "storyboard/pilot_storyboard.png",
+      "original_filename": "language_journey_pilot_storyboard.png",
+      "size_px": [
+        1448,
+        1086
+      ],
+      "mode": "RGB",
+      "sha256": "a73760a239f84315ab3b09268aa9b2921bd998be9c2e66328fe26132aa53439f",
+      "status": "SOURCE_REFERENCE_OR_BACKGROUND"
+    }
+  ]
+}

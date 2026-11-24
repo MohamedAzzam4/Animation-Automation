@@ -1,0 +1,22 @@
+{
+  "schema_version": "scene_plan_v1",
+  "title": "Ein überraschender Nachmittag",
+  "language": "de-DE",
+  "level": "A2",
+  "seed": 42,
+  "fps": 30,
+  "turns": [
+    {"speaker":"anna","text":"Ben, hast du heute Nachmittag Zeit?","delivery":"Curious, warm and clear","pause_ms":400,"scene_id":"student_room","expression":"happy","action":"wave","camera":"two_shot"},
+    {"speaker":"ben","text":"Ja, ich möchte etwas Neues machen. Wohin gehen wir?","delivery":"Interested and friendly","pause_ms":450,"scene_id":"student_room","expression":"thinking","action":"head_tilt","camera":"two_shot"},
+    {"speaker":"anna","text":"Wir können mit dem Zug in die Stadt fahren.","delivery":"Cheerful suggestion","pause_ms":500,"scene_id":"student_room","expression":"happy","action":"explain","camera":"close_anna"},
+    {"speaker":"ben","text":"Gute Idee! Ich nehme meine Jacke mit.","delivery":"Happy and affirmative","pause_ms":550,"scene_id":"student_room","expression":"happy","action":"nod","camera":"close_ben"},
+    {"speaker":"anna","text":"Oh nein! Unser Zug fährt heute von Gleis vier.","delivery":"Surprised, slightly worried","pause_ms":450,"scene_id":"station","expression":"surprised","action":"head_tilt","camera":"two_shot"},
+    {"speaker":"ben","text":"Keine Sorge. Wir haben noch zehn Minuten.","delivery":"Calm and reassuring","pause_ms":550,"scene_id":"station","expression":"happy","action":"nod","camera":"two_shot"},
+    {"speaker":"anna","text":"Zum Glück! Dann schaffen wir das.","delivery":"Relieved and smiling","pause_ms":600,"scene_id":"station","expression":"happy","action":"nod","camera":"close_anna"},
+    {"speaker":"ben","text":"Jetzt haben wir uns einen Kaffee verdient.","delivery":"Playful and pleased","pause_ms":500,"scene_id":"cafe","expression":"happy","action":"explain","camera":"two_shot"},
+    {"speaker":"anna","text":"Und ein Stück Kuchen, bitte!","delivery":"Excited and playful","pause_ms":450,"scene_id":"cafe","expression":"happy","action":"explain","camera":"close_anna"},
+    {"speaker":"ben","text":"Ich nehme auch Kuchen. Das sieht sehr lecker aus.","delivery":"Warm and enthusiastic","pause_ms":550,"scene_id":"cafe","expression":"happy","action":"nod","camera":"two_shot"},
+    {"speaker":"anna","text":"Der Park am Fluss ist heute wunderschön.","delivery":"Peaceful admiration","pause_ms":550,"scene_id":"riverside_park","expression":"happy","action":"idle","camera":"two_shot"},
+    {"speaker":"ben","text":"Ja. Morgen machen wir wieder einen kleinen Ausflug.","delivery":"Content and hopeful","pause_ms":800,"scene_id":"riverside_park","expression":"happy","action":"wave","camera":"two_shot"}
+  ]
+}
