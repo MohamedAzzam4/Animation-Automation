@@ -20,7 +20,7 @@ func _draw() -> void:
     _text(str(state.get("title", "")), Vector2(75, 68), 31, INK, 810)
     _panel(Rect2(1006, 37, 226, 63), 24, INK)
     var badge := "%s  /  %s" % [state.get("lang", ""), state.get("level", "")]
-    _text_centered(badge, Vector2(1119, 68), 22, CREAM)
+    _centered(badge, Rect2(1006, 37, 226, 63), 22, CREAM)
     # name chips
     _name_chip(Vector2(400, 540), "Anna", state.get("speaker", "") == "anna")
     _name_chip(Vector2(880, 540), "Ben", state.get("speaker", "") == "ben")
@@ -34,7 +34,7 @@ func _draw() -> void:
         var total_h := lines.size() * (size + spacing)
         var y := CAPTION_RECT.position.y + (CAPTION_RECT.size.y - total_h) / 2.0 + size * 0.75
         for line in lines:
-            _text_centered(line, Vector2(640, y), size, CREAM)
+            _centered(line, Rect2(CAPTION_RECT.position.x, y - size, CAPTION_RECT.size.x, size * 1.3), size, CREAM)
             y += size + spacing
 
 
@@ -56,14 +56,16 @@ func _text(s: String, pos: Vector2, size: int, color: Color, max_w: float = 0) -
     draw_string(font, pos, s, HORIZONTAL_ALIGNMENT_LEFT, -1, use_size, color)
 
 
-func _text_centered(s: String, pos: Vector2, size: int, color: Color) -> void:
-    draw_string(font, pos, s, HORIZONTAL_ALIGNMENT_CENTER, -1, size, color)
+func _centered(s: String, rect: Rect2, size: int, color: Color) -> void:
+    # draw_string only honours alignment inside a real width; pass the target rect
+    draw_string(font, Vector2(rect.position.x, rect.position.y + rect.size.y), s,
+        HORIZONTAL_ALIGNMENT_CENTER, rect.size.x, size, color)
 
 
 func _name_chip(center: Vector2, name: String, active: bool) -> void:
     var rect := Rect2(center.x - 83, center.y - 22, 166, 44)
     _panel(rect, 20, ACCENT if active else CREAM)
-    _text_centered(name, Vector2(center.x, center.y + 8), 22, CREAM if active else INK)
+    _centered(name, rect, 22, CREAM if active else INK)
 
 
 func _wrap(text: String, max_chars: int, max_width: float) -> Array:

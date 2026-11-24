@@ -16,6 +16,8 @@ var anna: Character2D
 var ben: Character2D
 var captions: CanvasLayer
 var caption_node: Node2D
+var ambient: Node2D
+var camera: Camera2D
 var bg_cache := {}
 var font: Font
 
@@ -25,11 +27,17 @@ const SCENE_BG := {
     "cafe": "res://assets/backgrounds/cafe.png",
     "riverside_park": "res://assets/backgrounds/riverside_park.png",
 }
+const SCENE_AMBIENT := {
+    "student_room": "dust",
+    "station": "clouds",
+    "cafe": "glow",
+    "riverside_park": "leaves",
+}
 # two-shot homes (eye anchor positions in world px)
 const ANNA_HOME := Vector2(400, 300)
 const BEN_HOME := Vector2(880, 300)
-const CAPTION_RECT := Rect2(48, 592, 1184, 96)
 const NAME_CHIP_Y := 540
+const ZOOM_CLOSE := 1.55
 
 
 func _ready() -> void:
@@ -64,6 +72,10 @@ func _ready() -> void:
     anna.set_home(ANNA_HOME)
     ben.set_home(BEN_HOME)
 
+    ambient = $Ambient
+    camera = $Camera2D
+    camera.enabled = true
+
     captions = $Captions
     caption_node = captions.get_node("CaptionDraw")
     caption_node.font = font
@@ -74,10 +86,57 @@ func _process(_delta: float) -> void:
         get_tree().quit(0)
         return
     _apply_character_states()
+    _apply_scene()
+    _apply_camera()
     caption_node.set_frame_state(frame, _caption_state())
     queue_redraw()
     caption_node.queue_redraw()
     frame += 1
+
+
+func current_frame() -> int:
+    return frame
+
+
+func _apply_scene() -> void:
+    var scene_id := _scene_at(frame)
+    if ambient.effect != SCENE_AMBIENT.get(scene_id, ""):
+        ambient.effect = SCENE_AMBIENT.get(scene_id, "")
+
+
+func _apply_camera() -> void:
+    var turn := _current_turn()
+    var preset := "two_shot"
+    if not turn.is_empty():
+        preset = str(turn.get("camera", "two_shot"))
+    # off-shot listener hidden during close-ups so no face is cut by the frame edge
+    ben.visible = preset != "close_anna"
+    anna.visible = preset != "close_ben"
+    match preset:
+        "close_anna":
+            camera.zoom = Vector2(ZOOM_CLOSE, ZOOM_CLOSE)
+            camera.position = Vector2(ANNA_HOME.x + 30, ANNA_HOME.y + 10)
+        "close_ben":
+            camera.zoom = Vector2(ZOOM_CLOSE, ZOOM_CLOSE)
+            camera.position = Vector2(BEN_HOME.x - 30, BEN_HOME.y + 10)
+        "establishing":
+            # slow deterministic push-in across the scene duration
+            var scene_start := 0
+            var scene_end := total_frames
+            for s in timeline.scenes:
+                if frame >= int(s.start_frame):
+                    scene_start = int(s.start_frame)
+            for s in timeline.scenes:
+                if int(s.start_frame) > scene_start:
+                    scene_end = int(s.start_frame)
+                    break
+            var k := clampf(float(frame - scene_start) / max(1.0, float(scene_end - scene_start)), 0.0, 1.0)
+            var z := 1.0 + 0.05 * k
+            camera.zoom = Vector2(z, z)
+            camera.position = Vector2(640, 340)
+        _:
+            camera.zoom = Vector2.ONE
+            camera.position = Vector2(640, 360)
 
 
 func _current_turn() -> Dictionary:
