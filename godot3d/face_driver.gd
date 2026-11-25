@@ -76,6 +76,7 @@ func _advance_crossfade() -> void:
 
 func apply_frame() -> void:
         frame += 1
+        _apply_expression_schedule()
         _advance_crossfade()
         # 1) base expression
         for sem in avatar.SHAPE_NAMES:
@@ -190,6 +191,15 @@ func _apply_nod() -> void:
                 _nod_phase = 0.0
 
 var _nod_phase := 0.0
+var _last_expr: Dictionary = {}
+
+func _apply_expression_schedule() -> void:
+        var eseg := _active_seg(expressions)
+        if eseg.is_empty():
+                return
+        if eseg.get("name") != _last_expr.get("name") or eseg.get("intensity") != _last_expr.get("intensity"):
+                set_expression(String(eseg.get("name", "neutral")), float(eseg.get("intensity", 1.0)))
+                _last_expr = eseg
 
 func _nod_yaw() -> float:
         return 0.0
