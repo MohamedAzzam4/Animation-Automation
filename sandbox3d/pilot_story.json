@@ -1,0 +1,156 @@
+{
+ "schema_version": "3d_story_v1",
+ "title": "Ein unerwarteter Besuch",
+ "language": "de-DE",
+ "level": "A2",
+ "seed": 42,
+ "scenes": [
+  {
+   "environment": "student_room",
+   "turns": [
+    {
+     "text": "Anna sitzt in ihrem Zimmer. Es ist ein ruhiger Nachmittag.",
+     "action": "idle",
+     "expression": {
+      "name": "relaxed",
+      "intensity": 0.5
+     },
+     "gaze_target": "window",
+     "camera": "establishing"
+    },
+    {
+     "text": "Ich lese ein spannendes Buch.",
+     "action": "read_book",
+     "expression": {
+      "name": "thinking",
+      "intensity": 0.7
+     },
+     "gaze_target": "book",
+     "camera": "medium"
+    },
+    {
+     "text": "Was ist das? Klopfen an der Tuer!",
+     "action": "look_around",
+     "expression": {
+      "name": "surprised",
+      "intensity": 0.8
+     },
+     "gaze_target": "door",
+     "camera": "closeup"
+    }
+   ]
+  },
+  {
+   "environment": "hallway",
+   "turns": [
+    {
+     "text": "Ich gehe zur Tuer und oeffne sie.",
+     "action": "walk_to",
+     "target_anchor": "door",
+     "expression": {
+      "name": "neutral",
+      "intensity": 0.0
+     },
+     "gaze_target": "door",
+     "camera": "tracking"
+    },
+    {
+     "text": "Ben! Du bist es! Was fuer eine Ueberraschung!",
+     "action": "idle",
+     "expression": {
+      "name": "surprised",
+      "intensity": 0.9
+     },
+     "gaze_target": "door",
+     "camera": "fullbody"
+    },
+    {
+     "text": "Hallo Ben! Schoen, dich zu sehen!",
+     "action": "wave",
+     "expression": {
+      "name": "happy",
+      "intensity": 0.9
+     },
+     "gaze_target": "door",
+     "camera": "medium"
+    },
+    {
+     "text": "Moechtest du mit mir einen Kaffee trinken gehen?",
+     "action": "talk_gesture",
+     "expression": {
+      "name": "happy",
+      "intensity": 0.6
+     },
+     "gaze_target": "camera",
+     "camera": "medium"
+    }
+   ]
+  },
+  {
+   "environment": "cafe",
+   "turns": [
+    {
+     "text": "Wir gehen in das kleine Cafe an der Ecke.",
+     "action": "walk_to",
+     "target_anchor": "chair_approach",
+     "expression": {
+      "name": "happy",
+      "intensity": 0.4
+     },
+     "gaze_target": "table",
+     "camera": "establishing"
+    },
+    {
+     "text": "Ich nehme einen Cappuccino.",
+     "action": "sit",
+     "expression": {
+      "name": "happy",
+      "intensity": 0.5
+     },
+     "gaze_target": "table",
+     "camera": "medium"
+    },
+    {
+     "text": "Ben erzaehlt von seiner Reise nach Berlin.",
+     "action": "sit_talk_gesture",
+     "expression": {
+      "name": "happy",
+      "intensity": 0.7
+     },
+     "gaze_target": "camera",
+     "camera": "medium"
+    },
+    {
+     "text": "Der Kaffee schmeckt heute besonders gut.",
+     "action": "drink",
+     "expression": {
+      "name": "relaxed",
+      "intensity": 0.6
+     },
+     "gaze_target": "forward",
+     "camera": "closeup"
+    },
+    {
+     "text": "Es ist schoen, mit Freunden Zeit zu verbringen.",
+     "action": "sit_idle",
+     "expression": {
+      "name": "relaxed",
+      "intensity": 0.5
+     },
+     "gaze_target": "camera",
+     "camera": "side"
+    },
+    {
+     "text": "Bis bald, Ben! Danke fuer den Besuch!",
+     "action": "nod",
+     "expression": {
+      "name": "happy",
+      "intensity": 0.6
+     },
+     "gaze_target": "camera",
+     "camera": "push_in"
+    }
+   ]
+  }
+ ]
+}

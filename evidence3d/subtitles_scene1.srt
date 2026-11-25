@@ -1,0 +1,11 @@
+1
+00:00:00,500 --> 00:00:05,430
+Anna sitzt in ihrem Zimmer. Es ist ein ruhiger Nachmittag.
+
+2
+00:00:06,300 --> 00:00:08,695
+Ich lese ein spannendes Buch.
+
+3
+00:00:10,800 --> 00:00:14,400
+Was ist das? Klopfen an der Tuer!

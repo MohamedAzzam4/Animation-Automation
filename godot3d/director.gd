@@ -254,6 +254,8 @@ func _apply_camera(f: int) -> void:
         if bounds.size() == 4:
                 pos.x = clampf(pos.x, float(bounds[0]), float(bounds[1]))
                 pos.z = clampf(pos.z, float(bounds[2]), float(bounds[3]))
+        if bool(cseg.get("track_avatar", false)):
+                tgt = avatar.global_position + Vector3(0, 1.05, 0)
         if bool(cseg.get("smooth", false)) and cam_prev_valid:
                 pos = cam_prev_pos.lerp(pos, 0.08)
         camera.position = pos
