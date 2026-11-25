@@ -43,7 +43,7 @@ func build(env: String) -> Node3D:
 		"student_room":
 			_build_room(root, Color(0.7, 0.64, 0.56), 8.0, 6.0, true, true)
 			_furniture_desk_set(root, "student_room")
-			_window(root, Vector3(-2.95, 1.4, 0.6), 1.4, 1.3)
+			_window(root, Vector3(-3.93, 1.4, 0.6), 1.4, 1.3)
 			_bed(root, Vector3(2.3, 0.0, -1.6))
 			_shelf(root, Vector3(-1.0, 0.0, -2.6))
 			_rug(root, Vector3(0.2, 0.0, 1.6), 1.8, 1.2, Color(0.6, 0.35, 0.3))
@@ -110,6 +110,7 @@ func _walls(parent: Node3D, w: float, d: float, h: float, c: Color) -> void:
 	_box(parent, Vector3(w, h, 0.12), Vector3(0, h / 2.0, -d / 2.0), c, "WallBack")
 	_box(parent, Vector3(0.12, h, d), Vector3(-w / 2.0, h / 2.0, 0), c, "WallLeft")
 	_box(parent, Vector3(0.12, h, d), Vector3(w / 2.0, h / 2.0, 0), c, "WallRight")
+	_box(parent, Vector3(w, h, 0.12), Vector3(0, h / 2.0, d / 2.0), c, "WallFront")
 
 func _build_room(root: Node3D, floor_c: Color, w: float, d: float, _win: bool, _dr: bool) -> void:
 	_floor(root, w, d, floor_c)
@@ -255,7 +256,7 @@ func _build_park(root: Node3D) -> void:
 	for lx in [-0.65, 0.65]:
 		_box(root, Vector3(0.08, 0.45, 0.45), bp + Vector3(lx, 0.225, 0), Color(0.3, 0.3, 0.32), "BenchLeg")
 	# trees
-	for tp in [[-3.2, -2.0, 1.2], [-4.5, 1.5, 0.9], [3.8, -2.6, 1.4], [4.6, 1.8, 1.0], [-2.0, 4.2, 0.8], [2.2, 4.0, 1.1]]:
+	for tp in [[-3.2, -2.0, 1.2], [-4.5, 1.5, 0.9], [3.8, -2.6, 1.4], [4.6, 1.8, 1.0], [-2.0, 4.2, 0.8], [2.9, 4.6, 1.1]]:
 		_tree(root, Vector3(float(tp[0]), 0, float(tp[1])), float(tp[2]))
 	# bushes
 	for bp2 in [[-1.4, 0.6], [2.0, 0.9], [1.2, -1.8]]:
