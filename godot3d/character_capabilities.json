@@ -1,0 +1,7294 @@
+{
+  "avatar": {
+    "animation": {
+      "players": [
+        {
+          "animations": [
+            {
+              "length": 1.0,
+              "loop": 0,
+              "name": "Extra",
+              "track_types": {
+                "2": 2,
+                "4": 2
+              },
+              "tracks": 4
+            },
+            {
+              "length": 1.0,
+              "loop": 0,
+              "name": "RESET",
+              "track_types": {
+                "2": 2,
+                "4": 16
+              },
+              "tracks": 18
+            },
+            {
+              "length": 1.0,
+              "loop": 0,
+              "name": "Surprised",
+              "track_types": {
+                "2": 2,
+                "4": 1
+              },
+              "tracks": 3
+            },
+            {
+              "length": 1.0,
+              "loop": 0,
+              "name": "aa",
+              "track_types": {
+                "2": 2,
+                "4": 1
+              },
+              "tracks": 3
+            },
+            {
+              "length": 1.0,
+              "loop": 0,
+              "name": "angry",
+              "track_types": {
+                "2": 2,
+                "4": 1
+              },
+              "tracks": 3
+            },
+            {
+              "length": 1.0,
+              "loop": 0,
+              "name": "blink",
+              "track_types": {
+                "2": 2,
+                "4": 1
+              },
+              "tracks": 3
+            },
+            {
+              "length": 1.0,
+              "loop": 0,
+              "name": "blinkLeft",
+              "track_types": {
+                "2": 2,
+                "4": 1
+              },
+              "tracks": 3
+            },
+            {
+              "length": 1.0,
+              "loop": 0,
+              "name": "blinkRight",
+              "track_types": {
+                "2": 2,
+                "4": 1
+              },
+              "tracks": 3
+            },
+            {
+              "length": 1.0,
+              "loop": 0,
+              "name": "ee",
+              "track_types": {
+                "2": 2,
+                "4": 1
+              },
+              "tracks": 3
+            },
+            {
+              "length": 1.0,
+              "loop": 0,
+              "name": "happy",
+              "track_types": {
+                "2": 2,
+                "4": 1
+              },
+              "tracks": 3
+            },
+            {
+              "length": 1.0,
+              "loop": 0,
+              "name": "ih",
+              "track_types": {
+                "2": 2,
+                "4": 1
+              },
+              "tracks": 3
+            },
+            {
+              "length": 1.0,
+              "loop": 0,
+              "name": "lookDown",
+              "track_types": {
+                "2": 2
+              },
+              "tracks": 2
+            },
+            {
+              "length": 1.0,
+              "loop": 0,
+              "name": "lookLeft",
+              "track_types": {
+                "2": 2
+              },
+              "tracks": 2
+            },
+            {
+              "length": 1.0,
+              "loop": 0,
+              "name": "lookRight",
+              "track_types": {
+                "2": 2
+              },
+              "tracks": 2
+            },
+            {
+              "length": 1.0,
+              "loop": 0,
+              "name": "lookUp",
+              "track_types": {
+                "2": 2
+              },
+              "tracks": 2
+            },
+            {
+              "length": 1.0,
+              "loop": 0,
+              "name": "neutral",
+              "track_types": {
+                "2": 2,
+                "4": 1
+              },
+              "tracks": 3
+            },
+            {
+              "length": 1.0,
+              "loop": 0,
+              "name": "oh",
+              "track_types": {
+                "2": 2,
+                "4": 1
+              },
+              "tracks": 3
+            },
+            {
+              "length": 1.0,
+              "loop": 0,
+              "name": "ou",
+              "track_types": {
+                "2": 2,
+                "4": 1
+              },
+              "tracks": 3
+            },
+            {
+              "length": 1.0,
+              "loop": 0,
+              "name": "relaxed",
+              "track_types": {
+                "2": 2,
+                "4": 1
+              },
+              "tracks": 3
+            },
+            {
+              "length": 1.0,
+              "loop": 0,
+              "name": "sad",
+              "track_types": {
+                "2": 2,
+                "4": 1
+              },
+              "tracks": 3
+            }
+          ],
+          "path": "..",
+          "root_node": ".."
+        }
+      ]
+    },
+    "meshes": [
+      {
+        "aabb_size": [
+          0.183497965335846,
+          0.216101884841919,
+          0.145177513360977
+        ],
+        "blend_shape_count": 56,
+        "blend_shapes": [
+          "Face.M_F00_000_00_Fcl_ALL_Neutral",
+          "Face.M_F00_000_00_Fcl_ALL_Angry",
+          "Face.M_F00_000_00_Fcl_ALL_Fun",
+          "Face.M_F00_000_00_Fcl_ALL_Joy",
+          "Face.M_F00_000_00_Fcl_ALL_Sorrow",
+          "Face.M_F00_000_00_Fcl_ALL_Surprised",
+          "Face.M_F00_000_00_Fcl_BRW_Angry",
+          "Face.M_F00_000_00_Fcl_BRW_Fun",
+          "Face.M_F00_000_00_Fcl_BRW_Joy",
+          "Face.M_F00_000_00_Fcl_BRW_Sorrow",
+          "Face.M_F00_000_00_Fcl_BRW_Surprised",
+          "Face.M_F00_000_00_Fcl_EYE_Natural",
+          "Face.M_F00_000_00_Fcl_EYE_Angry",
+          "Face.M_F00_000_00_Fcl_EYE_Close",
+          "Face.M_F00_000_00_Fcl_EYE_Close_R",
+          "Face.M_F00_000_00_Fcl_EYE_Close_L",
+          "Face.M_F00_000_00_Fcl_Eye_Fun",
+          "Face.M_F00_000_00_Fcl_EYE_Joy",
+          "Face.M_F00_000_00_Fcl_EYE_Joy_R",
+          "Face.M_F00_000_00_Fcl_EYE_Joy_L",
+          "Face.M_F00_000_00_Fcl_EYE_Sorrow",
+          "Face.M_F00_000_00_Fcl_EYE_Surprised",
+          "Face.M_F00_000_00_Fcl_EYE_Spread",
+          "Face.M_F00_000_00_Fcl_EYE_Iris_Hide",
+          "Face.M_F00_000_00_Fcl_EYE_Highlight_Hide",
+          "Face.M_F00_000_00_Fcl_EYE_Extra",
+          "Face.M_F00_000_00_Fcl_MTH_Up",
+          "Face.M_F00_000_00_Fcl_MTH_Down",
+          "Face.M_F00_000_00_Fcl_MTH_Angry",
+          "Face.M_F00_000_00_Fcl_MTH_Neutral",
+          "Face.M_F00_000_00_Fcl_MTH_Fun",
+          "Face.M_F00_000_00_Fcl_MTH_Joy",
+          "Face.M_F00_000_00_Fcl_MTH_Sorrow",
+          "Face.M_F00_000_00_Fcl_MTH_Surprised",
+          "Face.M_F00_000_00_Fcl_MTH_SkinFung",
+          "Face.M_F00_000_00_Fcl_MTH_SkinFung_R",
+          "Face.M_F00_000_00_Fcl_MTH_SkinFung_L",
+          "Face.M_F00_000_00_Fcl_MTH_A",
+          "Face.M_F00_000_00_Fcl_MTH_I",
+          "Face.M_F00_000_00_Fcl_MTH_U",
+          "Face.M_F00_000_00_Fcl_MTH_E",
+          "Face.M_F00_000_00_Fcl_MTH_O",
+          "Face.M_F00_000_00_Fcl_HA_Hide",
+          "Face.M_F00_000_00_Fcl_HA_Fung1",
+          "Face.M_F00_000_00_Fcl_HA_Fung1_Low",
+          "Face.M_F00_000_00_Fcl_HA_Fung1_Up",
+          "Face.M_F00_000_00_Fcl_HA_Fung2",
+          "Face.M_F00_000_00_Fcl_HA_Fung2_Low",
+          "Face.M_F00_000_00_Fcl_HA_Fung2_Up",
+          "Face.M_F00_000_00_Fcl_HA_Fung3",
+          "Face.M_F00_000_00_Fcl_HA_Fung3_Up",
+          "Face.M_F00_000_00_Fcl_HA_Fung3_Low",
+          "Face.M_F00_000_00_Fcl_HA_Short",
+          "Face.M_F00_000_00_Fcl_HA_Short_Up",
+          "Face.M_F00_000_00_Fcl_HA_Short_Low",
+          "EyeExtra_01.M_F00_000_00_EyeExtra_On"
+        ],
+        "materials": [
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_trans_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_trans_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_trans_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_trans_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_trans.gdshader"
+          }
+        ],
+        "node": "../..",
+        "surface_count": 10
+      },
+      {
+        "aabb_size": [
+          1.33400893211365,
+          1.51053392887115,
+          0.424734681844711
+        ],
+        "blend_shape_count": 0,
+        "blend_shapes": [],
+        "materials": [
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          }
+        ],
+        "node": "../..",
+        "surface_count": 7
+      },
+      {
+        "aabb_size": [
+          0.596477150917053,
+          0.834439516067505,
+          0.438289076089859
+        ],
+        "blend_shape_count": 0,
+        "blend_shapes": [],
+        "materials": [
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          },
+          {
+            "class": "ShaderMaterial",
+            "shader": "res://addons/Godot-MToon-Shader/mtoon_cutout_cull_off.gdshader"
+          }
+        ],
+        "node": "../..",
+        "surface_count": 77
+      }
+    ],
+    "resource": "res://assets3d/AvatarSample_B.vrm",
+    "root_props": [
+      "vrm_meta"
+    ],
+    "skeleton": {
+      "bone_count": 126,
+      "bones": [
+        {
+          "global_rest_y": 0.0,
+          "index": 0,
+          "name": "Root_",
+          "parent": 125,
+          "parent_name": "Root",
+          "rest_pos": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.878242433071136,
+          "index": 1,
+          "name": "Hips",
+          "parent": 0,
+          "parent_name": "Root_",
+          "rest_pos": [
+            -0.0000417146366089582,
+            0.878242433071136,
+            0.00667850952595472
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.929531276226044,
+          "index": 2,
+          "name": "Spine",
+          "parent": 1,
+          "parent_name": "Hips",
+          "rest_pos": [
+            0.00000000778891262598336,
+            0.0512888431549072,
+            0.0092445956543088
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.03890705108643,
+          "index": 3,
+          "name": "Chest",
+          "parent": 2,
+          "parent_name": "Spine",
+          "rest_pos": [
+            0.0000000169675331562757,
+            0.109375774860382,
+            0.011567841283977
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.14856195449829,
+          "index": 4,
+          "name": "UpperChest",
+          "parent": 3,
+          "parent_name": "Chest",
+          "rest_pos": [
+            -0.0000000145919329952449,
+            0.109654903411865,
+            -0.0120547004044056
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.12451767921448,
+          "index": 5,
+          "name": "J_Sec_L_Bust1",
+          "parent": 4,
+          "parent_name": "UpperChest",
+          "rest_pos": [
+            0.0454792939126492,
+            -0.0240442752838135,
+            0.0521936044096947
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.13649189472198,
+          "index": 6,
+          "name": "J_Sec_L_Bust2",
+          "parent": 5,
+          "parent_name": "J_Sec_L_Bust1",
+          "rest_pos": [
+            0.0189770124852657,
+            0.0119742155075073,
+            0.0384013578295708
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.12451767921448,
+          "index": 7,
+          "name": "J_Sec_R_Bust1",
+          "parent": 4,
+          "parent_name": "UpperChest",
+          "rest_pos": [
+            -0.0454792939126492,
+            -0.0240442752838135,
+            0.0521935969591141
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.1364917755127,
+          "index": 8,
+          "name": "J_Sec_R_Bust2",
+          "parent": 7,
+          "parent_name": "J_Sec_R_Bust1",
+          "rest_pos": [
+            -0.0189770050346851,
+            0.0119740962982178,
+            0.0384013503789902
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.24983370304108,
+          "index": 9,
+          "name": "Neck",
+          "parent": 4,
+          "parent_name": "UpperChest",
+          "rest_pos": [
+            -0.0000000126201484818012,
+            0.101271748542786,
+            -0.0295077376067638
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.31996846199036,
+          "index": 10,
+          "name": "Head",
+          "parent": 9,
+          "parent_name": "Neck",
+          "rest_pos": [
+            0.000000034826371120289,
+            0.0701347589492798,
+            0.00903956592082977
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.37702870368958,
+          "index": 11,
+          "name": "LeftEye",
+          "parent": 10,
+          "parent_name": "Head",
+          "rest_pos": [
+            0.0177268330007792,
+            0.0570602416992188,
+            0.0296598598361015
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        {
+          "global_rest_y": 1.37702882289886,
+          "index": 12,
+          "name": "RightEye",
+          "parent": 10,
+          "parent_name": "Head",
+          "rest_pos": [
+            -0.0177267789840698,
+            0.0570603609085083,
+            0.0296598747372627
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        {
+          "global_rest_y": 1.43417692184448,
+          "index": 13,
+          "name": "HairJoint-69ab4d0b-9325-4faa-9597-bd0c6abc8780",
+          "parent": 10,
+          "parent_name": "Head",
+          "rest_pos": [
+            -0.00170689180959016,
+            0.114208459854126,
+            0.100524440407753
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.38809704780579,
+          "index": 14,
+          "name": "HairJoint-9c6ca9d2-d5a3-46d7-ba00-a14a2460efdb",
+          "parent": 13,
+          "parent_name": "HairJoint-69ab4d0b-9325-4faa-9597-bd0c6abc8780",
+          "rest_pos": [
+            0.000832355464808643,
+            -0.0460798740386963,
+            0.00577671825885773
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.41275238990784,
+          "index": 15,
+          "name": "HairJoint-c573865e-9332-44b5-8d9e-3c20f456bdeb",
+          "parent": 10,
+          "parent_name": "Head",
+          "rest_pos": [
+            0.0621515661478043,
+            0.0927839279174805,
+            0.087329238653183
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.35153019428253,
+          "index": 16,
+          "name": "HairJoint-370dbb15-238e-4695-be6f-31938778ff25",
+          "parent": 15,
+          "parent_name": "HairJoint-c573865e-9332-44b5-8d9e-3c20f456bdeb",
+          "rest_pos": [
+            -0.00435492023825645,
+            -0.0612221956253052,
+            -0.000096932053565979
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.29048347473145,
+          "index": 17,
+          "name": "HairJoint-0a167027-019d-4b29-b610-38997ba9bedb",
+          "parent": 16,
+          "parent_name": "HairJoint-370dbb15-238e-4695-be6f-31938778ff25",
+          "rest_pos": [
+            -0.00663398951292038,
+            -0.0610467195510864,
+            -0.00282840430736542
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.40947604179382,
+          "index": 18,
+          "name": "HairJoint-161c1b7f-c33b-432a-820b-dff14d25bc7a",
+          "parent": 10,
+          "parent_name": "Head",
+          "rest_pos": [
+            -0.0717057287693024,
+            0.0895075798034668,
+            0.0781630575656891
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.34782993793488,
+          "index": 19,
+          "name": "HairJoint-be0e42b6-9f87-47f5-a9cc-2c7b4ee96992",
+          "parent": 18,
+          "parent_name": "HairJoint-161c1b7f-c33b-432a-820b-dff14d25bc7a",
+          "rest_pos": [
+            0.00887378305196762,
+            -0.0616461038589478,
+            0.00137095898389816
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.28684651851654,
+          "index": 20,
+          "name": "HairJoint-e2ab73a9-2f89-497f-b741-c9ce1472b71b",
+          "parent": 19,
+          "parent_name": "HairJoint-be0e42b6-9f87-47f5-a9cc-2c7b4ee96992",
+          "rest_pos": [
+            0.0129503011703491,
+            -0.060983419418335,
+            -0.00211840122938156
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.40625548362732,
+          "index": 21,
+          "name": "HairJoint-b91b9ff0-e0f4-4f2e-b97c-564a60e1005b",
+          "parent": 10,
+          "parent_name": "Head",
+          "rest_pos": [
+            0.10433205217123,
+            0.0862870216369629,
+            -0.112471833825111
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.34466671943665,
+          "index": 22,
+          "name": "HairJoint-926860e6-9d56-4e9f-9fbf-d1c99a639430",
+          "parent": 21,
+          "parent_name": "HairJoint-b91b9ff0-e0f4-4f2e-b97c-564a60e1005b",
+          "rest_pos": [
+            0.0262288227677345,
+            -0.0615887641906738,
+            -0.0228578597307205
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.30320715904236,
+          "index": 23,
+          "name": "HairJoint-0fd9053c-ea8c-418e-ad52-8d96cab7ee79",
+          "parent": 22,
+          "parent_name": "HairJoint-926860e6-9d56-4e9f-9fbf-d1c99a639430",
+          "rest_pos": [
+            0.0403906106948853,
+            -0.0414595603942871,
+            -0.0388312339782715
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.24340689182281,
+          "index": 24,
+          "name": "HairJoint-ebec1c67-3533-4f3d-9bcf-125665f3a845",
+          "parent": 23,
+          "parent_name": "HairJoint-0fd9053c-ea8c-418e-ad52-8d96cab7ee79",
+          "rest_pos": [
+            0.0116189122200012,
+            -0.0598002672195435,
+            -0.0289878249168396
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.3248598575592,
+          "index": 25,
+          "name": "HairJoint-df29e53e-a486-4568-b875-b6366bafec64",
+          "parent": 10,
+          "parent_name": "Head",
+          "rest_pos": [
+            0.0261557977646589,
+            0.00489139556884766,
+            -0.128112033009529
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.2136218547821,
+          "index": 26,
+          "name": "HairJoint-ba10f793-a333-483f-889f-5225a5e88ead",
+          "parent": 25,
+          "parent_name": "HairJoint-df29e53e-a486-4568-b875-b6366bafec64",
+          "rest_pos": [
+            0.00472947023808956,
+            -0.1112380027771,
+            -0.0265993773937225
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.10222816467285,
+          "index": 27,
+          "name": "HairJoint-5de69cd9-1edf-4e09-b0b3-dc73d05f22ee",
+          "parent": 26,
+          "parent_name": "HairJoint-ba10f793-a333-483f-889f-5225a5e88ead",
+          "rest_pos": [
+            0.00198960676789284,
+            -0.111393690109253,
+            -0.0263576954603195
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.990744471549988,
+          "index": 28,
+          "name": "HairJoint-3d4e7a07-9da2-4935-baaa-6d9d85dd6b23",
+          "parent": 27,
+          "parent_name": "HairJoint-5de69cd9-1edf-4e09-b0b3-dc73d05f22ee",
+          "rest_pos": [
+            -0.00235164910554886,
+            -0.111483693122864,
+            -0.0259377509355545
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.879298448562622,
+          "index": 29,
+          "name": "HairJoint-67700781-9dd1-48ef-8084-7d8276c815d0",
+          "parent": 28,
+          "parent_name": "HairJoint-3d4e7a07-9da2-4935-baaa-6d9d85dd6b23",
+          "rest_pos": [
+            -0.00493170134723186,
+            -0.111446022987366,
+            -0.025667205452919
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.767851769924164,
+          "index": 30,
+          "name": "HairJoint-eb7004e9-90f3-43c1-97ec-386abd1835fe",
+          "parent": 29,
+          "parent_name": "HairJoint-67700781-9dd1-48ef-8084-7d8276c815d0",
+          "rest_pos": [
+            -0.00490768440067768,
+            -0.111446678638458,
+            -0.0256697833538055
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.41144204139709,
+          "index": 31,
+          "name": "HairJoint-0ac4a3ee-0fd3-4627-9aed-3928d863f9f6",
+          "parent": 10,
+          "parent_name": "Head",
+          "rest_pos": [
+            -0.104452766478062,
+            0.0914735794067383,
+            -0.11273717880249
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.3473265171051,
+          "index": 32,
+          "name": "HairJoint-a19c1fa2-7f4d-42ab-8ac6-917b0d430738",
+          "parent": 31,
+          "parent_name": "HairJoint-0ac4a3ee-0fd3-4627-9aed-3928d863f9f6",
+          "rest_pos": [
+            -0.0241226181387901,
+            -0.0641155242919922,
+            -0.0217856615781784
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.30527782440186,
+          "index": 33,
+          "name": "HairJoint-4826bde9-7073-44db-adfd-3e30f1c6f4a3",
+          "parent": 32,
+          "parent_name": "HairJoint-a19c1fa2-7f4d-42ab-8ac6-917b0d430738",
+          "rest_pos": [
+            -0.0422989726066589,
+            -0.0420486927032471,
+            -0.037904754281044
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.24460124969482,
+          "index": 34,
+          "name": "HairJoint-7d2eac18-4f07-472f-9a70-b8e5b024c6cb",
+          "parent": 33,
+          "parent_name": "HairJoint-4826bde9-7073-44db-adfd-3e30f1c6f4a3",
+          "rest_pos": [
+            -0.0130865573883057,
+            -0.0606765747070312,
+            -0.0298965573310852
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.50091981887817,
+          "index": 35,
+          "name": "HairJoint-a8676c3f-a6f7-492f-90a6-3a5babeed491",
+          "parent": 10,
+          "parent_name": "Head",
+          "rest_pos": [
+            0.083693191409111,
+            0.180951356887817,
+            -0.0911072194576263
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.52685165405273,
+          "index": 36,
+          "name": "HairJoint-a34583f2-17bb-4eea-9d70-e930e1ed183d",
+          "parent": 35,
+          "parent_name": "HairJoint-a8676c3f-a6f7-492f-90a6-3a5babeed491",
+          "rest_pos": [
+            0.0172110497951508,
+            0.0259318351745605,
+            -0.0157642215490341
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.55304551124573,
+          "index": 37,
+          "name": "HairJoint-84a5312e-6f37-4dbd-b43d-54c7bb2f8f9e",
+          "parent": 36,
+          "parent_name": "HairJoint-a34583f2-17bb-4eea-9d70-e930e1ed183d",
+          "rest_pos": [
+            0.0177716463804245,
+            0.0261938571929932,
+            -0.0145644694566727
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.49589478969574,
+          "index": 38,
+          "name": "HairJoint-6860b79f-73ad-4520-99f0-4b3fcbd9ced8",
+          "parent": 10,
+          "parent_name": "Head",
+          "rest_pos": [
+            -0.0902493223547935,
+            0.175926327705383,
+            -0.0752350389957428
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.52337503433228,
+          "index": 39,
+          "name": "HairJoint-80fa29ba-65cc-497a-abf4-8c8bc2de12f5",
+          "parent": 38,
+          "parent_name": "HairJoint-6860b79f-73ad-4520-99f0-4b3fcbd9ced8",
+          "rest_pos": [
+            -0.00903515517711639,
+            0.0274802446365356,
+            -0.0238036066293716
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.55156195163727,
+          "index": 40,
+          "name": "HairJoint-79e6851e-d950-45ed-b77d-9581afa74295",
+          "parent": 39,
+          "parent_name": "HairJoint-80fa29ba-65cc-497a-abf4-8c8bc2de12f5",
+          "rest_pos": [
+            -0.0000502094626426697,
+            0.0281869173049927,
+            -0.0270011723041534
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.22566676139832,
+          "index": 41,
+          "name": "LeftShoulder",
+          "parent": 4,
+          "parent_name": "UpperChest",
+          "rest_pos": [
+            0.0197794865816832,
+            0.0771048069000244,
+            -0.0242479257285595
+          ],
+          "rest_quat": [
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "global_rest_y": 1.21511054039001,
+          "index": 42,
+          "name": "LeftUpperArm",
+          "parent": 41,
+          "parent_name": "LeftShoulder",
+          "rest_pos": [
+            0.0038079060614109,
+            0.0612636134028435,
+            -0.0105562210083008
+          ],
+          "rest_quat": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.20425939559937,
+          "index": 43,
+          "name": "LeftLowerArm",
+          "parent": 42,
+          "parent_name": "LeftUpperArm",
+          "rest_pos": [
+            -0.00195512920618057,
+            0.233040869235992,
+            0.0108511447906494
+          ],
+          "rest_quat": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "global_rest_y": 1.2037661075592,
+          "index": 44,
+          "name": "LeftHand",
+          "parent": 43,
+          "parent_name": "LeftLowerArm",
+          "rest_pos": [
+            0.000493288040161133,
+            0.226300120353699,
+            0.0186802931129932
+          ],
+          "rest_quat": [
+            0.0,
+            0.0,
+            -1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "global_rest_y": 1.20863544940948,
+          "index": 45,
+          "name": "LeftIndexProximal",
+          "parent": 44,
+          "parent_name": "LeftHand",
+          "rest_pos": [
+            -0.0186368338763714,
+            0.0536277294158936,
+            -0.00486934185028076
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.20853054523468,
+          "index": 46,
+          "name": "LeftIndexIntermediate",
+          "parent": 45,
+          "parent_name": "LeftIndexProximal",
+          "rest_pos": [
+            -0.00442200526595116,
+            0.0275598168373108,
+            0.000104904174804688
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.20795178413391,
+          "index": 47,
+          "name": "LeftIndexDistal",
+          "parent": 46,
+          "parent_name": "LeftIndexIntermediate",
+          "rest_pos": [
+            -0.00195805728435516,
+            0.0170604586601257,
+            0.000578761100769043
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.20716869831085,
+          "index": 48,
+          "name": "J_Bip_L_Index3_end",
+          "parent": 47,
+          "parent_name": "LeftIndexDistal",
+          "rest_pos": [
+            -0.00188843905925751,
+            0.0202498435974121,
+            0.000783085823059082
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.20642268657684,
+          "index": 49,
+          "name": "LeftLittleProximal",
+          "parent": 44,
+          "parent_name": "LeftHand",
+          "rest_pos": [
+            0.0237125381827354,
+            0.0532364845275879,
+            -0.00265657901763916
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.20618534088135,
+          "index": 50,
+          "name": "LeftLittleIntermediate",
+          "parent": 49,
+          "parent_name": "LeftLittleProximal",
+          "rest_pos": [
+            0.0000788010656833649,
+            0.0263811349868774,
+            0.000237345695495605
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.20677244663239,
+          "index": 51,
+          "name": "LeftLittleDistal",
+          "parent": 50,
+          "parent_name": "LeftLittleIntermediate",
+          "rest_pos": [
+            0.000883005559444427,
+            0.01517653465271,
+            -0.000587105751037598
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.20773863792419,
+          "index": 52,
+          "name": "J_Bip_L_Little3_end",
+          "parent": 51,
+          "parent_name": "LeftLittleDistal",
+          "rest_pos": [
+            0.000526349991559982,
+            0.0162715911865234,
+            -0.000966191291809082
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.21104025840759,
+          "index": 53,
+          "name": "LeftMiddleProximal",
+          "parent": 44,
+          "parent_name": "LeftHand",
+          "rest_pos": [
+            -0.00400759652256966,
+            0.0555330514907837,
+            -0.00727415084838867
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.20987439155579,
+          "index": 54,
+          "name": "LeftMiddleIntermediate",
+          "parent": 53,
+          "parent_name": "LeftMiddleProximal",
+          "rest_pos": [
+            -0.00202276185154915,
+            0.0309968590736389,
+            0.00116586685180664
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.20778894424438,
+          "index": 55,
+          "name": "LeftMiddleDistal",
+          "parent": 54,
+          "parent_name": "LeftMiddleIntermediate",
+          "rest_pos": [
+            -0.000747460871934891,
+            0.0190559029579163,
+            0.00208544731140137
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.20638966560364,
+          "index": 56,
+          "name": "J_Bip_L_Middle3_end",
+          "parent": 55,
+          "parent_name": "LeftMiddleDistal",
+          "rest_pos": [
+            -0.000676251947879791,
+            0.0209706425666809,
+            0.00139927864074707
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.21095037460327,
+          "index": 57,
+          "name": "LeftRingProximal",
+          "parent": 44,
+          "parent_name": "LeftHand",
+          "rest_pos": [
+            0.00981336086988449,
+            0.0560603737831116,
+            -0.00718426704406738
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.21048355102539,
+          "index": 58,
+          "name": "LeftRingIntermediate",
+          "parent": 57,
+          "parent_name": "LeftRingProximal",
+          "rest_pos": [
+            -0.0000435113906860352,
+            0.0288379192352295,
+            0.000466823577880859
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.2110915184021,
+          "index": 59,
+          "name": "LeftRingDistal",
+          "parent": 58,
+          "parent_name": "LeftRingIntermediate",
+          "rest_pos": [
+            -0.00015818327665329,
+            0.016632616519928,
+            -0.000607967376708984
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.21138024330139,
+          "index": 60,
+          "name": "J_Bip_L_Ring3_end",
+          "parent": 59,
+          "parent_name": "LeftRingDistal",
+          "rest_pos": [
+            0.000184908509254456,
+            0.0179407596588135,
+            -0.000288724899291992
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.19780492782593,
+          "index": 61,
+          "name": "LeftThumbMetacarpal",
+          "parent": 44,
+          "parent_name": "LeftHand",
+          "rest_pos": [
+            -0.0155481956899166,
+            0.00165218114852905,
+            0.00596117973327637
+          ],
+          "rest_quat": [
+            0.0,
+            0.0,
+            -1.0,
+            -0.577000021934509,
+            0.815999984741211,
+            0.0,
+            0.815999984741211,
+            0.577000021934509,
+            0.0
+          ]
+        },
+        {
+          "global_rest_y": 1.19552779197693,
+          "index": 62,
+          "name": "LeftThumbProximal",
+          "parent": 61,
+          "parent_name": "LeftThumbMetacarpal",
+          "rest_pos": [
+            -0.00227713561616838,
+            0.0389572381973267,
+            -0.00825733318924904
+          ],
+          "rest_quat": [
+            0.999999940395355,
+            0.0,
+            0.0,
+            0.0,
+            0.99999988079071,
+            -0.0000000298023223876953,
+            0.0,
+            0.0000000298023223876953,
+            0.99999988079071
+          ]
+        },
+        {
+          "global_rest_y": 1.19425177574158,
+          "index": 63,
+          "name": "LeftThumbDistal",
+          "parent": 62,
+          "parent_name": "LeftThumbProximal",
+          "rest_pos": [
+            -0.00127601623535156,
+            0.0242028031498194,
+            -0.00327881425619125
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.00000011920929,
+            0.0,
+            0.0,
+            0.0,
+            1.00000011920929
+          ]
+        },
+        {
+          "global_rest_y": 1.19358062744141,
+          "index": 64,
+          "name": "J_Bip_L_Thumb3_end",
+          "parent": 63,
+          "parent_name": "LeftThumbDistal",
+          "rest_pos": [
+            -0.000671148300170898,
+            0.0181394480168819,
+            -0.00391725823283195
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.22566962242126,
+          "index": 65,
+          "name": "RightShoulder",
+          "parent": 4,
+          "parent_name": "UpperChest",
+          "rest_pos": [
+            -0.0197794754058123,
+            0.0771076679229736,
+            -0.0242478959262371
+          ],
+          "rest_quat": [
+            0.0,
+            0.0,
+            -1.0,
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "global_rest_y": 1.2151130437851,
+          "index": 66,
+          "name": "RightUpperArm",
+          "parent": 65,
+          "parent_name": "RightShoulder",
+          "rest_pos": [
+            -0.0038076788187027,
+            0.0612599924206734,
+            -0.0105565786361694
+          ],
+          "rest_quat": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.2042692899704,
+          "index": 67,
+          "name": "RightLowerArm",
+          "parent": 66,
+          "parent_name": "RightUpperArm",
+          "rest_pos": [
+            0.00184071063995361,
+            0.23304358124733,
+            0.0108437538146973
+          ],
+          "rest_quat": [
+            0.0,
+            0.0,
+            -1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "global_rest_y": 1.20379757881165,
+          "index": 68,
+          "name": "RightHand",
+          "parent": 67,
+          "parent_name": "RightLowerArm",
+          "rest_pos": [
+            -0.000471711158752441,
+            0.226293712854385,
+            0.0187178067862988
+          ],
+          "rest_quat": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "global_rest_y": 1.208655834198,
+          "index": 69,
+          "name": "RightIndexProximal",
+          "parent": 68,
+          "parent_name": "RightHand",
+          "rest_pos": [
+            0.0186474211513996,
+            0.0536249876022339,
+            -0.00485825538635254
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.2085462808609,
+          "index": 70,
+          "name": "RightIndexIntermediate",
+          "parent": 69,
+          "parent_name": "RightIndexProximal",
+          "rest_pos": [
+            0.00442715734243393,
+            0.0275589227676392,
+            0.000109553337097168
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.20796489715576,
+          "index": 71,
+          "name": "RightIndexDistal",
+          "parent": 70,
+          "parent_name": "RightIndexIntermediate",
+          "rest_pos": [
+            0.00196115672588348,
+            0.0170601606369019,
+            0.00058138370513916
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.20717859268188,
+          "index": 72,
+          "name": "J_Bip_R_Index3_end",
+          "parent": 71,
+          "parent_name": "RightIndexDistal",
+          "rest_pos": [
+            0.00189213082194328,
+            0.0202493667602539,
+            0.000786304473876953
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.20645153522491,
+          "index": 73,
+          "name": "RightLittleProximal",
+          "parent": 68,
+          "parent_name": "RightHand",
+          "rest_pos": [
+            -0.0237024649977684,
+            0.0532410144805908,
+            -0.00265395641326904
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.20621085166931,
+          "index": 74,
+          "name": "RightLittleIntermediate",
+          "parent": 73,
+          "parent_name": "RightLittleProximal",
+          "rest_pos": [
+            -0.0000734776258468628,
+            0.0263811945915222,
+            0.000240683555603027
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.20679616928101,
+          "index": 75,
+          "name": "RightLittleDistal",
+          "parent": 74,
+          "parent_name": "RightLittleIntermediate",
+          "rest_pos": [
+            -0.00087985023856163,
+            0.0151767730712891,
+            -0.000585317611694336
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.20776045322418,
+          "index": 76,
+          "name": "J_Bip_R_Little3_end",
+          "parent": 75,
+          "parent_name": "RightLittleDistal",
+          "rest_pos": [
+            -0.00052284449338913,
+            0.0162717700004578,
+            -0.00096428394317627
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.21106314659119,
+          "index": 77,
+          "name": "RightMiddleProximal",
+          "parent": 68,
+          "parent_name": "RightHand",
+          "rest_pos": [
+            0.00401900336146355,
+            0.0555334687232971,
+            -0.00726556777954102
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.20989298820496,
+          "index": 78,
+          "name": "RightMiddleIntermediate",
+          "parent": 77,
+          "parent_name": "RightMiddleProximal",
+          "rest_pos": [
+            0.00202811881899834,
+            0.0309962630271912,
+            0.00117015838623047
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.2078047990799,
+          "index": 79,
+          "name": "RightMiddleDistal",
+          "parent": 78,
+          "parent_name": "RightMiddleIntermediate",
+          "rest_pos": [
+            0.000750433653593063,
+            0.0190553665161133,
+            0.00208818912506104
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.20640277862549,
+          "index": 80,
+          "name": "J_Bip_R_Middle3_end",
+          "parent": 79,
+          "parent_name": "RightMiddleDistal",
+          "rest_pos": [
+            0.000679738819599152,
+            0.0209701657295227,
+            0.00140202045440674
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.21097612380981,
+          "index": 81,
+          "name": "RightRingProximal",
+          "parent": 68,
+          "parent_name": "RightHand",
+          "rest_pos": [
+            -0.00980189070105553,
+            0.0560628175735474,
+            -0.00717854499816895
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.21050524711609,
+          "index": 82,
+          "name": "RightRingIntermediate",
+          "parent": 81,
+          "parent_name": "RightRingProximal",
+          "rest_pos": [
+            0.0000487975776195526,
+            0.028838038444519,
+            0.000470876693725586
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.21111106872559,
+          "index": 83,
+          "name": "RightRingDistal",
+          "parent": 82,
+          "parent_name": "RightRingIntermediate",
+          "rest_pos": [
+            0.000161368399858475,
+            0.0166327357292175,
+            -0.00060582160949707
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.2113972902298,
+          "index": 84,
+          "name": "J_Bip_R_Ring3_end",
+          "parent": 83,
+          "parent_name": "RightRingDistal",
+          "rest_pos": [
+            -0.000181552022695541,
+            0.0179408192634583,
+            -0.000286221504211426
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.19783306121826,
+          "index": 85,
+          "name": "RightThumbMetacarpal",
+          "parent": 68,
+          "parent_name": "RightHand",
+          "rest_pos": [
+            0.0155473574995995,
+            0.00164848566055298,
+            0.00596451759338379
+          ],
+          "rest_quat": [
+            0.0,
+            0.0,
+            1.0,
+            0.577000021934509,
+            0.815999984741211,
+            0.0,
+            -0.815999984741211,
+            0.577000021934509,
+            0.0
+          ]
+        },
+        {
+          "global_rest_y": 1.19556617736816,
+          "index": 86,
+          "name": "RightThumbProximal",
+          "parent": 85,
+          "parent_name": "RightThumbMetacarpal",
+          "rest_pos": [
+            0.00226688361726701,
+            0.0389543026685715,
+            -0.00827725324779749
+          ],
+          "rest_quat": [
+            0.999999940395355,
+            0.0,
+            0.0,
+            0.0,
+            0.99999988079071,
+            -0.0000000298023223876953,
+            0.0,
+            0.0000000298023223876953,
+            0.99999988079071
+          ]
+        },
+        {
+          "global_rest_y": 1.19429588317871,
+          "index": 87,
+          "name": "RightThumbDistal",
+          "parent": 86,
+          "parent_name": "RightThumbProximal",
+          "rest_pos": [
+            0.00127029418945312,
+            0.0242019258439541,
+            -0.00328935030847788
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.00000011920929,
+            0.0,
+            0.0,
+            0.0,
+            1.00000011920929
+          ]
+        },
+        {
+          "global_rest_y": 1.19362902641296,
+          "index": 88,
+          "name": "J_Bip_R_Thumb3_end",
+          "parent": 87,
+          "parent_name": "RightThumbDistal",
+          "rest_pos": [
+            0.00066685676574707,
+            0.0181381590664387,
+            -0.00392390508204699
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.843383431434631,
+          "index": 89,
+          "name": "LeftUpperLeg",
+          "parent": 1,
+          "parent_name": "Hips",
+          "rest_pos": [
+            0.0681437775492668,
+            -0.0348590016365051,
+            -0.0055718133226037
+          ],
+          "rest_quat": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.80727082490921,
+          "index": 90,
+          "name": "J_Sec_L_SkirtBack",
+          "parent": 89,
+          "parent_name": "LeftUpperLeg",
+          "rest_pos": [
+            0.00334148108959198,
+            0.0361126065254211,
+            -0.0983727648854256
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.725950598716736,
+          "index": 91,
+          "name": "J_Sec_L_SkirtBack_end",
+          "parent": 90,
+          "parent_name": "J_Sec_L_SkirtBack",
+          "rest_pos": [
+            -0.000581502914428711,
+            0.0813202261924744,
+            -0.0114395990967751
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.790404856204987,
+          "index": 92,
+          "name": "J_Sec_L_SkirtFront",
+          "parent": 89,
+          "parent_name": "LeftUpperLeg",
+          "rest_pos": [
+            0.0107959099113941,
+            0.0529785752296448,
+            0.101984158158302
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.70148891210556,
+          "index": 93,
+          "name": "J_Sec_L_SkirtFront_end",
+          "parent": 92,
+          "parent_name": "J_Sec_L_SkirtFront",
+          "rest_pos": [
+            -0.00166197121143341,
+            0.0889159440994263,
+            -0.0010363832116127
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.802214205265045,
+          "index": 94,
+          "name": "J_Sec_L_SkirtSide",
+          "parent": 89,
+          "parent_name": "LeftUpperLeg",
+          "rest_pos": [
+            -0.0809153392910957,
+            0.0411692261695862,
+            0.00304214563220739
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.713212966918945,
+          "index": 95,
+          "name": "J_Sec_L_SkirtSide_end",
+          "parent": 94,
+          "parent_name": "J_Sec_L_SkirtSide",
+          "rest_pos": [
+            -0.015816867351532,
+            0.0890012383460999,
+            -0.00886087119579315
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.500952422618866,
+          "index": 96,
+          "name": "LeftLowerLeg",
+          "parent": 89,
+          "parent_name": "LeftUpperLeg",
+          "rest_pos": [
+            0.0197142623364925,
+            0.342431008815765,
+            -0.00607763882726431
+          ],
+          "rest_quat": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.373710811138153,
+          "index": 97,
+          "name": "J_Sec_L_CoatSkirtBack",
+          "parent": 96,
+          "parent_name": "LeftLowerLeg",
+          "rest_pos": [
+            0.0182258076965809,
+            0.127241611480713,
+            0.174849852919579
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.233721017837524,
+          "index": 98,
+          "name": "J_Sec_L_CoatSkirtBack_end",
+          "parent": 97,
+          "parent_name": "J_Sec_L_CoatSkirtBack",
+          "rest_pos": [
+            0.00611282885074615,
+            0.139989793300629,
+            0.0189868956804276
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.353898346424103,
+          "index": 99,
+          "name": "J_Sec_L_CoatSkirtFront",
+          "parent": 96,
+          "parent_name": "LeftLowerLeg",
+          "rest_pos": [
+            0.0142049826681614,
+            0.147054076194763,
+            -0.127748817205429
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.213883101940155,
+          "index": 100,
+          "name": "J_Sec_L_CoatSkirtFront_end",
+          "parent": 99,
+          "parent_name": "J_Sec_L_CoatSkirtFront",
+          "rest_pos": [
+            0.00580418109893799,
+            0.140015244483948,
+            -0.00635446608066559
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.519257307052612,
+          "index": 101,
+          "name": "J_Sec_L_CoatSkirtSide1",
+          "parent": 96,
+          "parent_name": "LeftLowerLeg",
+          "rest_pos": [
+            0.127351939678192,
+            -0.0183048844337463,
+            0.00224462524056435
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.366744637489319,
+          "index": 102,
+          "name": "J_Sec_L_CoatSkirtSide2",
+          "parent": 101,
+          "parent_name": "J_Sec_L_CoatSkirtSide1",
+          "rest_pos": [
+            0.0152753293514252,
+            0.152512669563293,
+            0.00577192381024361
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.226515054702759,
+          "index": 103,
+          "name": "J_Sec_L_CoatSkirtSide2_end",
+          "parent": 102,
+          "parent_name": "J_Sec_L_CoatSkirtSide2",
+          "rest_pos": [
+            0.0111323595046997,
+            0.14022958278656,
+            0.00545588228851557
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.118326723575592,
+          "index": 104,
+          "name": "LeftFoot",
+          "parent": 96,
+          "parent_name": "LeftLowerLeg",
+          "rest_pos": [
+            -0.00975683704018593,
+            0.382625699043274,
+            0.0205769911408424
+          ],
+          "rest_quat": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        {
+          "global_rest_y": 0.0596829056739807,
+          "index": 105,
+          "name": "LeftToes",
+          "parent": 104,
+          "parent_name": "LeftFoot",
+          "rest_pos": [
+            -0.0022260881960392,
+            0.108384042978287,
+            -0.0586438179016113
+          ],
+          "rest_quat": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.0577349662780762,
+          "index": 106,
+          "name": "J_Bip_L_ToeBase_end",
+          "parent": 105,
+          "parent_name": "LeftToes",
+          "rest_pos": [
+            0.000382527709007263,
+            0.0437130033969879,
+            0.00194793939590454
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.843383491039276,
+          "index": 107,
+          "name": "RightUpperLeg",
+          "parent": 1,
+          "parent_name": "Hips",
+          "rest_pos": [
+            -0.0681438073515892,
+            -0.0348589420318604,
+            -0.0055718207731843
+          ],
+          "rest_quat": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.80727082490921,
+          "index": 108,
+          "name": "J_Sec_R_SkirtBack",
+          "parent": 107,
+          "parent_name": "RightUpperLeg",
+          "rest_pos": [
+            -0.00334174185991287,
+            0.0361126661300659,
+            -0.0983726978302002
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.725950360298157,
+          "index": 109,
+          "name": "J_Sec_R_SkirtBack_end",
+          "parent": 108,
+          "parent_name": "J_Sec_R_SkirtBack",
+          "rest_pos": [
+            0.000581368803977966,
+            0.0813204646110535,
+            -0.0114395692944527
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.790395021438599,
+          "index": 110,
+          "name": "J_Sec_R_SkirtFront",
+          "parent": 107,
+          "parent_name": "RightUpperLeg",
+          "rest_pos": [
+            -0.0109787806868553,
+            0.0529884696006775,
+            0.102051094174385
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.701468884944916,
+          "index": 111,
+          "name": "J_Sec_R_SkirtFront_end",
+          "parent": 110,
+          "parent_name": "J_Sec_R_SkirtFront",
+          "rest_pos": [
+            0.00144903734326363,
+            0.0889261364936829,
+            -0.000958316028118134
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.802214324474335,
+          "index": 112,
+          "name": "J_Sec_R_SkirtSide",
+          "parent": 107,
+          "parent_name": "RightUpperLeg",
+          "rest_pos": [
+            0.0809153243899345,
+            0.0411691665649414,
+            0.0030419398099184
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.713213443756104,
+          "index": 113,
+          "name": "J_Sec_R_SkirtSide_end",
+          "parent": 112,
+          "parent_name": "J_Sec_R_SkirtSide",
+          "rest_pos": [
+            0.0158164650201797,
+            0.0890008807182312,
+            -0.00886088516563177
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.500952363014221,
+          "index": 114,
+          "name": "RightLowerLeg",
+          "parent": 107,
+          "parent_name": "RightUpperLeg",
+          "rest_pos": [
+            -0.0197145566344261,
+            0.342431128025055,
+            -0.00607746746391058
+          ],
+          "rest_quat": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.373710691928864,
+          "index": 115,
+          "name": "J_Sec_R_CoatSkirtBack",
+          "parent": 114,
+          "parent_name": "RightLowerLeg",
+          "rest_pos": [
+            -0.0182261243462563,
+            0.127241671085358,
+            0.174849793314934
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.233720898628235,
+          "index": 116,
+          "name": "J_Sec_R_CoatSkirtBack_end",
+          "parent": 115,
+          "parent_name": "J_Sec_R_CoatSkirtBack",
+          "rest_pos": [
+            -0.00611259043216705,
+            0.139989793300629,
+            0.0189869403839111
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.353898227214813,
+          "index": 117,
+          "name": "J_Sec_R_CoatSkirtFront",
+          "parent": 114,
+          "parent_name": "RightLowerLeg",
+          "rest_pos": [
+            -0.0142041742801666,
+            0.147054135799408,
+            -0.127748817205429
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.213882923126221,
+          "index": 118,
+          "name": "J_Sec_R_CoatSkirtFront_end",
+          "parent": 117,
+          "parent_name": "J_Sec_R_CoatSkirtFront",
+          "rest_pos": [
+            -0.00580381602048874,
+            0.140015304088593,
+            -0.00635455548763275
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.519256949424744,
+          "index": 119,
+          "name": "J_Sec_R_CoatSkirtSide1",
+          "parent": 114,
+          "parent_name": "RightLowerLeg",
+          "rest_pos": [
+            -0.127352029085159,
+            -0.0183045864105225,
+            0.00224412605166435
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.366744339466095,
+          "index": 120,
+          "name": "J_Sec_R_CoatSkirtSide2",
+          "parent": 119,
+          "parent_name": "J_Sec_R_CoatSkirtSide1",
+          "rest_pos": [
+            -0.0152749270200729,
+            0.152512609958649,
+            0.0057719387114048
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.226514875888824,
+          "index": 121,
+          "name": "J_Sec_R_CoatSkirtSide2_end",
+          "parent": 120,
+          "parent_name": "J_Sec_R_CoatSkirtSide2",
+          "rest_pos": [
+            -0.0111320465803146,
+            0.140229463577271,
+            0.00545588228851557
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.118326425552368,
+          "index": 122,
+          "name": "RightFoot",
+          "parent": 114,
+          "parent_name": "RightLowerLeg",
+          "rest_pos": [
+            0.00975764915347099,
+            0.382625937461853,
+            0.020577110350132
+          ],
+          "rest_quat": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        {
+          "global_rest_y": 0.0596826076507568,
+          "index": 123,
+          "name": "RightToes",
+          "parent": 122,
+          "parent_name": "RightFoot",
+          "rest_pos": [
+            0.00222552195191383,
+            0.108384102582932,
+            -0.0586438179016113
+          ],
+          "rest_quat": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.0577343702316284,
+          "index": 124,
+          "name": "J_Bip_R_ToeBase_end",
+          "parent": 123,
+          "parent_name": "RightToes",
+          "rest_pos": [
+            -0.000382225960493088,
+            0.0437130928039551,
+            0.00194823741912842
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.0,
+          "index": 125,
+          "name": "Root",
+          "parent": -1,
+          "parent_name": "",
+          "rest_pos": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "skeleton_node": "..",
+    "vrm_meta": {
+      "author": "VRoid",
+      "contact_information": "",
+      "license_name": "Other",
+      "modification": "",
+      "reference": "Resource(vrm_meta.gd)::reference",
+      "title": "AvatarSample_B"
+    }
+  },
+  "engine": "4.7.2-stable (official)",
+  "generated_by": "phase1 dump_vrm.gd (runtime inspection)",
+  "schema": "capability_catalog_v1",
+  "ual1": {
+    "animation": {
+      "players": [
+        {
+          "animations": [
+            {
+              "length": 0.16666667163372,
+              "loop": 0,
+              "name": "A_TPose",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 2.0,
+              "loop": 1,
+              "name": "Crouch_Fwd",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 2.93333339691162,
+              "loop": 1,
+              "name": "Crouch_Idle",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 1.0,
+              "loop": 1,
+              "name": "Dance",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 2.40000009536743,
+              "loop": 0,
+              "name": "Death01",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 1.66666662693024,
+              "loop": 1,
+              "name": "Driving",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 5.19999980926514,
+              "loop": 0,
+              "name": "Fixing_Kneeling",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 0.333333343267441,
+              "loop": 0,
+              "name": "Hit_Chest",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 0.433333337306976,
+              "loop": 0,
+              "name": "Hit_Head",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 2.5,
+              "loop": 1,
+              "name": "Idle",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 2.93333339691162,
+              "loop": 1,
+              "name": "Idle_Talking",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 1.26666665077209,
+              "loop": 1,
+              "name": "Idle_Torch",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 2.0,
+              "loop": 0,
+              "name": "Interact",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 0.933333337306976,
+              "loop": 1,
+              "name": "Jog_Fwd",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 2.5,
+              "loop": 1,
+              "name": "Jump",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 1.26666665077209,
+              "loop": 0,
+              "name": "Jump_Land",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 1.33333337306976,
+              "loop": 0,
+              "name": "Jump_Start",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 0.833333313465118,
+              "loop": 0,
+              "name": "PickUp_Table",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 0.16666667163372,
+              "loop": 0,
+              "name": "Pistol_Aim_Down",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 0.16666667163372,
+              "loop": 0,
+              "name": "Pistol_Aim_Neutral",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 0.16666667163372,
+              "loop": 0,
+              "name": "Pistol_Aim_Up",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 1.66666662693024,
+              "loop": 1,
+              "name": "Pistol_Idle",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 1.66666662693024,
+              "loop": 0,
+              "name": "Pistol_Reload",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 0.633333325386047,
+              "loop": 0,
+              "name": "Pistol_Shoot",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 1.0,
+              "loop": 0,
+              "name": "Punch_Cross",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 0.866666674613953,
+              "loop": 0,
+              "name": "Punch_Enter",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 0.866666674613953,
+              "loop": 0,
+              "name": "Punch_Jab",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 2.66666674613953,
+              "loop": 1,
+              "name": "Push",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 1.46666669845581,
+              "loop": 0,
+              "name": "Roll",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 1.46666669845581,
+              "loop": 0,
+              "name": "Roll_RM",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 1.29999995231628,
+              "loop": 0,
+              "name": "Sitting_Enter",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 1.03333330154419,
+              "loop": 0,
+              "name": "Sitting_Exit",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 1.66666662693024,
+              "loop": 1,
+              "name": "Sitting_Idle",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 2.93333339691162,
+              "loop": 1,
+              "name": "Sitting_Talking",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 0.533333361148834,
+              "loop": 0,
+              "name": "Spell_Simple_Enter",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 0.433333337306976,
+              "loop": 0,
+              "name": "Spell_Simple_Exit",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 2.09999990463257,
+              "loop": 1,
+              "name": "Spell_Simple_Idle",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 0.5,
+              "loop": 0,
+              "name": "Spell_Simple_Shoot",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 0.666666686534882,
+              "loop": 1,
+              "name": "Sprint",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 1.33333337306976,
+              "loop": 1,
+              "name": "Swim_Fwd",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 3.33333325386047,
+              "loop": 1,
+              "name": "Swim_Idle",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 1.53333330154419,
+              "loop": 0,
+              "name": "Sword_Attack",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 1.53333330154419,
+              "loop": 0,
+              "name": "Sword_Attack_RM",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 1.66666662693024,
+              "loop": 0,
+              "name": "Sword_Idle",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 1.33333337306976,
+              "loop": 1,
+              "name": "Walk",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            },
+            {
+              "length": 1.33333337306976,
+              "loop": 1,
+              "name": "Walk_Formal",
+              "track_types": {
+                "1": 2,
+                "2": 51
+              },
+              "tracks": 53
+            }
+          ],
+          "path": "..",
+          "root_node": ".."
+        }
+      ]
+    },
+    "meshes": [
+      {
+        "aabb_size": [
+          1.94445419311523,
+          1.82871651649475,
+          0.369598388671875
+        ],
+        "blend_shape_count": 0,
+        "blend_shapes": [],
+        "materials": [
+          {
+            "class": "StandardMaterial3D",
+            "shader": "StandardMaterial3D"
+          },
+          {
+            "class": "StandardMaterial3D",
+            "shader": "StandardMaterial3D"
+          }
+        ],
+        "node": "../../..",
+        "surface_count": 2
+      }
+    ],
+    "resource": "res://assets3d/UAL1.glb",
+    "root_props": [],
+    "skeleton": {
+      "bone_count": 53,
+      "bones": [
+        {
+          "global_rest_y": 0.0,
+          "index": 0,
+          "name": "root",
+          "parent": -1,
+          "parent_name": "",
+          "rest_pos": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "global_rest_y": 0.916700005531311,
+          "index": 1,
+          "name": "DEF-hips",
+          "parent": 0,
+          "parent_name": "root",
+          "rest_pos": [
+            0.0,
+            0.0501000285148621,
+            0.916700005531311
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.249680772423744,
+            0.968328177928925,
+            0.0,
+            -0.968328177928925,
+            -0.249680757522583
+          ]
+        },
+        {
+          "global_rest_y": 1.05050003528595,
+          "index": 2,
+          "name": "DEF-spine.001",
+          "parent": 1,
+          "parent_name": "DEF-hips",
+          "rest_pos": [
+            0.0,
+            0.138176336884499,
+            -0.0000000121071934700012
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.991627097129822,
+            -0.129134073853493,
+            0.0,
+            0.129134088754654,
+            0.991627156734467
+          ]
+        },
+        {
+          "global_rest_y": 1.1735999584198,
+          "index": 3,
+          "name": "DEF-spine.002",
+          "parent": 2,
+          "parent_name": "DEF-spine.001",
+          "rest_pos": [
+            0.0,
+            0.124034851789474,
+            0.000000000349245965480804
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.98805558681488,
+            -0.154097452759743,
+            0.0,
+            0.154097467660904,
+            0.988055646419525
+          ]
+        },
+        {
+          "global_rest_y": 1.31480014324188,
+          "index": 4,
+          "name": "DEF-spine.003",
+          "parent": 3,
+          "parent_name": "DEF-spine.002",
+          "rest_pos": [
+            0.0,
+            0.141271874308586,
+            0.00000000558793544769287
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.999999821186066,
+            -0.000537183019332588,
+            0.0,
+            0.000537183077540249,
+            0.99999988079071
+          ]
+        },
+        {
+          "global_rest_y": 1.4876002073288,
+          "index": 5,
+          "name": "DEF-neck",
+          "parent": 4,
+          "parent_name": "DEF-spine.003",
+          "rest_pos": [
+            0.0,
+            0.172890782356262,
+            -0.00000000186264514923096
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.975364208221436,
+            0.220600455999374,
+            0.0,
+            -0.220600455999374,
+            0.975364208221436
+          ]
+        },
+        {
+          "global_rest_y": 1.56870019435883,
+          "index": 6,
+          "name": "DEF-head",
+          "parent": 5,
+          "parent_name": "DEF-neck",
+          "rest_pos": [
+            0.0,
+            0.0825867801904678,
+            -0.00000000139698386192322
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.987620711326599,
+            -0.156860738992691,
+            0.0,
+            0.156860738992691,
+            0.987620711326599
+          ]
+        },
+        {
+          "global_rest_y": 1.45790016651154,
+          "index": 7,
+          "name": "DEF-shoulder.L",
+          "parent": 4,
+          "parent_name": "DEF-spine.003",
+          "rest_pos": [
+            0.0187999997287989,
+            0.140553578734398,
+            0.0808950364589691
+          ],
+          "rest_quat": [
+            0.507312774658203,
+            -0.0279645025730133,
+            0.861308217048645,
+            0.861761808395386,
+            0.0158232450485229,
+            -0.507066369056702,
+            0.000551134347915649,
+            0.999483704566956,
+            0.0321260690689087
+          ]
+        },
+        {
+          "global_rest_y": 1.44080007076263,
+          "index": 8,
+          "name": "DEF-upper_arm.L",
+          "parent": 7,
+          "parent_name": "DEF-shoulder.L",
+          "rest_pos": [
+            -0.0300723370164633,
+            0.21858175098896,
+            -0.0169684551656246
+          ],
+          "rest_quat": [
+            0.0000159740447998047,
+            0.000629276037216187,
+            -0.99999988079071,
+            0.49248018860817,
+            0.870323479175568,
+            0.000555559992790222,
+            0.870323777198792,
+            -0.492480099201202,
+            -0.00029599666595459
+          ]
+        },
+        {
+          "global_rest_y": 1.44080007076263,
+          "index": 9,
+          "name": "DEF-forearm.L",
+          "parent": 8,
+          "parent_name": "DEF-upper_arm.L",
+          "rest_pos": [
+            0.0000000215651425605756,
+            0.274440258741379,
+            -0.00000000128784449771047
+          ],
+          "rest_quat": [
+            1.0,
+            0.0000000346441311194212,
+            0.0000407127117796335,
+            -0.0000014334922298076,
+            0.999409556388855,
+            0.0343595072627068,
+            -0.0000406874787586275,
+            -0.0343595072627068,
+            0.999409556388855
+          ]
+        },
+        {
+          "global_rest_y": 1.44080007076263,
+          "index": 10,
+          "name": "DEF-hand.L",
+          "parent": 9,
+          "parent_name": "DEF-forearm.L",
+          "rest_pos": [
+            0.0000000127298260821362,
+            0.272640556097031,
+            -0.00000000181020709533186
+          ],
+          "rest_quat": [
+            1.0,
+            0.0000000115764571262389,
+            0.000000834378965919313,
+            0.00000000280889267401108,
+            0.999851405620575,
+            -0.017238724976778,
+            -0.000000834454567666398,
+            0.017238724976778,
+            0.999851405620575
+          ]
+        },
+        {
+          "global_rest_y": 1.43880021572113,
+          "index": 11,
+          "name": "DEF-f_index.01.L",
+          "parent": 10,
+          "parent_name": "DEF-hand.L",
+          "rest_pos": [
+            0.00199983175843954,
+            0.119899921119213,
+            0.0308999978005886
+          ],
+          "rest_quat": [
+            -0.00000798702149040764,
+            -0.00000013729565750964,
+            -0.999999940395355,
+            0.00000000000000710542566353511,
+            0.999999761581421,
+            -0.000000137295643298785,
+            1.0,
+            -0.00000000000110368908023267,
+            -0.00000798702239990234
+          ]
+        },
+        {
+          "global_rest_y": 1.43880021572113,
+          "index": 12,
+          "name": "DEF-f_index.02.L",
+          "parent": 11,
+          "parent_name": "DEF-f_index.01.L",
+          "rest_pos": [
+            -0.000000000512819897657835,
+            0.0407000184059143,
+            0.0000000113608722429603
+          ],
+          "rest_quat": [
+            1.0,
+            -0.00000000054008342242895,
+            0.0000000193429059436312,
+            0.00000000054008342242895,
+            1.0,
+            -0.0000000000000896319897101226,
+            -0.0000000193429059436312,
+            0.00000000000008964243870856,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.43880021572113,
+          "index": 13,
+          "name": "DEF-f_index.03.L",
+          "parent": 12,
+          "parent_name": "DEF-f_index.02.L",
+          "rest_pos": [
+            0.00000000097224983619526,
+            0.0348000526428223,
+            0.0000000106936113297706
+          ],
+          "rest_quat": [
+            1.0,
+            -0.000000000000000265582971916629,
+            -0.000000000000227373675443232,
+            0.00000000000000026558294544685,
+            0.999999940395355,
+            0.0000000000000000146975155230484,
+            0.000000000000227373675443232,
+            -0.0000000000000000146975171774096,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.44120025634766,
+          "index": 14,
+          "name": "DEF-f_middle.01.L",
+          "parent": 10,
+          "parent_name": "DEF-hand.L",
+          "rest_pos": [
+            -0.000400226010242477,
+            0.121599905192852,
+            0.00520000047981739
+          ],
+          "rest_quat": [
+            -0.00000786781220085686,
+            -0.0472286641597748,
+            -0.998884081840515,
+            -0.0000000298023508094047,
+            0.99888402223587,
+            -0.0472286641597748,
+            1.0,
+            -0.000000341817241178433,
+            -0.00000786043983680429
+          ]
+        },
+        {
+          "global_rest_y": 1.44120025634766,
+          "index": 15,
+          "name": "DEF-f_middle.02.L",
+          "parent": 14,
+          "parent_name": "DEF-f_middle.01.L",
+          "rest_pos": [
+            0.000000000363797880709171,
+            0.0423472486436367,
+            0.0000000201861212190124
+          ],
+          "rest_quat": [
+            0.999995410442352,
+            0.00302711687982082,
+            0.0000000197840233084889,
+            -0.00302711687982082,
+            0.999995410442352,
+            -0.0000000238300366106614,
+            -0.0000000198560687891813,
+            0.0000000237700383820538,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.44120013713837,
+          "index": 16,
+          "name": "DEF-f_middle.03.L",
+          "parent": 15,
+          "parent_name": "DEF-f_middle.02.L",
+          "rest_pos": [
+            -0.000000000278305378742516,
+            0.0339331477880478,
+            0.000000160513820901542
+          ],
+          "rest_quat": [
+            0.999997437000275,
+            -0.00225931825116277,
+            -0.0000000000112938252500028,
+            0.00225931825116277,
+            0.999997437000275,
+            0.000000016312588613232,
+            -0.0000000000255615268535125,
+            -0.0000000163125708496636,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.43920028209686,
+          "index": 17,
+          "name": "DEF-f_pinky.01.L",
+          "parent": 10,
+          "parent_name": "DEF-hand.L",
+          "rest_pos": [
+            0.0015997173031792,
+            0.107699915766716,
+            -0.0408000014722347
+          ],
+          "rest_quat": [
+            -0.00000786781311035156,
+            -0.0670133382081985,
+            -0.997752070426941,
+            -0.0000000372529029846191,
+            0.997752070426941,
+            -0.0670133382081985,
+            1.0,
+            -0.000000488013029098511,
+            -0.00000786781311035156
+          ]
+        },
+        {
+          "global_rest_y": 1.43920028209686,
+          "index": 18,
+          "name": "DEF-f_pinky.02.L",
+          "parent": 17,
+          "parent_name": "DEF-f_pinky.01.L",
+          "rest_pos": [
+            0.00000000334694050252438,
+            0.0402905717492104,
+            -0.0000000014873648979119
+          ],
+          "rest_quat": [
+            0.99999862909317,
+            -0.0016685426235199,
+            0.0000000203467163117921,
+            0.0016685426235199,
+            0.99999862909317,
+            0.0000000117812239963655,
+            -0.0000000203663450548675,
+            -0.0000000117472582772393,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.43920004367828,
+          "index": 19,
+          "name": "DEF-f_pinky.03.L",
+          "parent": 18,
+          "parent_name": "DEF-f_pinky.02.L",
+          "rest_pos": [
+            -0.00000000358431861968711,
+            0.0276653338223696,
+            0.000000225448843593767
+          ],
+          "rest_quat": [
+            0.999999225139618,
+            0.00121904537081718,
+            -0.0000000000137381096082523,
+            -0.00121904537081718,
+            0.999999165534973,
+            -0.00000000880091466370914,
+            0.00000000000300938354097502,
+            0.00000000880092443367175,
+            0.999999940395355
+          ]
+        },
+        {
+          "global_rest_y": 1.44090020656586,
+          "index": 20,
+          "name": "DEF-f_ring.01.L",
+          "parent": 10,
+          "parent_name": "DEF-hand.L",
+          "rest_pos": [
+            -0.000100191202363931,
+            0.119099900126457,
+            -0.0171000044792891
+          ],
+          "rest_quat": [
+            -0.00000786781220085686,
+            -0.0356007963418961,
+            -0.999366104602814,
+            -0.0000000186264479395959,
+            0.999365866184235,
+            -0.0356007888913155,
+            1.0,
+            -0.000000261485695318697,
+            -0.00000786348755354993
+          ]
+        },
+        {
+          "global_rest_y": 1.44090032577515,
+          "index": 21,
+          "name": "DEF-f_ring.02.L",
+          "parent": 20,
+          "parent_name": "DEF-f_ring.01.L",
+          "rest_pos": [
+            -0.000000000783074938226491,
+            0.0393249839544296,
+            -0.000000102464767337551
+          ],
+          "rest_quat": [
+            1.0,
+            0.000024380162358284,
+            0.0000000192550153599313,
+            -0.000024380162358284,
+            1.0,
+            -0.0000000017323020795601,
+            -0.0000000192550579924955,
+            0.00000000173183267726529,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.44090044498444,
+          "index": 22,
+          "name": "DEF-f_ring.03.L",
+          "parent": 21,
+          "parent_name": "DEF-f_ring.02.L",
+          "rest_pos": [
+            -0.00000000617637851973996,
+            0.0309195537120104,
+            -0.000000101905982319295
+          ],
+          "rest_quat": [
+            0.999997735023499,
+            -0.00213412591256201,
+            -0.0000000000122453575057691,
+            0.00213412567973137,
+            0.999997675418854,
+            0.000000015409886700013,
+            -0.0000000000206413133113648,
+            -0.0000000154098795945856,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.41800022125244,
+          "index": 23,
+          "name": "DEF-thumb.01.L",
+          "parent": 10,
+          "parent_name": "DEF-hand.L",
+          "rest_pos": [
+            0.0227998290210962,
+            0.0272999349981546,
+            0.0335999950766563
+          ],
+          "rest_quat": [
+            -0.871831178665161,
+            0.489806175231934,
+            -0.000691026449203491,
+            0.446201384067535,
+            0.794797122478485,
+            0.411341935396194,
+            0.20202699303627,
+            0.358312278985977,
+            -0.911480903625488
+          ]
+        },
+        {
+          "global_rest_y": 1.3988002538681,
+          "index": 24,
+          "name": "DEF-thumb.02.L",
+          "parent": 23,
+          "parent_name": "DEF-thumb.01.L",
+          "rest_pos": [
+            0.00000000590443960390985,
+            0.0430297926068306,
+            0.000000042840838432312
+          ],
+          "rest_quat": [
+            1.0,
+            0.000095889248768799,
+            0.000148201332194731,
+            -0.000095849005447235,
+            0.99999988079071,
+            -0.000271435506874695,
+            -0.000148227336467244,
+            0.000271421275101602,
+            0.99999988079071
+          ]
+        },
+        {
+          "global_rest_y": 1.37690007686615,
+          "index": 25,
+          "name": "DEF-thumb.03.L",
+          "parent": 24,
+          "parent_name": "DEF-thumb.02.L",
+          "rest_pos": [
+            -0.000000123012341646245,
+            0.0490779466927052,
+            -0.0000000251457095146179
+          ],
+          "rest_quat": [
+            0.999999344348907,
+            -0.00107063015457243,
+            -0.000162103737238795,
+            0.00107071036472917,
+            0.999999225139618,
+            0.00049568252870813,
+            0.000161572927027009,
+            -0.00049585581291467,
+            0.999999821186066
+          ]
+        },
+        {
+          "global_rest_y": 1.45790016651154,
+          "index": 26,
+          "name": "DEF-shoulder.R",
+          "parent": 4,
+          "parent_name": "DEF-spine.003",
+          "rest_pos": [
+            -0.0187999997287989,
+            0.140553578734398,
+            0.0808950364589691
+          ],
+          "rest_quat": [
+            0.507312774658203,
+            0.0279645025730133,
+            -0.861308217048645,
+            -0.861761808395386,
+            0.0158232450485229,
+            -0.507066369056702,
+            -0.000551134347915649,
+            0.999483704566956,
+            0.0321260690689087
+          ]
+        },
+        {
+          "global_rest_y": 1.44080007076263,
+          "index": 27,
+          "name": "DEF-upper_arm.R",
+          "parent": 26,
+          "parent_name": "DEF-shoulder.R",
+          "rest_pos": [
+            0.0300723370164633,
+            0.21858175098896,
+            -0.0169684551656246
+          ],
+          "rest_quat": [
+            0.0000159740447998047,
+            -0.000629276037216187,
+            0.99999988079071,
+            -0.49248018860817,
+            0.870323479175568,
+            0.000555559992790222,
+            -0.870323777198792,
+            -0.492480099201202,
+            -0.00029599666595459
+          ]
+        },
+        {
+          "global_rest_y": 1.44079995155334,
+          "index": 28,
+          "name": "DEF-forearm.R",
+          "parent": 27,
+          "parent_name": "DEF-upper_arm.R",
+          "rest_pos": [
+            -0.000000148123348253648,
+            0.274440228939056,
+            -0.00000000794170773588121
+          ],
+          "rest_quat": [
+            1.0,
+            -0.0000000388563421438448,
+            -0.0000407127809012309,
+            0.00000143770569138724,
+            0.999409556388855,
+            0.0343595370650291,
+            0.0000406874096370302,
+            -0.0343595370650291,
+            0.999409556388855
+          ]
+        },
+        {
+          "global_rest_y": 1.44079995155334,
+          "index": 29,
+          "name": "DEF-hand.R",
+          "parent": 28,
+          "parent_name": "DEF-forearm.R",
+          "rest_pos": [
+            -0.0000000220433413744558,
+            0.272640466690063,
+            0.00000000172497038875008
+          ],
+          "rest_quat": [
+            1.0,
+            -0.0000000136315865262304,
+            -0.00000107277992356103,
+            -0.000000004863796476684,
+            0.99985134601593,
+            -0.0172387231141329,
+            0.00000107285541162128,
+            0.0172387231141329,
+            0.99985134601593
+          ]
+        },
+        {
+          "global_rest_y": 1.43880009651184,
+          "index": 30,
+          "name": "DEF-f_index.01.R",
+          "parent": 29,
+          "parent_name": "DEF-hand.R",
+          "rest_pos": [
+            -0.0019998278003186,
+            0.119899958372116,
+            0.0308999996632338
+          ],
+          "rest_quat": [
+            -0.00000810623259894783,
+            0.00000013729565750964,
+            1.0,
+            0.00000000000000710565690352971,
+            0.999999940395355,
+            -0.000000137295643298785,
+            -1.0,
+            -0.00000000000110584490783244,
+            -0.00000810623259894783
+          ]
+        },
+        {
+          "global_rest_y": 1.43880021572113,
+          "index": 31,
+          "name": "DEF-f_index.02.R",
+          "parent": 30,
+          "parent_name": "DEF-f_index.01.R",
+          "rest_pos": [
+            -0.00000000535525268574588,
+            0.0407001078128815,
+            -0.000000107848400432431
+          ],
+          "rest_quat": [
+            1.0,
+            0.000000000540096856127548,
+            0.000000007648168320884,
+            -0.000000000540096856127548,
+            1.0,
+            -0.000000000000104790952120109,
+            -0.000000007648168320884,
+            0.000000000000104786818599326,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.43880033493042,
+          "index": 32,
+          "name": "DEF-f_index.03.R",
+          "parent": 31,
+          "parent_name": "DEF-f_index.02.R",
+          "rest_pos": [
+            -0.0000000046966306399554,
+            0.0348000228404999,
+            -0.000000107584469333233
+          ],
+          "rest_quat": [
+            1.0,
+            -0.000000000000000836374890497677,
+            0.000000000000227373675443232,
+            0.000000000000000836374890497677,
+            1.0,
+            -0.000000000000000236766037548311,
+            -0.000000000000227373675443232,
+            0.000000000000000236766037548311,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.44120013713837,
+          "index": 33,
+          "name": "DEF-f_middle.01.R",
+          "parent": 29,
+          "parent_name": "DEF-hand.R",
+          "rest_pos": [
+            0.0004002331988886,
+            0.121599934995174,
+            0.00520000234246254
+          ],
+          "rest_quat": [
+            -0.00000798702149040764,
+            0.0472286604344845,
+            0.998884081840515,
+            0.0000000391155765555595,
+            0.99888402223587,
+            -0.0472286604344845,
+            -1.0,
+            -0.000000338144445777289,
+            -0.00000797995653556427
+          ]
+        },
+        {
+          "global_rest_y": 1.44120025634766,
+          "index": 34,
+          "name": "DEF-f_middle.02.R",
+          "parent": 33,
+          "parent_name": "DEF-f_middle.01.R",
+          "rest_pos": [
+            0.000000000631189323030412,
+            0.0423472821712494,
+            -0.0000000973759597400203
+          ],
+          "rest_quat": [
+            0.999995410442352,
+            -0.00302711874246597,
+            0.00000000680076883696756,
+            0.00302711874246597,
+            0.999995410442352,
+            -0.0000000220095852654367,
+            -0.00000000673411193474749,
+            0.0000000220300702125087,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.44120025634766,
+          "index": 35,
+          "name": "DEF-f_middle.03.R",
+          "parent": 34,
+          "parent_name": "DEF-f_middle.02.R",
+          "rest_pos": [
+            0.00000000214186002267525,
+            0.0339331813156605,
+            0.0000000418958450154605
+          ],
+          "rest_quat": [
+            0.999997437000275,
+            0.00225931638851762,
+            -0.0000000000266551069411092,
+            -0.00225931615568697,
+            0.99999737739563,
+            0.000000016372638356188,
+            0.0000000000636460190106547,
+            -0.000000016372538880205,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.43920016288757,
+          "index": 36,
+          "name": "DEF-f_pinky.01.R",
+          "parent": 29,
+          "parent_name": "DEF-hand.R",
+          "rest_pos": [
+            -0.00159970473032445,
+            0.107699945569038,
+            -0.0408000014722347
+          ],
+          "rest_quat": [
+            -0.00000810623168945312,
+            0.0670133382081985,
+            0.997752070426941,
+            0.000000044703483581543,
+            0.997752070426941,
+            -0.0670133382081985,
+            -1.0,
+            -0.000000491738319396973,
+            -0.00000798702239990234
+          ]
+        },
+        {
+          "global_rest_y": 1.43920016288757,
+          "index": 37,
+          "name": "DEF-f_pinky.02.R",
+          "parent": 36,
+          "parent_name": "DEF-f_pinky.01.R",
+          "rest_pos": [
+            0.000000000857653503771871,
+            0.0402905382215977,
+            -0.00000000196365590454661
+          ],
+          "rest_quat": [
+            0.999998569488525,
+            0.00166852783877403,
+            0.0000000058374096667535,
+            -0.00166852760594338,
+            0.999998450279236,
+            0.0000000112430935672592,
+            -0.00000000581864245674524,
+            -0.0000000112528191209549,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.43920016288757,
+          "index": 38,
+          "name": "DEF-f_pinky.03.R",
+          "parent": 37,
+          "parent_name": "DEF-f_pinky.02.R",
+          "rest_pos": [
+            0.00000000358431861968711,
+            0.027665363624692,
+            -0.0000000117159117962728
+          ],
+          "rest_quat": [
+            0.999999284744263,
+            -0.00121904164552689,
+            0.0000000000377667862261344,
+            0.00121904164552689,
+            0.999999284744263,
+            -0.00000000883281892072318,
+            -0.0000000000269991841383987,
+            0.00000000883285800057365,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.44090008735657,
+          "index": 39,
+          "name": "DEF-f_ring.01.R",
+          "parent": 29,
+          "parent_name": "DEF-hand.R",
+          "rest_pos": [
+            0.000100201039458625,
+            0.11909993737936,
+            -0.0171000026166439
+          ],
+          "rest_quat": [
+            -0.00000786781220085686,
+            0.0356007926166058,
+            0.999366104602814,
+            0.0000000279396417113276,
+            0.999365866184235,
+            -0.0356007851660252,
+            -1.0,
+            -0.000000252178409709813,
+            -0.00000786381951911608
+          ]
+        },
+        {
+          "global_rest_y": 1.44090032577515,
+          "index": 40,
+          "name": "DEF-f_ring.02.R",
+          "parent": 39,
+          "parent_name": "DEF-f_ring.01.R",
+          "rest_pos": [
+            -0.00000000254203769145533,
+            0.0393250174820423,
+            -0.000000218789026007471
+          ],
+          "rest_quat": [
+            1.0,
+            -0.0000243820250034332,
+            0.00000000687736045890119,
+            0.0000243820250034332,
+            1.0,
+            0.00000000147437007047557,
+            -0.00000000687739598603798,
+            -0.00000000147420242679885,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.44090044498444,
+          "index": 41,
+          "name": "DEF-f_ring.03.R",
+          "parent": 40,
+          "parent_name": "DEF-f_ring.02.R",
+          "rest_pos": [
+            0.00000000245108822127804,
+            0.0309195853769779,
+            -0.000000100549158332797
+          ],
+          "rest_quat": [
+            0.999997735023499,
+            0.00213412591256201,
+            -0.0000000000261066359502626,
+            -0.00213412567973137,
+            0.999997675418854,
+            0.0000000154656945028364,
+            0.0000000000591123192061893,
+            -0.0000000154656056849944,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.41800022125244,
+          "index": 42,
+          "name": "DEF-thumb.01.R",
+          "parent": 29,
+          "parent_name": "DEF-hand.R",
+          "rest_pos": [
+            -0.0227998234331608,
+            0.0272999685257673,
+            0.0335999950766563
+          ],
+          "rest_quat": [
+            -0.871831059455872,
+            -0.489806234836578,
+            0.000691041350364685,
+            -0.446201473474503,
+            0.79479706287384,
+            0.411341845989227,
+            -0.202027007937431,
+            0.358312219381332,
+            -0.911480903625488
+          ]
+        },
+        {
+          "global_rest_y": 1.3988002538681,
+          "index": 43,
+          "name": "DEF-thumb.02.R",
+          "parent": 42,
+          "parent_name": "DEF-thumb.01.R",
+          "rest_pos": [
+            -0.00000000717227521818131,
+            0.043029859662056,
+            -0.0000000167638063430786
+          ],
+          "rest_quat": [
+            1.0,
+            -0.0000957487136474811,
+            -0.000148018531035632,
+            0.0000957085430854931,
+            0.999999940395355,
+            -0.000271346070803702,
+            0.000148044477100484,
+            0.000271331868134439,
+            0.99999988079071
+          ]
+        },
+        {
+          "global_rest_y": 1.37690031528473,
+          "index": 44,
+          "name": "DEF-thumb.03.R",
+          "parent": 43,
+          "parent_name": "DEF-thumb.02.R",
+          "rest_pos": [
+            -0.0000000558043211640324,
+            0.0490778833627701,
+            0.00000000558793544769287
+          ],
+          "rest_quat": [
+            0.999999344348907,
+            0.00107059313450009,
+            0.00016226404113695,
+            -0.00107067346107215,
+            0.999999284744263,
+            0.000495615240652114,
+            -0.000161733347340487,
+            -0.000495788757689297,
+            0.99999988079071
+          ]
+        },
+        {
+          "global_rest_y": 0.932100057601929,
+          "index": 45,
+          "name": "DEF-thigh.L",
+          "parent": 1,
+          "parent_name": "DEF-hips",
+          "rest_pos": [
+            0.0890000015497208,
+            0.0277708414942026,
+            0.0460237972438335
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.970050871372223,
+            0.242901891469955,
+            0.0,
+            -0.242901846766472,
+            -0.970050692558289
+          ]
+        },
+        {
+          "global_rest_y": 0.531800091266632,
+          "index": 46,
+          "name": "DEF-shin.L",
+          "parent": 45,
+          "parent_name": "DEF-thigh.L",
+          "rest_pos": [
+            0.00000000745058059692383,
+            0.400309771299362,
+            -0.00000000023283064365387
+          ],
+          "rest_quat": [
+            0.999999940395355,
+            -0.0000191963645193027,
+            0.000261819368461147,
+            0.00000000000363797880709171,
+            0.997322857379913,
+            0.0731228217482567,
+            -0.000262522167759016,
+            -0.0731228142976761,
+            0.997322797775269
+          ]
+        },
+        {
+          "global_rest_y": 0.103700131177902,
+          "index": 47,
+          "name": "DEF-foot.L",
+          "parent": 46,
+          "parent_name": "DEF-shin.L",
+          "rest_pos": [
+            -0.00000000721911419532262,
+            0.429479897022247,
+            0.00000000240834197029471
+          ],
+          "rest_quat": [
+            0.999999523162842,
+            0.000930062145926058,
+            0.000193402083823457,
+            -0.000235722953220829,
+            0.440166026353836,
+            -0.897916436195374,
+            -0.000920247053727508,
+            0.897915899753571,
+            0.440165996551514
+          ]
+        },
+        {
+          "global_rest_y": 0.0152001604437828,
+          "index": 48,
+          "name": "DEF-toe.L",
+          "parent": 47,
+          "parent_name": "DEF-foot.L",
+          "rest_pos": [
+            0.00000000391992216464132,
+            0.173301085829735,
+            -0.00000000857835402712226
+          ],
+          "rest_quat": [
+            -0.999999523162842,
+            0.0000000208383426070213,
+            0.00103583536110818,
+            -0.000528954435139894,
+            0.859775841236115,
+            -0.510672032833099,
+            -0.000890596304088831,
+            -0.510671973228455,
+            -0.859774887561798
+          ]
+        },
+        {
+          "global_rest_y": 0.932100057601929,
+          "index": 49,
+          "name": "DEF-thigh.R",
+          "parent": 1,
+          "parent_name": "DEF-hips",
+          "rest_pos": [
+            -0.0890000015497208,
+            0.0277708414942026,
+            0.0460237972438335
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.970050871372223,
+            0.242901891469955,
+            0.0,
+            -0.242901846766472,
+            -0.970050692558289
+          ]
+        },
+        {
+          "global_rest_y": 0.531800091266632,
+          "index": 50,
+          "name": "DEF-shin.R",
+          "parent": 49,
+          "parent_name": "DEF-thigh.R",
+          "rest_pos": [
+            -0.00000000745058059692383,
+            0.400309771299362,
+            -0.00000000023283064365387
+          ],
+          "rest_quat": [
+            0.999999940395355,
+            -0.0000191963645193027,
+            0.000261819368461147,
+            0.00000000000363797880709171,
+            0.997322857379913,
+            0.0731228217482567,
+            -0.000262522167759016,
+            -0.0731228142976761,
+            0.997322797775269
+          ]
+        },
+        {
+          "global_rest_y": 0.103700190782547,
+          "index": 51,
+          "name": "DEF-foot.R",
+          "parent": 50,
+          "parent_name": "DEF-shin.R",
+          "rest_pos": [
+            0.00000000768204699852504,
+            0.429479837417603,
+            0.0000000013169483281672
+          ],
+          "rest_quat": [
+            0.999999523162842,
+            0.000930062145926058,
+            0.000193402083823457,
+            -0.000235722953220829,
+            0.440166026353836,
+            -0.897916436195374,
+            -0.000920247053727508,
+            0.897915899753571,
+            0.440165996551514
+          ]
+        },
+        {
+          "global_rest_y": 0.0152002200484276,
+          "index": 52,
+          "name": "DEF-toe.R",
+          "parent": 51,
+          "parent_name": "DEF-foot.R",
+          "rest_pos": [
+            -0.00000000353065843228251,
+            0.173301085829735,
+            -0.00000000818545231595635
+          ],
+          "rest_quat": [
+            -0.999999523162842,
+            0.0000000208383426070213,
+            0.00103583536110818,
+            -0.000528954435139894,
+            0.859775841236115,
+            -0.510672032833099,
+            -0.000890596304088831,
+            -0.510671973228455,
+            -0.859774887561798
+          ]
+        }
+      ]
+    },
+    "skeleton_node": "../.."
+  },
+  "ual2": {
+    "animation": {
+      "players": [
+        {
+          "animations": [
+            {
+              "length": 2.5,
+              "loop": 0,
+              "name": "A_TPose",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 1.36666667461395,
+              "loop": 0,
+              "name": "Chest_Open",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 0.666666686534882,
+              "loop": 0,
+              "name": "ClimbUp_1m_RM",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 1.33333337306976,
+              "loop": 0,
+              "name": "Consume",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 2.5,
+              "loop": 0,
+              "name": "Farm_Harvest",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 2.76666665077209,
+              "loop": 0,
+              "name": "Farm_PlantSeed",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 3.79999995231628,
+              "loop": 0,
+              "name": "Farm_Watering",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 0.833333313465118,
+              "loop": 0,
+              "name": "Hit_Knockback",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 0.833333313465118,
+              "loop": 0,
+              "name": "Hit_Knockback_RM",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 2.5,
+              "loop": 1,
+              "name": "Idle_FoldArms",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 2.5,
+              "loop": 1,
+              "name": "Idle_Lantern",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 2.5,
+              "loop": 1,
+              "name": "Idle_No",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 2.5,
+              "loop": 1,
+              "name": "Idle_Rail",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 2.5,
+              "loop": 0,
+              "name": "Idle_Rail_Call",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 2.5,
+              "loop": 1,
+              "name": "Idle_Shield",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 1.06666672229767,
+              "loop": 0,
+              "name": "Idle_Shield_Break",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 2.93333339691162,
+              "loop": 1,
+              "name": "Idle_TalkingPhone",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 1.53333330154419,
+              "loop": 0,
+              "name": "LayToIdle",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 0.466666668653488,
+              "loop": 0,
+              "name": "Melee_Hook",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 0.600000023841858,
+              "loop": 0,
+              "name": "Melee_Hook_Rec",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 2.0,
+              "loop": 1,
+              "name": "NinjaJump_Idle",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 1.26666665077209,
+              "loop": 0,
+              "name": "NinjaJump_Land",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 0.966666638851166,
+              "loop": 0,
+              "name": "NinjaJump_Start",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 1.33333337306976,
+              "loop": 0,
+              "name": "OverhandThrow",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 1.10000002384186,
+              "loop": 0,
+              "name": "Shield_Dash_RM",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 0.833333313465118,
+              "loop": 0,
+              "name": "Shield_OneShot",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 2.0,
+              "loop": 1,
+              "name": "Slide",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 0.5,
+              "loop": 0,
+              "name": "Slide_Exit",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 0.833333313465118,
+              "loop": 0,
+              "name": "Slide_Start",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 1.23333334922791,
+              "loop": 0,
+              "name": "Sword_Block",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 1.56666672229767,
+              "loop": 0,
+              "name": "Sword_Dash_RM",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 0.433333337306976,
+              "loop": 0,
+              "name": "Sword_Regular_A",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 0.966666638851166,
+              "loop": 0,
+              "name": "Sword_Regular_A_Rec",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 0.533333361148834,
+              "loop": 0,
+              "name": "Sword_Regular_B",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 1.03333330154419,
+              "loop": 0,
+              "name": "Sword_Regular_B_Rec",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 2.0,
+              "loop": 0,
+              "name": "Sword_Regular_C",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 3.0,
+              "loop": 0,
+              "name": "Sword_Regular_Combo",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 0.966666638851166,
+              "loop": 1,
+              "name": "TreeChopping",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 2.0,
+              "loop": 1,
+              "name": "Walk_Carry",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 2.5,
+              "loop": 0,
+              "name": "Yes",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 1.33333337306976,
+              "loop": 1,
+              "name": "Zombie_Idle",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 1.79999995231628,
+              "loop": 0,
+              "name": "Zombie_Scratch",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            },
+            {
+              "length": 1.33333337306976,
+              "loop": 1,
+              "name": "Zombie_Walk_Fwd",
+              "track_types": {
+                "1": 2,
+                "2": 55
+              },
+              "tracks": 57
+            }
+          ],
+          "path": "..",
+          "root_node": ".."
+        }
+      ]
+    },
+    "meshes": [
+      {
+        "aabb_size": [
+          1.94445419311523,
+          1.82871651649475,
+          0.369598388671875
+        ],
+        "blend_shape_count": 0,
+        "blend_shapes": [],
+        "materials": [
+          {
+            "class": "StandardMaterial3D",
+            "shader": "StandardMaterial3D"
+          },
+          {
+            "class": "StandardMaterial3D",
+            "shader": "StandardMaterial3D"
+          }
+        ],
+        "node": "../../..",
+        "surface_count": 2
+      }
+    ],
+    "resource": "res://assets3d/UAL2.glb",
+    "root_props": [],
+    "skeleton": {
+      "bone_count": 65,
+      "bones": [
+        {
+          "global_rest_y": 0.0,
+          "index": 0,
+          "name": "root",
+          "parent": -1,
+          "parent_name": "",
+          "rest_pos": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "global_rest_y": 0.916700005531311,
+          "index": 1,
+          "name": "pelvis",
+          "parent": 0,
+          "parent_name": "root",
+          "rest_pos": [
+            0.0,
+            0.0501000285148621,
+            0.916700005531311
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.249680772423744,
+            0.968328177928925,
+            0.0,
+            -0.968328177928925,
+            -0.249680757522583
+          ]
+        },
+        {
+          "global_rest_y": 1.05050003528595,
+          "index": 2,
+          "name": "spine_01",
+          "parent": 1,
+          "parent_name": "pelvis",
+          "rest_pos": [
+            0.0,
+            0.138176336884499,
+            -0.0000000121071934700012
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.991627097129822,
+            -0.129134073853493,
+            0.0,
+            0.129134088754654,
+            0.991627156734467
+          ]
+        },
+        {
+          "global_rest_y": 1.1735999584198,
+          "index": 3,
+          "name": "spine_02",
+          "parent": 2,
+          "parent_name": "spine_01",
+          "rest_pos": [
+            0.0,
+            0.124034851789474,
+            0.000000000349245965480804
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.98805558681488,
+            -0.154097452759743,
+            0.0,
+            0.154097467660904,
+            0.988055646419525
+          ]
+        },
+        {
+          "global_rest_y": 1.31480014324188,
+          "index": 4,
+          "name": "spine_03",
+          "parent": 3,
+          "parent_name": "spine_02",
+          "rest_pos": [
+            0.0,
+            0.141271874308586,
+            0.00000000558793544769287
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.999999821186066,
+            -0.000537183019332588,
+            0.0,
+            0.000537183077540249,
+            0.99999988079071
+          ]
+        },
+        {
+          "global_rest_y": 1.4876002073288,
+          "index": 5,
+          "name": "neck_01",
+          "parent": 4,
+          "parent_name": "spine_03",
+          "rest_pos": [
+            0.0,
+            0.172890782356262,
+            -0.00000000186264514923096
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.975364208221436,
+            0.220600455999374,
+            0.0,
+            -0.220600455999374,
+            0.975364208221436
+          ]
+        },
+        {
+          "global_rest_y": 1.56870019435883,
+          "index": 6,
+          "name": "Head",
+          "parent": 5,
+          "parent_name": "neck_01",
+          "rest_pos": [
+            0.0,
+            0.0825867801904678,
+            -0.00000000139698386192322
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.987620711326599,
+            -0.156860738992691,
+            0.0,
+            0.156860738992691,
+            0.987620711326599
+          ]
+        },
+        {
+          "global_rest_y": 1.45790016651154,
+          "index": 7,
+          "name": "clavicle_l",
+          "parent": 4,
+          "parent_name": "spine_03",
+          "rest_pos": [
+            0.0187999997287989,
+            0.140553578734398,
+            0.0808950364589691
+          ],
+          "rest_quat": [
+            0.507312774658203,
+            -0.0279645025730133,
+            0.861308217048645,
+            0.861761808395386,
+            0.0158232450485229,
+            -0.507066369056702,
+            0.000551134347915649,
+            0.999483704566956,
+            0.0321260690689087
+          ]
+        },
+        {
+          "global_rest_y": 1.44080007076263,
+          "index": 8,
+          "name": "upperarm_l",
+          "parent": 7,
+          "parent_name": "clavicle_l",
+          "rest_pos": [
+            -0.0300723370164633,
+            0.21858175098896,
+            -0.0169684551656246
+          ],
+          "rest_quat": [
+            0.0000159740447998047,
+            0.000629276037216187,
+            -0.99999988079071,
+            0.49248018860817,
+            0.870323479175568,
+            0.000555559992790222,
+            0.870323777198792,
+            -0.492480099201202,
+            -0.00029599666595459
+          ]
+        },
+        {
+          "global_rest_y": 1.44080007076263,
+          "index": 9,
+          "name": "lowerarm_l",
+          "parent": 8,
+          "parent_name": "upperarm_l",
+          "rest_pos": [
+            0.0000000215651425605756,
+            0.274440258741379,
+            -0.00000000128784449771047
+          ],
+          "rest_quat": [
+            1.0,
+            0.0000000346441311194212,
+            0.0000407127117796335,
+            -0.0000014334922298076,
+            0.999409556388855,
+            0.0343595072627068,
+            -0.0000406874787586275,
+            -0.0343595072627068,
+            0.999409556388855
+          ]
+        },
+        {
+          "global_rest_y": 1.44080007076263,
+          "index": 10,
+          "name": "hand_l",
+          "parent": 9,
+          "parent_name": "lowerarm_l",
+          "rest_pos": [
+            0.0000000127298260821362,
+            0.272640556097031,
+            -0.00000000181020709533186
+          ],
+          "rest_quat": [
+            1.0,
+            0.0000000115764571262389,
+            0.000000834378965919313,
+            0.00000000280889267401108,
+            0.999851405620575,
+            -0.017238724976778,
+            -0.000000834454567666398,
+            0.017238724976778,
+            0.999851405620575
+          ]
+        },
+        {
+          "global_rest_y": 1.43880021572113,
+          "index": 11,
+          "name": "index_01_l",
+          "parent": 10,
+          "parent_name": "hand_l",
+          "rest_pos": [
+            0.00199983175843954,
+            0.119899921119213,
+            0.0308999978005886
+          ],
+          "rest_quat": [
+            -0.00000798702149040764,
+            -0.00000013729565750964,
+            -0.999999940395355,
+            0.00000000000000710542566353511,
+            0.999999761581421,
+            -0.000000137295643298785,
+            1.0,
+            -0.00000000000110368908023267,
+            -0.00000798702239990234
+          ]
+        },
+        {
+          "global_rest_y": 1.43880021572113,
+          "index": 12,
+          "name": "index_02_l",
+          "parent": 11,
+          "parent_name": "index_01_l",
+          "rest_pos": [
+            -0.000000000512819897657835,
+            0.0407000184059143,
+            0.0000000113608722429603
+          ],
+          "rest_quat": [
+            1.0,
+            -0.00000000054008342242895,
+            0.0000000193429059436312,
+            0.00000000054008342242895,
+            1.0,
+            -0.0000000000000896319897101226,
+            -0.0000000193429059436312,
+            0.00000000000008964243870856,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.43880021572113,
+          "index": 13,
+          "name": "index_03_l",
+          "parent": 12,
+          "parent_name": "index_02_l",
+          "rest_pos": [
+            0.00000000097224983619526,
+            0.0348000526428223,
+            0.0000000106936113297706
+          ],
+          "rest_quat": [
+            1.0,
+            -0.000000000000000265582971916629,
+            -0.000000000000227373675443232,
+            0.00000000000000026558294544685,
+            0.999999940395355,
+            0.0000000000000000146975155230484,
+            0.000000000000227373675443232,
+            -0.0000000000000000146975171774096,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.43880021572113,
+          "index": 14,
+          "name": "index_04_leaf_l",
+          "parent": 13,
+          "parent_name": "index_03_l",
+          "rest_pos": [
+            0.00000000469754013465717,
+            0.030100105330348,
+            0.0000000106936113297706
+          ],
+          "rest_quat": [
+            -1.0,
+            0.000000000000000823618733130705,
+            -0.00000730355304767727,
+            0.000000000000000823618521372468,
+            1.0,
+            0.0000000000000000295789099875449,
+            0.00000730355304767727,
+            0.0000000000000000295728947301304,
+            -1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.44120025634766,
+          "index": 15,
+          "name": "middle_01_l",
+          "parent": 10,
+          "parent_name": "hand_l",
+          "rest_pos": [
+            -0.000400226010242477,
+            0.121599905192852,
+            0.00520000047981739
+          ],
+          "rest_quat": [
+            -0.00000786781220085686,
+            -0.0472286641597748,
+            -0.998884081840515,
+            -0.0000000298023508094047,
+            0.99888402223587,
+            -0.0472286641597748,
+            1.0,
+            -0.000000341817241178433,
+            -0.00000786043983680429
+          ]
+        },
+        {
+          "global_rest_y": 1.44120025634766,
+          "index": 16,
+          "name": "middle_02_l",
+          "parent": 15,
+          "parent_name": "middle_01_l",
+          "rest_pos": [
+            0.000000000363797880709171,
+            0.0423472486436367,
+            0.0000000201861212190124
+          ],
+          "rest_quat": [
+            0.999995410442352,
+            0.00302711687982082,
+            0.0000000197840233084889,
+            -0.00302711687982082,
+            0.999995410442352,
+            -0.0000000238300366106614,
+            -0.0000000198560687891813,
+            0.0000000237700383820538,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.44120013713837,
+          "index": 17,
+          "name": "middle_03_l",
+          "parent": 16,
+          "parent_name": "middle_02_l",
+          "rest_pos": [
+            -0.000000000278305378742516,
+            0.0339331477880478,
+            0.000000160513820901542
+          ],
+          "rest_quat": [
+            0.999997437000275,
+            -0.00225931825116277,
+            -0.0000000000112938252500028,
+            0.00225931825116277,
+            0.999997437000275,
+            0.000000016312588613232,
+            -0.0000000000255615268535125,
+            -0.0000000163125708496636,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.44120013713837,
+          "index": 18,
+          "name": "middle_04_leaf_l",
+          "parent": 17,
+          "parent_name": "middle_03_l",
+          "rest_pos": [
+            -0.00000000586624082643539,
+            0.03443718329072,
+            0.0000000259929322510288
+          ],
+          "rest_quat": [
+            -1.0,
+            0.0000000186264550450232,
+            -0.00000730355213818257,
+            0.0000000186264497159527,
+            0.999999701976776,
+            0.0000000000000569262248017316,
+            0.00000730355213818257,
+            -0.0000000000000791130466801411,
+            -1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.43920028209686,
+          "index": 19,
+          "name": "pinky_01_l",
+          "parent": 10,
+          "parent_name": "hand_l",
+          "rest_pos": [
+            0.0015997173031792,
+            0.107699915766716,
+            -0.0408000014722347
+          ],
+          "rest_quat": [
+            -0.00000786781311035156,
+            -0.0670133382081985,
+            -0.997752070426941,
+            -0.0000000372529029846191,
+            0.997752070426941,
+            -0.0670133382081985,
+            1.0,
+            -0.000000488013029098511,
+            -0.00000786781311035156
+          ]
+        },
+        {
+          "global_rest_y": 1.43920028209686,
+          "index": 20,
+          "name": "pinky_02_l",
+          "parent": 19,
+          "parent_name": "pinky_01_l",
+          "rest_pos": [
+            0.00000000334694050252438,
+            0.0402905717492104,
+            -0.0000000014873648979119
+          ],
+          "rest_quat": [
+            0.99999862909317,
+            -0.0016685426235199,
+            0.0000000203467163117921,
+            0.0016685426235199,
+            0.99999862909317,
+            0.0000000117812239963655,
+            -0.0000000203663450548675,
+            -0.0000000117472582772393,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.43920004367828,
+          "index": 21,
+          "name": "pinky_03_l",
+          "parent": 20,
+          "parent_name": "pinky_02_l",
+          "rest_pos": [
+            -0.00000000358431861968711,
+            0.0276653338223696,
+            0.000000225448843593767
+          ],
+          "rest_quat": [
+            0.999999225139618,
+            0.00121904537081718,
+            -0.0000000000137381096082523,
+            -0.00121904537081718,
+            0.999999165534973,
+            -0.00000000880091466370914,
+            0.00000000000300938354097502,
+            0.00000000880092443367175,
+            0.999999940395355
+          ]
+        },
+        {
+          "global_rest_y": 1.43919992446899,
+          "index": 22,
+          "name": "pinky_04_leaf_l",
+          "parent": 21,
+          "parent_name": "pinky_03_l",
+          "rest_pos": [
+            -0.00000000358340912498534,
+            0.0281642023473978,
+            0.000000114335250600561
+          ],
+          "rest_quat": [
+            -0.999999940395355,
+            0.0000000484287774327186,
+            -0.00000730355304767727,
+            0.0000000484287774327186,
+            0.999999940395355,
+            0.000000000000209419273914345,
+            0.00000730355304767727,
+            -0.000000000000144282901056413,
+            -0.999999940395355
+          ]
+        },
+        {
+          "global_rest_y": 1.44090020656586,
+          "index": 23,
+          "name": "ring_01_l",
+          "parent": 10,
+          "parent_name": "hand_l",
+          "rest_pos": [
+            -0.000100191202363931,
+            0.119099900126457,
+            -0.0171000044792891
+          ],
+          "rest_quat": [
+            -0.00000786781220085686,
+            -0.0356007963418961,
+            -0.999366104602814,
+            -0.0000000186264479395959,
+            0.999365866184235,
+            -0.0356007888913155,
+            1.0,
+            -0.000000261485695318697,
+            -0.00000786348755354993
+          ]
+        },
+        {
+          "global_rest_y": 1.44090032577515,
+          "index": 24,
+          "name": "ring_02_l",
+          "parent": 23,
+          "parent_name": "ring_01_l",
+          "rest_pos": [
+            -0.000000000783074938226491,
+            0.0393249839544296,
+            -0.000000102464767337551
+          ],
+          "rest_quat": [
+            1.0,
+            0.000024380162358284,
+            0.0000000192550153599313,
+            -0.000024380162358284,
+            1.0,
+            -0.0000000017323020795601,
+            -0.0000000192550579924955,
+            0.00000000173183267726529,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.44090044498444,
+          "index": 25,
+          "name": "ring_03_l",
+          "parent": 24,
+          "parent_name": "ring_02_l",
+          "rest_pos": [
+            -0.00000000617637851973996,
+            0.0309195537120104,
+            -0.000000101905982319295
+          ],
+          "rest_quat": [
+            0.999997735023499,
+            -0.00213412591256201,
+            -0.0000000000122453575057691,
+            0.00213412567973137,
+            0.999997675418854,
+            0.000000015409886700013,
+            -0.0000000000206413133113648,
+            -0.0000000154098795945856,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.44090056419373,
+          "index": 26,
+          "name": "ring_04_leaf_l",
+          "parent": 25,
+          "parent_name": "ring_03_l",
+          "rest_pos": [
+            0.00000000127511157188565,
+            0.0318225957453251,
+            -0.000000116248003223518
+          ],
+          "rest_quat": [
+            -1.0,
+            0.00000000372529029846191,
+            -0.00000730355350242462,
+            0.00000000372529029846191,
+            1.0,
+            0.000000000000113961981127939,
+            0.00000730355350242462,
+            0.0000000000000867541308973221,
+            -1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.41800022125244,
+          "index": 27,
+          "name": "thumb_01_l",
+          "parent": 10,
+          "parent_name": "hand_l",
+          "rest_pos": [
+            0.0227998290210962,
+            0.0272999349981546,
+            0.0335999950766563
+          ],
+          "rest_quat": [
+            -0.871831178665161,
+            0.489806175231934,
+            -0.000691026449203491,
+            0.446201384067535,
+            0.794797122478485,
+            0.411341935396194,
+            0.20202699303627,
+            0.358312278985977,
+            -0.911480903625488
+          ]
+        },
+        {
+          "global_rest_y": 1.3988002538681,
+          "index": 28,
+          "name": "thumb_02_l",
+          "parent": 27,
+          "parent_name": "thumb_01_l",
+          "rest_pos": [
+            0.00000000590443960390985,
+            0.0430297926068306,
+            0.000000042840838432312
+          ],
+          "rest_quat": [
+            1.0,
+            0.000095889248768799,
+            0.000148201332194731,
+            -0.000095849005447235,
+            0.99999988079071,
+            -0.000271435506874695,
+            -0.000148227336467244,
+            0.000271421275101602,
+            0.99999988079071
+          ]
+        },
+        {
+          "global_rest_y": 1.37690007686615,
+          "index": 29,
+          "name": "thumb_03_l",
+          "parent": 28,
+          "parent_name": "thumb_02_l",
+          "rest_pos": [
+            -0.000000123012341646245,
+            0.0490779466927052,
+            -0.0000000251457095146179
+          ],
+          "rest_quat": [
+            0.999999344348907,
+            -0.00107063015457243,
+            -0.000162103737238795,
+            0.00107071036472917,
+            0.999999225139618,
+            0.00049568252870813,
+            0.000161572927027009,
+            -0.00049585581291467,
+            0.999999821186066
+          ]
+        },
+        {
+          "global_rest_y": 1.35870003700256,
+          "index": 30,
+          "name": "thumb_04_leaf_l",
+          "parent": 29,
+          "parent_name": "thumb_03_l",
+          "rest_pos": [
+            -0.00000020787410903722,
+            0.0408623106777668,
+            -0.0000000186264514923096
+          ],
+          "rest_quat": [
+            0.487567931413651,
+            0.000000493845107030211,
+            -0.873085260391235,
+            -0.000000445743069121818,
+            1.0,
+            0.000000316710298875478,
+            0.873085141181946,
+            0.000000234753869676751,
+            0.487567871809006
+          ]
+        },
+        {
+          "global_rest_y": 1.45790016651154,
+          "index": 31,
+          "name": "clavicle_r",
+          "parent": 4,
+          "parent_name": "spine_03",
+          "rest_pos": [
+            -0.0187999997287989,
+            0.140553578734398,
+            0.0808950364589691
+          ],
+          "rest_quat": [
+            0.507312774658203,
+            0.0279645025730133,
+            -0.861308217048645,
+            -0.861761808395386,
+            0.0158232450485229,
+            -0.507066369056702,
+            -0.000551134347915649,
+            0.999483704566956,
+            0.0321260690689087
+          ]
+        },
+        {
+          "global_rest_y": 1.44080007076263,
+          "index": 32,
+          "name": "upperarm_r",
+          "parent": 31,
+          "parent_name": "clavicle_r",
+          "rest_pos": [
+            0.0300723370164633,
+            0.21858175098896,
+            -0.0169684551656246
+          ],
+          "rest_quat": [
+            0.0000159740447998047,
+            -0.000629276037216187,
+            0.99999988079071,
+            -0.49248018860817,
+            0.870323479175568,
+            0.000555559992790222,
+            -0.870323777198792,
+            -0.492480099201202,
+            -0.00029599666595459
+          ]
+        },
+        {
+          "global_rest_y": 1.44079995155334,
+          "index": 33,
+          "name": "lowerarm_r",
+          "parent": 32,
+          "parent_name": "upperarm_r",
+          "rest_pos": [
+            -0.000000148123348253648,
+            0.274440228939056,
+            -0.00000000794170773588121
+          ],
+          "rest_quat": [
+            1.0,
+            -0.0000000388563421438448,
+            -0.0000407127809012309,
+            0.00000143770569138724,
+            0.999409556388855,
+            0.0343595370650291,
+            0.0000406874096370302,
+            -0.0343595370650291,
+            0.999409556388855
+          ]
+        },
+        {
+          "global_rest_y": 1.44079995155334,
+          "index": 34,
+          "name": "hand_r",
+          "parent": 33,
+          "parent_name": "lowerarm_r",
+          "rest_pos": [
+            -0.0000000220433413744558,
+            0.272640466690063,
+            0.00000000172497038875008
+          ],
+          "rest_quat": [
+            1.0,
+            -0.0000000136315865262304,
+            -0.00000107277992356103,
+            -0.000000004863796476684,
+            0.99985134601593,
+            -0.0172387231141329,
+            0.00000107285541162128,
+            0.0172387231141329,
+            0.99985134601593
+          ]
+        },
+        {
+          "global_rest_y": 1.43880009651184,
+          "index": 35,
+          "name": "index_01_r",
+          "parent": 34,
+          "parent_name": "hand_r",
+          "rest_pos": [
+            -0.0019998278003186,
+            0.119899958372116,
+            0.0308999996632338
+          ],
+          "rest_quat": [
+            -0.00000810623259894783,
+            0.00000013729565750964,
+            1.0,
+            0.00000000000000710565690352971,
+            0.999999940395355,
+            -0.000000137295643298785,
+            -1.0,
+            -0.00000000000110584490783244,
+            -0.00000810623259894783
+          ]
+        },
+        {
+          "global_rest_y": 1.43880021572113,
+          "index": 36,
+          "name": "index_02_r",
+          "parent": 35,
+          "parent_name": "index_01_r",
+          "rest_pos": [
+            -0.00000000535525268574588,
+            0.0407001078128815,
+            -0.000000107848400432431
+          ],
+          "rest_quat": [
+            1.0,
+            0.000000000540096856127548,
+            0.000000007648168320884,
+            -0.000000000540096856127548,
+            1.0,
+            -0.000000000000104790952120109,
+            -0.000000007648168320884,
+            0.000000000000104786818599326,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.43880033493042,
+          "index": 37,
+          "name": "index_03_r",
+          "parent": 36,
+          "parent_name": "index_02_r",
+          "rest_pos": [
+            -0.0000000046966306399554,
+            0.0348000228404999,
+            -0.000000107584469333233
+          ],
+          "rest_quat": [
+            1.0,
+            -0.000000000000000836374890497677,
+            0.000000000000227373675443232,
+            0.000000000000000836374890497677,
+            1.0,
+            -0.000000000000000236766037548311,
+            -0.000000000000227373675443232,
+            0.000000000000000236766037548311,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.43880033493042,
+          "index": 38,
+          "name": "index_04_leaf_r",
+          "parent": 37,
+          "parent_name": "index_03_r",
+          "rest_pos": [
+            -0.000000000971340341493487,
+            0.0300999600440264,
+            0.0000000116248202175484
+          ],
+          "rest_quat": [
+            -1.0,
+            -0.000000000000000353202230502541,
+            0.00000730355304767727,
+            -0.00000000000000035320567157389,
+            1.0,
+            -0.000000000000000473663576961683,
+            -0.00000730355304767727,
+            -0.000000000000000473666118060525,
+            -1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.44120013713837,
+          "index": 39,
+          "name": "middle_01_r",
+          "parent": 34,
+          "parent_name": "hand_r",
+          "rest_pos": [
+            0.0004002331988886,
+            0.121599934995174,
+            0.00520000234246254
+          ],
+          "rest_quat": [
+            -0.00000798702149040764,
+            0.0472286604344845,
+            0.998884081840515,
+            0.0000000391155765555595,
+            0.99888402223587,
+            -0.0472286604344845,
+            -1.0,
+            -0.000000338144445777289,
+            -0.00000797995653556427
+          ]
+        },
+        {
+          "global_rest_y": 1.44120025634766,
+          "index": 40,
+          "name": "middle_02_r",
+          "parent": 39,
+          "parent_name": "middle_01_r",
+          "rest_pos": [
+            0.000000000631189323030412,
+            0.0423472821712494,
+            -0.0000000973759597400203
+          ],
+          "rest_quat": [
+            0.999995410442352,
+            -0.00302711874246597,
+            0.00000000680076883696756,
+            0.00302711874246597,
+            0.999995410442352,
+            -0.0000000220095852654367,
+            -0.00000000673411193474749,
+            0.0000000220300702125087,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.44120025634766,
+          "index": 41,
+          "name": "middle_03_r",
+          "parent": 40,
+          "parent_name": "middle_02_r",
+          "rest_pos": [
+            0.00000000214186002267525,
+            0.0339331813156605,
+            0.0000000418958450154605
+          ],
+          "rest_quat": [
+            0.999997437000275,
+            0.00225931638851762,
+            -0.0000000000266551069411092,
+            -0.00225931615568697,
+            0.99999737739563,
+            0.000000016372638356188,
+            0.0000000000636460190106547,
+            -0.000000016372538880205,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.44120025634766,
+          "index": 42,
+          "name": "middle_04_leaf_r",
+          "parent": 41,
+          "parent_name": "middle_03_r",
+          "rest_pos": [
+            0.00000000400359567720443,
+            0.0344372168183327,
+            0.0000000265271751231921
+          ],
+          "rest_quat": [
+            -1.0,
+            -0.0000000186264514923096,
+            0.00000730355259292992,
+            -0.0000000186264514923096,
+            1.0,
+            0.000000000000154850389238667,
+            -0.00000730355259292992,
+            0.0000000000000188111313093216,
+            -1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.43920016288757,
+          "index": 43,
+          "name": "pinky_01_r",
+          "parent": 34,
+          "parent_name": "hand_r",
+          "rest_pos": [
+            -0.00159970473032445,
+            0.107699945569038,
+            -0.0408000014722347
+          ],
+          "rest_quat": [
+            -0.00000810623168945312,
+            0.0670133382081985,
+            0.997752070426941,
+            0.000000044703483581543,
+            0.997752070426941,
+            -0.0670133382081985,
+            -1.0,
+            -0.000000491738319396973,
+            -0.00000798702239990234
+          ]
+        },
+        {
+          "global_rest_y": 1.43920016288757,
+          "index": 44,
+          "name": "pinky_02_r",
+          "parent": 43,
+          "parent_name": "pinky_01_r",
+          "rest_pos": [
+            0.000000000857653503771871,
+            0.0402905382215977,
+            -0.00000000196365590454661
+          ],
+          "rest_quat": [
+            0.999998569488525,
+            0.00166852783877403,
+            0.0000000058374096667535,
+            -0.00166852760594338,
+            0.999998450279236,
+            0.0000000112430935672592,
+            -0.00000000581864245674524,
+            -0.0000000112528191209549,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.43920016288757,
+          "index": 45,
+          "name": "pinky_03_r",
+          "parent": 44,
+          "parent_name": "pinky_02_r",
+          "rest_pos": [
+            0.00000000358431861968711,
+            0.027665363624692,
+            -0.0000000117159117962728
+          ],
+          "rest_quat": [
+            0.999999284744263,
+            -0.00121904164552689,
+            0.0000000000377667862261344,
+            0.00121904164552689,
+            0.999999284744263,
+            -0.00000000883281892072318,
+            -0.0000000000269991841383987,
+            0.00000000883285800057365,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.43920028209686,
+          "index": 46,
+          "name": "pinky_04_leaf_r",
+          "parent": 45,
+          "parent_name": "pinky_03_r",
+          "rest_pos": [
+            0.00000000358249963028356,
+            0.0281641706824303,
+            -0.00000012279903671697
+          ],
+          "rest_quat": [
+            -1.0,
+            -0.0000000521540641784668,
+            0.00000730355304767727,
+            -0.0000000521540641784668,
+            1.0,
+            0.000000000000254224809606574,
+            -0.00000730355304767727,
+            -0.000000000000126685174937219,
+            -1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.44090008735657,
+          "index": 47,
+          "name": "ring_01_r",
+          "parent": 34,
+          "parent_name": "hand_r",
+          "rest_pos": [
+            0.000100201039458625,
+            0.11909993737936,
+            -0.0171000026166439
+          ],
+          "rest_quat": [
+            -0.00000786781220085686,
+            0.0356007926166058,
+            0.999366104602814,
+            0.0000000279396417113276,
+            0.999365866184235,
+            -0.0356007851660252,
+            -1.0,
+            -0.000000252178409709813,
+            -0.00000786381951911608
+          ]
+        },
+        {
+          "global_rest_y": 1.44090032577515,
+          "index": 48,
+          "name": "ring_02_r",
+          "parent": 47,
+          "parent_name": "ring_01_r",
+          "rest_pos": [
+            -0.00000000254203769145533,
+            0.0393250174820423,
+            -0.000000218789026007471
+          ],
+          "rest_quat": [
+            1.0,
+            -0.0000243820250034332,
+            0.00000000687736045890119,
+            0.0000243820250034332,
+            1.0,
+            0.00000000147437007047557,
+            -0.00000000687739598603798,
+            -0.00000000147420242679885,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.44090044498444,
+          "index": 49,
+          "name": "ring_03_r",
+          "parent": 48,
+          "parent_name": "ring_02_r",
+          "rest_pos": [
+            0.00000000245108822127804,
+            0.0309195853769779,
+            -0.000000100549158332797
+          ],
+          "rest_quat": [
+            0.999997735023499,
+            0.00213412591256201,
+            -0.0000000000261066359502626,
+            -0.00213412567973137,
+            0.999997675418854,
+            0.0000000154656945028364,
+            0.0000000000591123192061893,
+            -0.0000000154656056849944,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.44090044498444,
+          "index": 50,
+          "name": "ring_04_leaf_r",
+          "parent": 49,
+          "parent_name": "ring_03_r",
+          "rest_pos": [
+            -0.00000000127602106658742,
+            0.0318226292729378,
+            0.0000000042641943309718
+          ],
+          "rest_quat": [
+            -1.0,
+            -0.00000000745058148510225,
+            0.00000730355259292992,
+            -0.0000000074505792646562,
+            0.999999701976776,
+            0.0000000000000393131809387198,
+            -0.00000730355259292992,
+            -0.0000000000000151025212165789,
+            -1.0
+          ]
+        },
+        {
+          "global_rest_y": 1.41800022125244,
+          "index": 51,
+          "name": "thumb_01_r",
+          "parent": 34,
+          "parent_name": "hand_r",
+          "rest_pos": [
+            -0.0227998234331608,
+            0.0272999685257673,
+            0.0335999950766563
+          ],
+          "rest_quat": [
+            -0.871831059455872,
+            -0.489806234836578,
+            0.000691041350364685,
+            -0.446201473474503,
+            0.79479706287384,
+            0.411341845989227,
+            -0.202027007937431,
+            0.358312219381332,
+            -0.911480903625488
+          ]
+        },
+        {
+          "global_rest_y": 1.3988002538681,
+          "index": 52,
+          "name": "thumb_02_r",
+          "parent": 51,
+          "parent_name": "thumb_01_r",
+          "rest_pos": [
+            -0.00000000717227521818131,
+            0.043029859662056,
+            -0.0000000167638063430786
+          ],
+          "rest_quat": [
+            1.0,
+            -0.0000957487136474811,
+            -0.000148018531035632,
+            0.0000957085430854931,
+            0.999999940395355,
+            -0.000271346070803702,
+            0.000148044477100484,
+            0.000271331868134439,
+            0.99999988079071
+          ]
+        },
+        {
+          "global_rest_y": 1.37690031528473,
+          "index": 53,
+          "name": "thumb_03_r",
+          "parent": 52,
+          "parent_name": "thumb_02_r",
+          "rest_pos": [
+            -0.0000000558043211640324,
+            0.0490778833627701,
+            0.00000000558793544769287
+          ],
+          "rest_quat": [
+            0.999999344348907,
+            0.00107059313450009,
+            0.00016226404113695,
+            -0.00107067346107215,
+            0.999999284744263,
+            0.000495615240652114,
+            -0.000161733347340487,
+            -0.000495788757689297,
+            0.99999988079071
+          ]
+        },
+        {
+          "global_rest_y": 1.35870051383972,
+          "index": 54,
+          "name": "thumb_04_leaf_r",
+          "parent": 53,
+          "parent_name": "thumb_03_r",
+          "rest_pos": [
+            -0.0000000644449755782261,
+            0.0408622995018959,
+            0.0000000149011611938477
+          ],
+          "rest_quat": [
+            0.487568080425262,
+            -0.000000491844048156054,
+            0.873084962368011,
+            0.000000452487938673585,
+            1.0,
+            0.000000310651756763036,
+            -0.873084962368011,
+            0.000000243596531390722,
+            0.487568080425262
+          ]
+        },
+        {
+          "global_rest_y": 0.932100057601929,
+          "index": 55,
+          "name": "thigh_l",
+          "parent": 1,
+          "parent_name": "pelvis",
+          "rest_pos": [
+            0.0890000015497208,
+            0.0277708414942026,
+            0.0460237972438335
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.970050871372223,
+            0.242901891469955,
+            0.0,
+            -0.242901846766472,
+            -0.970050692558289
+          ]
+        },
+        {
+          "global_rest_y": 0.531800091266632,
+          "index": 56,
+          "name": "calf_l",
+          "parent": 55,
+          "parent_name": "thigh_l",
+          "rest_pos": [
+            0.00000000745058059692383,
+            0.400309771299362,
+            -0.00000000023283064365387
+          ],
+          "rest_quat": [
+            0.999999940395355,
+            -0.0000191963645193027,
+            0.000261819368461147,
+            0.00000000000363797880709171,
+            0.997322857379913,
+            0.0731228217482567,
+            -0.000262522167759016,
+            -0.0731228142976761,
+            0.997322797775269
+          ]
+        },
+        {
+          "global_rest_y": 0.103700131177902,
+          "index": 57,
+          "name": "foot_l",
+          "parent": 56,
+          "parent_name": "calf_l",
+          "rest_pos": [
+            -0.00000000721911419532262,
+            0.429479897022247,
+            0.00000000240834197029471
+          ],
+          "rest_quat": [
+            0.999999523162842,
+            0.000930062145926058,
+            0.000193402083823457,
+            -0.000235722953220829,
+            0.440166026353836,
+            -0.897916436195374,
+            -0.000920247053727508,
+            0.897915899753571,
+            0.440165996551514
+          ]
+        },
+        {
+          "global_rest_y": 0.0152001604437828,
+          "index": 58,
+          "name": "ball_l",
+          "parent": 57,
+          "parent_name": "foot_l",
+          "rest_pos": [
+            0.00000000391992216464132,
+            0.173301085829735,
+            -0.00000000857835402712226
+          ],
+          "rest_quat": [
+            -0.999999523162842,
+            0.0000000208383426070213,
+            0.00103583536110818,
+            -0.000528954435139894,
+            0.859775841236115,
+            -0.510672032833099,
+            -0.000890596304088831,
+            -0.510671973228455,
+            -0.859774887561798
+          ]
+        },
+        {
+          "global_rest_y": 0.015200181864202,
+          "index": 59,
+          "name": "ball_leaf_l",
+          "parent": 58,
+          "parent_name": "ball_l",
+          "rest_pos": [
+            0.000000006829480536652,
+            0.0789000317454338,
+            -0.000000000053680171419046
+          ],
+          "rest_quat": [
+            1.0,
+            -0.00000000000000000000010587911841,
+            0.0000000408617850666815,
+            0.00000000000000121777609189396,
+            1.0,
+            -0.0000000298023188349816,
+            -0.0000000408617850666815,
+            0.0000000298023188349816,
+            1.0
+          ]
+        },
+        {
+          "global_rest_y": 0.932100057601929,
+          "index": 60,
+          "name": "thigh_r",
+          "parent": 1,
+          "parent_name": "pelvis",
+          "rest_pos": [
+            -0.0890000015497208,
+            0.0277708414942026,
+            0.0460237972438335
+          ],
+          "rest_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.970050871372223,
+            0.242901891469955,
+            0.0,
+            -0.242901846766472,
+            -0.970050692558289
+          ]
+        },
+        {
+          "global_rest_y": 0.531800091266632,
+          "index": 61,
+          "name": "calf_r",
+          "parent": 60,
+          "parent_name": "thigh_r",
+          "rest_pos": [
+            -0.00000000745058059692383,
+            0.400309771299362,
+            -0.00000000023283064365387
+          ],
+          "rest_quat": [
+            0.999999940395355,
+            -0.0000191963645193027,
+            0.000261819368461147,
+            0.00000000000363797880709171,
+            0.997322857379913,
+            0.0731228217482567,
+            -0.000262522167759016,
+            -0.0731228142976761,
+            0.997322797775269
+          ]
+        },
+        {
+          "global_rest_y": 0.103700190782547,
+          "index": 62,
+          "name": "foot_r",
+          "parent": 61,
+          "parent_name": "calf_r",
+          "rest_pos": [
+            0.00000000768204699852504,
+            0.429479837417603,
+            0.0000000013169483281672
+          ],
+          "rest_quat": [
+            0.999999523162842,
+            0.000930062145926058,
+            0.000193402083823457,
+            -0.000235722953220829,
+            0.440166026353836,
+            -0.897916436195374,
+            -0.000920247053727508,
+            0.897915899753571,
+            0.440165996551514
+          ]
+        },
+        {
+          "global_rest_y": 0.0152002200484276,
+          "index": 63,
+          "name": "ball_r",
+          "parent": 62,
+          "parent_name": "foot_r",
+          "rest_pos": [
+            -0.00000000353065843228251,
+            0.173301085829735,
+            -0.00000000818545231595635
+          ],
+          "rest_quat": [
+            -0.999999523162842,
+            0.0000000208383426070213,
+            0.00103583536110818,
+            -0.000528954435139894,
+            0.859775841236115,
+            -0.510672032833099,
+            -0.000890596304088831,
+            -0.510671973228455,
+            -0.859774887561798
+          ]
+        },
+        {
+          "global_rest_y": 0.0152002405375242,
+          "index": 64,
+          "name": "ball_leaf_r",
+          "parent": 63,
+          "parent_name": "ball_r",
+          "rest_pos": [
+            -0.00000000807168110128487,
+            0.0789000317454338,
+            -0.000000000220501394920802
+          ],
+          "rest_quat": [
+            1.0,
+            -0.00000000000000000000010587911841,
+            0.0000000408617850666815,
+            0.00000000000000121777609189396,
+            1.0,
+            -0.0000000298023188349816,
+            -0.0000000408617850666815,
+            0.0000000298023188349816,
+            1.0
+          ]
+        }
+      ]
+    },
+    "skeleton_node": "../.."
+  },
+  "vrm_addon": "godot-vrm e15199f980064028bfa4fbee5e70dddb82dd55c3"
+}

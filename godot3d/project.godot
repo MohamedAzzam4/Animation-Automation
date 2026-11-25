@@ -5,6 +5,10 @@
 config/name="Stylized 3D Language Video Renderer"
 config/features=PackedStringArray("4.7")
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/vrm/plugin.cfg")
+
 [display]
 
 window/size/viewport_width=1280
