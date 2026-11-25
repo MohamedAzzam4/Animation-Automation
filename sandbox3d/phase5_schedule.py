@@ -132,7 +132,7 @@ beat_body("proc_point_right", 1.8, 0.4)
 face("neutral", 1.8)
 look([MUG_HOME[0], MUG_HOME[1] + 0.05, MUG_HOME[2]], 1.8, "reach_gaze")
 attachments.append({"frame": reach_start + S(1.0), "object": "mug", "mode": "hand",
-                    "bone": "RightHand", "offset": [0.0, -0.07, 0.02], "tween_frames": 8})
+                    "bone": "RightHand", "offset": [0.0, -0.02, 0.07], "tween_frames": 8})
 advance(1.8)
 
 # ---- beat 7: drink — the hand-to-mouth pose carries the attached mug (3.0s) ----
@@ -188,7 +188,7 @@ look([DOOR_POS[0], 1.3, DOOR_POS[2]], 2.5, "prestand_door_gaze")
 advance(2.5)
 
 # door starts opening while she stands up
-door = [{"start_frame": exit_start + S(1.0), "end_frame": exit_start + S(2.6), "to_deg": 75}]
+door = [{"start_frame": exit_start + S(1.0), "end_frame": exit_start + S(2.6), "to_deg": -72}]
 
 # ---- beat 13: walk to the door, surprised (3.0s) ----
 walk2_start = f
@@ -213,9 +213,23 @@ look(["camera"], 1.5, "final_camera_gaze")
 advance(1.5)
 
 total = f + S(0.5)
+# camera: keep the whole scene readable; room side for the door/wave beats
+camera = [
+    {"start_frame": 0, "end_frame": S(4.5), "preset": "establishing",
+     "pos": [2.6, 1.75, 2.7], "target": [-0.3, 1.0, 0.4], "fov": 48, "smooth": False},
+    {"start_frame": S(4.5), "end_frame": S(10.0), "preset": "medium",
+     "pos": [1.35, 1.4, 2.3], "target": [-0.6, 1.0, 0.5], "fov": 44, "smooth": True},
+    {"start_frame": S(10.0), "end_frame": S(17.4), "preset": "closeup",
+     "pos": [0.35, 1.3, 1.75], "target": [-0.72, 1.02, 0.45], "fov": 36, "smooth": True},
+    {"start_frame": S(17.4), "end_frame": S(27.4), "preset": "medium2",
+     "pos": [0.75, 1.3, 2.15], "target": [-0.7, 0.95, 0.55], "fov": 42, "smooth": True},
+    {"start_frame": S(27.4), "end_frame": total, "preset": "wave",
+     "pos": [-0.4, 1.5, 2.35], "target": [1.1, 1.15, 0.45], "fov": 42, "smooth": True},
+]
 sched = {
     "fps": FPS, "total_frames": total,
     "schema": "interaction_v1",
+    "camera": camera,
     "environment": "test_room",
     "objects": {"mug": {"pos": list(MUG_HOME)}, "book": {"pos": list(BOOK_HOME)}},
     "chair_anchor": list(CHAIR_SIT),
