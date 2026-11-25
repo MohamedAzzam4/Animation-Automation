@@ -1,7 +1,7 @@
 #!/bin/bash
 # Phase 0: minimal 3D scene -> Movie Maker AVI -> FFmpeg MP4 (no audio yet)
 set -e
-GODOT=/home/z/tools/godot/Godot_v4.7.2-stable_linux.x86_64
+GODOT=/home/z/my-project/work/tools/godot/Godot_v4.7.2-stable_linux.x86_64
 PROJ=/home/z/my-project/work/language-video-workflow/godot3d
 OUT=/home/z/my-project/work/phase0
 FRAMES=${1:-150}

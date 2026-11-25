@@ -1,7 +1,7 @@
 #!/bin/bash
 # Render both Phase 4 lip-sync reels + side-by-side, with audio muxed.
 set -e
-GODOT=/home/z/tools/godot/Godot_v4.7.2-stable_linux.x86_64
+GODOT=/home/z/my-project/work/tools/godot/Godot_v4.7.2-stable_linux.x86_64
 PROJ=/home/z/my-project/work/language-video-workflow/godot3d
 P4=/home/z/my-project/work/language-video-workflow/output3d/phase4
 export HOME=/home/z

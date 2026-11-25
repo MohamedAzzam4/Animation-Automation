@@ -1,0 +1,21 @@
+; Engine configuration for the stylized 3D character renderer.
+; Rendered headless via Xvfb + llvmpipe: godot --rendering-driver opengl3
+[application]
+
+config/name="Stylized 3D Language Video Renderer"
+config/features=PackedStringArray("4.7")
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="disabled"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+
+[editor]
+
+movie_writer/mjpeg_quality=0.92

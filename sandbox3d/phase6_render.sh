@@ -1,7 +1,7 @@
 #!/bin/bash
 # Phase 6: render all four environment reels with perf stats.
 set -e
-GODOT=/home/z/tools/godot/Godot_v4.7.2-stable_linux.x86_64
+GODOT=/home/z/my-project/work/tools/godot/Godot_v4.7.2-stable_linux.x86_64
 PROJ=/home/z/my-project/work/language-video-workflow/godot3d
 P6=/home/z/my-project/work/language-video-workflow/output3d/phase6
 export HOME=/home/z
