@@ -1,0 +1,49 @@
+1
+00:00:00,500 --> 00:00:05,430
+Anna sitzt in ihrem Zimmer. Es ist ein ruhiger Nachmittag.
+
+2
+00:00:06,300 --> 00:00:08,695
+Ich lese ein spannendes Buch.
+
+3
+00:00:10,800 --> 00:00:14,400
+Was ist das? Klopfen an der Tuer!
+1
+00:00:00,500 --> 00:00:03,470
+Ich gehe zur Tuer und oeffne sie.
+
+2
+00:00:04,433 --> 00:00:09,332
+Ben! Du bist es! Was fuer eine Ueberraschung!
+
+3
+00:00:10,200 --> 00:00:14,329
+Hallo Ben! Schoen, dich zu sehen!
+
+4
+00:00:15,200 --> 00:00:18,972
+Moechtest du mit mir einen Kaffee trinken gehen?
+1
+00:00:00,500 --> 00:00:04,014
+Wir gehen in das kleine Cafe an der Ecke.
+
+2
+00:00:04,900 --> 00:00:07,243
+Ich nehme einen Cappuccino.
+
+3
+00:00:07,400 --> 00:00:11,260
+Ben erzaehlt von seiner Reise nach Berlin.
+
+4
+00:00:12,133 --> 00:00:15,417
+Der Kaffee schmeckt heute besonders gut.
+
+5
+00:00:16,633 --> 00:00:20,933
+Es ist schoen, mit Freunden Zeit zu verbringen.
+
+6
+00:00:21,833 --> 00:00:26,155
+Bis bald, Ben! Danke fuer den Besuch!
