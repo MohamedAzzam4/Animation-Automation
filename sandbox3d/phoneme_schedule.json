@@ -1,0 +1,833 @@
+{
+ "rate": 22050,
+ "fps": 30,
+ "text": "Guten Tag! Ich übe heute die Vokale: a, e, i, o, u. Mama backt Pizza. Der Vater fährt sehr schnell. Fünf kleine Töchter möchten Bücher lesen. Ich lache in der Schule.",
+ "words": [
+  {
+   "word": "Guten",
+   "ipa": "ɡˈuːtən",
+   "start_ms": 0,
+   "end_ms": 857
+  },
+  {
+   "word": "Tag",
+   "ipa": "tˈɑːk",
+   "start_ms": 947,
+   "end_ms": 1854
+  },
+  {
+   "word": "Ich",
+   "ipa": "ˈɪç",
+   "start_ms": 1944,
+   "end_ms": 2622
+  },
+  {
+   "word": "übe",
+   "ipa": "ˈyːbə",
+   "start_ms": 2712,
+   "end_ms": 3562
+  },
+  {
+   "word": "heute",
+   "ipa": "hˈɔøtə",
+   "start_ms": 3652,
+   "end_ms": 4573
+  },
+  {
+   "word": "die",
+   "ipa": "dˈiː",
+   "start_ms": 4663,
+   "end_ms": 5400
+  },
+  {
+   "word": "Vokale:",
+   "ipa": "voːkˈɑːlə",
+   "start_ms": 5490,
+   "end_ms": 6475
+  },
+  {
+   "word": "a",
+   "ipa": "ˈɑː",
+   "start_ms": 6565,
+   "end_ms": 7392
+  },
+  {
+   "word": "e",
+   "ipa": "ˈeː",
+   "start_ms": 7482,
+   "end_ms": 8253
+  },
+  {
+   "word": "i",
+   "ipa": "ˈiː",
+   "start_ms": 8343,
+   "end_ms": 9092
+  },
+  {
+   "word": "o",
+   "ipa": "ˈoː",
+   "start_ms": 9182,
+   "end_ms": 9964
+  },
+  {
+   "word": "u",
+   "ipa": "ˈuː",
+   "start_ms": 10054,
+   "end_ms": 10814
+  },
+  {
+   "word": "Mama",
+   "ipa": "mˈɑmɑː",
+   "start_ms": 11134,
+   "end_ms": 12094
+  },
+  {
+   "word": "backt",
+   "ipa": "bˈakt",
+   "start_ms": 12184,
+   "end_ms": 13007
+  },
+  {
+   "word": "Pizza",
+   "ipa": "pˈɪtsɑː",
+   "start_ms": 13097,
+   "end_ms": 14073
+  },
+  {
+   "word": "Der",
+   "ipa": "dˈɛɾ",
+   "start_ms": 14393,
+   "end_ms": 15078
+  },
+  {
+   "word": "Vater",
+   "ipa": "fˈɑːtɜ",
+   "start_ms": 15168,
+   "end_ms": 16148
+  },
+  {
+   "word": "fährt",
+   "ipa": "fˈɛːɾt",
+   "start_ms": 16238,
+   "end_ms": 17186
+  },
+  {
+   "word": "sehr",
+   "ipa": "zˈeːɾ",
+   "start_ms": 17276,
+   "end_ms": 18160
+  },
+  {
+   "word": "schnell",
+   "ipa": "ʃnˈɛl",
+   "start_ms": 18250,
+   "end_ms": 19172
+  },
+  {
+   "word": "Fünf",
+   "ipa": "fˈʏnf",
+   "start_ms": 19492,
+   "end_ms": 20374
+  },
+  {
+   "word": "kleine",
+   "ipa": "klˈaɪnə",
+   "start_ms": 20464,
+   "end_ms": 21416
+  },
+  {
+   "word": "Töchter",
+   "ipa": "tˈœçtɜ",
+   "start_ms": 21506,
+   "end_ms": 22448
+  },
+  {
+   "word": "möchten",
+   "ipa": "mˈœçtən",
+   "start_ms": 22538,
+   "end_ms": 23452
+  },
+  {
+   "word": "Bücher",
+   "ipa": "bˈyːçɜ",
+   "start_ms": 23542,
+   "end_ms": 24429
+  },
+  {
+   "word": "lesen",
+   "ipa": "lˈeːzən",
+   "start_ms": 24519,
+   "end_ms": 25399
+  },
+  {
+   "word": "Ich",
+   "ipa": "ˈɪç",
+   "start_ms": 25719,
+   "end_ms": 26397
+  },
+  {
+   "word": "lache",
+   "ipa": "lˈaːxə",
+   "start_ms": 26487,
+   "end_ms": 27374
+  },
+  {
+   "word": "in",
+   "ipa": "ˈɪn",
+   "start_ms": 27464,
+   "end_ms": 28188
+  },
+  {
+   "word": "der",
+   "ipa": "dˈɛɾ",
+   "start_ms": 28278,
+   "end_ms": 28963
+  },
+  {
+   "word": "Schule",
+   "ipa": "ʃˈuːlə",
+   "start_ms": 29053,
+   "end_ms": 29953
+  }
+ ],
+ "phonemes": [
+  {
+   "phoneme": "ɡ",
+   "start_ms": 0,
+   "end_ms": 142,
+   "word": "Guten"
+  },
+  {
+   "phoneme": "uː",
+   "start_ms": 142,
+   "end_ms": 440,
+   "word": "Guten"
+  },
+  {
+   "phoneme": "t",
+   "start_ms": 440,
+   "end_ms": 559,
+   "word": "Guten"
+  },
+  {
+   "phoneme": "ə",
+   "start_ms": 559,
+   "end_ms": 690,
+   "word": "Guten"
+  },
+  {
+   "phoneme": "n",
+   "start_ms": 690,
+   "end_ms": 857,
+   "word": "Guten"
+  },
+  {
+   "phoneme": "t",
+   "start_ms": 947,
+   "end_ms": 1221,
+   "word": "Tag"
+  },
+  {
+   "phoneme": "ɑː",
+   "start_ms": 1221,
+   "end_ms": 1551,
+   "word": "Tag"
+  },
+  {
+   "phoneme": "k",
+   "start_ms": 1551,
+   "end_ms": 1854,
+   "word": "Tag"
+  },
+  {
+   "phoneme": "ɪ",
+   "start_ms": 1944,
+   "end_ms": 2293,
+   "word": "Ich"
+  },
+  {
+   "phoneme": "ç",
+   "start_ms": 2293,
+   "end_ms": 2622,
+   "word": "Ich"
+  },
+  {
+   "phoneme": "yː",
+   "start_ms": 2712,
+   "end_ms": 3155,
+   "word": "übe"
+  },
+  {
+   "phoneme": "b",
+   "start_ms": 3155,
+   "end_ms": 3358,
+   "word": "übe"
+  },
+  {
+   "phoneme": "ə",
+   "start_ms": 3358,
+   "end_ms": 3562,
+   "word": "übe"
+  },
+  {
+   "phoneme": "h",
+   "start_ms": 3652,
+   "end_ms": 3820,
+   "word": "heute"
+  },
+  {
+   "phoneme": "ɔ",
+   "start_ms": 3820,
+   "end_ms": 4066,
+   "word": "heute"
+  },
+  {
+   "phoneme": "ø",
+   "start_ms": 4066,
+   "end_ms": 4250,
+   "word": "heute"
+  },
+  {
+   "phoneme": "t",
+   "start_ms": 4250,
+   "end_ms": 4404,
+   "word": "heute"
+  },
+  {
+   "phoneme": "ə",
+   "start_ms": 4404,
+   "end_ms": 4573,
+   "word": "heute"
+  },
+  {
+   "phoneme": "d",
+   "start_ms": 4663,
+   "end_ms": 4888,
+   "word": "die"
+  },
+  {
+   "phoneme": "iː",
+   "start_ms": 4888,
+   "end_ms": 5400,
+   "word": "die"
+  },
+  {
+   "phoneme": "v",
+   "start_ms": 5490,
+   "end_ms": 5650,
+   "word": "Vokale:"
+  },
+  {
+   "phoneme": "oː",
+   "start_ms": 5650,
+   "end_ms": 5936,
+   "word": "Vokale:"
+  },
+  {
+   "phoneme": "k",
+   "start_ms": 5936,
+   "end_ms": 6062,
+   "word": "Vokale:"
+  },
+  {
+   "phoneme": "ɑː",
+   "start_ms": 6062,
+   "end_ms": 6200,
+   "word": "Vokale:"
+  },
+  {
+   "phoneme": "l",
+   "start_ms": 6200,
+   "end_ms": 6349,
+   "word": "Vokale:"
+  },
+  {
+   "phoneme": "ə",
+   "start_ms": 6349,
+   "end_ms": 6474,
+   "word": "Vokale:"
+  },
+  {
+   "phoneme": "ɑː",
+   "start_ms": 6565,
+   "end_ms": 7392,
+   "word": "a"
+  },
+  {
+   "phoneme": "eː",
+   "start_ms": 7482,
+   "end_ms": 8253,
+   "word": "e"
+  },
+  {
+   "phoneme": "iː",
+   "start_ms": 8343,
+   "end_ms": 9092,
+   "word": "i"
+  },
+  {
+   "phoneme": "oː",
+   "start_ms": 9182,
+   "end_ms": 9964,
+   "word": "o"
+  },
+  {
+   "phoneme": "uː",
+   "start_ms": 10054,
+   "end_ms": 10814,
+   "word": "u"
+  },
+  {
+   "phoneme": "m",
+   "start_ms": 11134,
+   "end_ms": 11392,
+   "word": "Mama"
+  },
+  {
+   "phoneme": "ɑ",
+   "start_ms": 11392,
+   "end_ms": 11614,
+   "word": "Mama"
+  },
+  {
+   "phoneme": "m",
+   "start_ms": 11614,
+   "end_ms": 11872,
+   "word": "Mama"
+  },
+  {
+   "phoneme": "ɑː",
+   "start_ms": 11872,
+   "end_ms": 12094,
+   "word": "Mama"
+  },
+  {
+   "phoneme": "b",
+   "start_ms": 12184,
+   "end_ms": 12372,
+   "word": "backt"
+  },
+  {
+   "phoneme": "a",
+   "start_ms": 12372,
+   "end_ms": 12646,
+   "word": "backt"
+  },
+  {
+   "phoneme": "k",
+   "start_ms": 12646,
+   "end_ms": 12835,
+   "word": "backt"
+  },
+  {
+   "phoneme": "t",
+   "start_ms": 12835,
+   "end_ms": 13007,
+   "word": "backt"
+  },
+  {
+   "phoneme": "p",
+   "start_ms": 13097,
+   "end_ms": 13262,
+   "word": "Pizza"
+  },
+  {
+   "phoneme": "ɪ",
+   "start_ms": 13262,
+   "end_ms": 13502,
+   "word": "Pizza"
+  },
+  {
+   "phoneme": "t",
+   "start_ms": 13502,
+   "end_ms": 13652,
+   "word": "Pizza"
+  },
+  {
+   "phoneme": "s",
+   "start_ms": 13652,
+   "end_ms": 13892,
+   "word": "Pizza"
+  },
+  {
+   "phoneme": "ɑː",
+   "start_ms": 13892,
+   "end_ms": 14072,
+   "word": "Pizza"
+  },
+  {
+   "phoneme": "d",
+   "start_ms": 14393,
+   "end_ms": 14586,
+   "word": "Der"
+  },
+  {
+   "phoneme": "ɛ",
+   "start_ms": 14586,
+   "end_ms": 14867,
+   "word": "Der"
+  },
+  {
+   "phoneme": "ɾ",
+   "start_ms": 14867,
+   "end_ms": 15078,
+   "word": "Der"
+  },
+  {
+   "phoneme": "f",
+   "start_ms": 15168,
+   "end_ms": 15481,
+   "word": "Vater"
+  },
+  {
+   "phoneme": "ɑː",
+   "start_ms": 15481,
+   "end_ms": 15716,
+   "word": "Vater"
+  },
+  {
+   "phoneme": "t",
+   "start_ms": 15716,
+   "end_ms": 15912,
+   "word": "Vater"
+  },
+  {
+   "phoneme": "ɜ",
+   "start_ms": 15912,
+   "end_ms": 16148,
+   "word": "Vater"
+  },
+  {
+   "phoneme": "f",
+   "start_ms": 16238,
+   "end_ms": 16482,
+   "word": "fährt"
+  },
+  {
+   "phoneme": "ɛː",
+   "start_ms": 16482,
+   "end_ms": 16849,
+   "word": "fährt"
+  },
+  {
+   "phoneme": "ɾ",
+   "start_ms": 16849,
+   "end_ms": 17033,
+   "word": "fährt"
+  },
+  {
+   "phoneme": "t",
+   "start_ms": 17033,
+   "end_ms": 17186,
+   "word": "fährt"
+  },
+  {
+   "phoneme": "z",
+   "start_ms": 17276,
+   "end_ms": 17531,
+   "word": "sehr"
+  },
+  {
+   "phoneme": "eː",
+   "start_ms": 17531,
+   "end_ms": 17956,
+   "word": "sehr"
+  },
+  {
+   "phoneme": "ɾ",
+   "start_ms": 17956,
+   "end_ms": 18160,
+   "word": "sehr"
+  },
+  {
+   "phoneme": "ʃ",
+   "start_ms": 18250,
+   "end_ms": 18511,
+   "word": "schnell"
+  },
+  {
+   "phoneme": "n",
+   "start_ms": 18511,
+   "end_ms": 18726,
+   "word": "schnell"
+  },
+  {
+   "phoneme": "ɛ",
+   "start_ms": 18726,
+   "end_ms": 18972,
+   "word": "schnell"
+  },
+  {
+   "phoneme": "l",
+   "start_ms": 18972,
+   "end_ms": 19172,
+   "word": "schnell"
+  },
+  {
+   "phoneme": "f",
+   "start_ms": 19492,
+   "end_ms": 19719,
+   "word": "Fünf"
+  },
+  {
+   "phoneme": "ʏ",
+   "start_ms": 19719,
+   "end_ms": 19947,
+   "word": "Fünf"
+  },
+  {
+   "phoneme": "n",
+   "start_ms": 19947,
+   "end_ms": 20146,
+   "word": "Fünf"
+  },
+  {
+   "phoneme": "f",
+   "start_ms": 20146,
+   "end_ms": 20374,
+   "word": "Fünf"
+  },
+  {
+   "phoneme": "k",
+   "start_ms": 20464,
+   "end_ms": 20590,
+   "word": "kleine"
+  },
+  {
+   "phoneme": "l",
+   "start_ms": 20590,
+   "end_ms": 20739,
+   "word": "kleine"
+  },
+  {
+   "phoneme": "aɪ",
+   "start_ms": 20739,
+   "end_ms": 21129,
+   "word": "kleine"
+  },
+  {
+   "phoneme": "n",
+   "start_ms": 21129,
+   "end_ms": 21289,
+   "word": "kleine"
+  },
+  {
+   "phoneme": "ə",
+   "start_ms": 21289,
+   "end_ms": 21415,
+   "word": "kleine"
+  },
+  {
+   "phoneme": "t",
+   "start_ms": 21506,
+   "end_ms": 21655,
+   "word": "Töchter"
+  },
+  {
+   "phoneme": "œ",
+   "start_ms": 21655,
+   "end_ms": 21894,
+   "word": "Töchter"
+  },
+  {
+   "phoneme": "ç",
+   "start_ms": 21894,
+   "end_ms": 22119,
+   "word": "Töchter"
+  },
+  {
+   "phoneme": "t",
+   "start_ms": 22119,
+   "end_ms": 22268,
+   "word": "Töchter"
+  },
+  {
+   "phoneme": "ɜ",
+   "start_ms": 22268,
+   "end_ms": 22448,
+   "word": "Töchter"
+  },
+  {
+   "phoneme": "m",
+   "start_ms": 22538,
+   "end_ms": 22697,
+   "word": "möchten"
+  },
+  {
+   "phoneme": "œ",
+   "start_ms": 22697,
+   "end_ms": 22880,
+   "word": "möchten"
+  },
+  {
+   "phoneme": "ç",
+   "start_ms": 22880,
+   "end_ms": 23052,
+   "word": "möchten"
+  },
+  {
+   "phoneme": "t",
+   "start_ms": 23052,
+   "end_ms": 23166,
+   "word": "möchten"
+  },
+  {
+   "phoneme": "ə",
+   "start_ms": 23166,
+   "end_ms": 23292,
+   "word": "möchten"
+  },
+  {
+   "phoneme": "n",
+   "start_ms": 23292,
+   "end_ms": 23452,
+   "word": "möchten"
+  },
+  {
+   "phoneme": "b",
+   "start_ms": 23542,
+   "end_ms": 23699,
+   "word": "Bücher"
+  },
+  {
+   "phoneme": "yː",
+   "start_ms": 23699,
+   "end_ms": 24042,
+   "word": "Bücher"
+  },
+  {
+   "phoneme": "ç",
+   "start_ms": 24042,
+   "end_ms": 24257,
+   "word": "Bücher"
+  },
+  {
+   "phoneme": "ɜ",
+   "start_ms": 24257,
+   "end_ms": 24429,
+   "word": "Bücher"
+  },
+  {
+   "phoneme": "l",
+   "start_ms": 24519,
+   "end_ms": 24665,
+   "word": "lesen"
+  },
+  {
+   "phoneme": "eː",
+   "start_ms": 24665,
+   "end_ms": 24947,
+   "word": "lesen"
+  },
+  {
+   "phoneme": "z",
+   "start_ms": 24947,
+   "end_ms": 25116,
+   "word": "lesen"
+  },
+  {
+   "phoneme": "ə",
+   "start_ms": 25116,
+   "end_ms": 25241,
+   "word": "lesen"
+  },
+  {
+   "phoneme": "n",
+   "start_ms": 25241,
+   "end_ms": 25399,
+   "word": "lesen"
+  },
+  {
+   "phoneme": "ɪ",
+   "start_ms": 25719,
+   "end_ms": 26068,
+   "word": "Ich"
+  },
+  {
+   "phoneme": "ç",
+   "start_ms": 26068,
+   "end_ms": 26397,
+   "word": "Ich"
+  },
+  {
+   "phoneme": "l",
+   "start_ms": 26487,
+   "end_ms": 26664,
+   "word": "lache"
+  },
+  {
+   "phoneme": "aː",
+   "start_ms": 26664,
+   "end_ms": 27019,
+   "word": "lache"
+  },
+  {
+   "phoneme": "x",
+   "start_ms": 27019,
+   "end_ms": 27223,
+   "word": "lache"
+  },
+  {
+   "phoneme": "ə",
+   "start_ms": 27223,
+   "end_ms": 27374,
+   "word": "lache"
+  },
+  {
+   "phoneme": "ɪ",
+   "start_ms": 27464,
+   "end_ms": 27850,
+   "word": "in"
+  },
+  {
+   "phoneme": "n",
+   "start_ms": 27850,
+   "end_ms": 28188,
+   "word": "in"
+  },
+  {
+   "phoneme": "d",
+   "start_ms": 28278,
+   "end_ms": 28471,
+   "word": "der"
+  },
+  {
+   "phoneme": "ɛ",
+   "start_ms": 28471,
+   "end_ms": 28752,
+   "word": "der"
+  },
+  {
+   "phoneme": "ɾ",
+   "start_ms": 28752,
+   "end_ms": 28963,
+   "word": "der"
+  },
+  {
+   "phoneme": "ʃ",
+   "start_ms": 29053,
+   "end_ms": 29284,
+   "word": "Schule"
+  },
+  {
+   "phoneme": "uː",
+   "start_ms": 29284,
+   "end_ms": 29625,
+   "word": "Schule"
+  },
+  {
+   "phoneme": "l",
+   "start_ms": 29625,
+   "end_ms": 29803,
+   "word": "Schule"
+  },
+  {
+   "phoneme": "ə",
+   "start_ms": 29803,
+   "end_ms": 29953,
+   "word": "Schule"
+  }
+ ],
+ "total_ms": 30673,
+ "source": "espeak-ng de voice (free local TTS); word boundaries exact (per-word synthesis), phoneme boundaries interpolated with a static German duration table (approximation, no MBROLA in sandbox)"
+}

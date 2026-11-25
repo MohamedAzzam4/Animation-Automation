@@ -1,0 +1,491 @@
+{
+ "fps": 30,
+ "total_frames": 920,
+ "expressions": [
+  {
+   "start_frame": 0,
+   "end_frame": 920,
+   "name": "neutral",
+   "intensity": 0.0,
+   "label": "viseme_lipsync"
+  }
+ ],
+ "blinks": [],
+ "visemes": [
+  {
+   "shape": "e",
+   "weight": 0.2,
+   "start_frame": 0,
+   "end_frame": 4,
+   "phoneme": "ɡ",
+   "word": "Guten"
+  },
+  {
+   "shape": "u",
+   "weight": 0.9,
+   "start_frame": 4,
+   "end_frame": 13,
+   "phoneme": "uː",
+   "word": "Guten"
+  },
+  {
+   "shape": "e",
+   "weight": 0.15,
+   "start_frame": 13,
+   "end_frame": 25,
+   "phoneme": "t",
+   "word": "Guten"
+  },
+  {
+   "shape": "e",
+   "weight": 0.15,
+   "start_frame": 28,
+   "end_frame": 36,
+   "phoneme": "t",
+   "word": "Tag"
+  },
+  {
+   "shape": "e",
+   "weight": 0.15,
+   "start_frame": 46,
+   "end_frame": 55,
+   "phoneme": "k",
+   "word": "Tag"
+  },
+  {
+   "shape": "i",
+   "weight": 0.7,
+   "start_frame": 58,
+   "end_frame": 68,
+   "phoneme": "ɪ",
+   "word": "Ich"
+  },
+  {
+   "shape": "e",
+   "weight": 0.3,
+   "start_frame": 68,
+   "end_frame": 78,
+   "phoneme": "ç",
+   "word": "Ich"
+  },
+  {
+   "shape": "u",
+   "weight": 0.5,
+   "start_frame": 81,
+   "end_frame": 94,
+   "phoneme": "yː",
+   "word": "übe"
+  },
+  {
+   "shape": "e",
+   "weight": 0.45,
+   "start_frame": 100,
+   "end_frame": 106,
+   "phoneme": "ə",
+   "word": "übe"
+  },
+  {
+   "shape": "e",
+   "weight": 0.25,
+   "start_frame": 109,
+   "end_frame": 114,
+   "phoneme": "h",
+   "word": "heute"
+  },
+  {
+   "shape": "o",
+   "weight": 0.85,
+   "start_frame": 114,
+   "end_frame": 121,
+   "phoneme": "ɔ",
+   "word": "heute"
+  },
+  {
+   "shape": "e",
+   "weight": 0.15,
+   "start_frame": 127,
+   "end_frame": 137,
+   "phoneme": "t",
+   "word": "heute"
+  },
+  {
+   "shape": "e",
+   "weight": 0.15,
+   "start_frame": 139,
+   "end_frame": 146,
+   "phoneme": "d",
+   "word": "die"
+  },
+  {
+   "shape": "i",
+   "weight": 0.75,
+   "start_frame": 146,
+   "end_frame": 162,
+   "phoneme": "iː",
+   "word": "die"
+  },
+  {
+   "shape": "u",
+   "weight": 0.3,
+   "start_frame": 164,
+   "end_frame": 169,
+   "phoneme": "v",
+   "word": "Vokale:"
+  },
+  {
+   "shape": "o",
+   "weight": 0.9,
+   "start_frame": 169,
+   "end_frame": 178,
+   "phoneme": "oː",
+   "word": "Vokale:"
+  },
+  {
+   "shape": "e",
+   "weight": 0.15,
+   "start_frame": 178,
+   "end_frame": 181,
+   "phoneme": "k",
+   "word": "Vokale:"
+  },
+  {
+   "shape": "e",
+   "weight": 0.25,
+   "start_frame": 186,
+   "end_frame": 194,
+   "phoneme": "l",
+   "word": "Vokale:"
+  },
+  {
+   "shape": "e",
+   "weight": 0.75,
+   "start_frame": 224,
+   "end_frame": 247,
+   "phoneme": "eː",
+   "word": "e"
+  },
+  {
+   "shape": "i",
+   "weight": 0.75,
+   "start_frame": 250,
+   "end_frame": 272,
+   "phoneme": "iː",
+   "word": "i"
+  },
+  {
+   "shape": "o",
+   "weight": 0.9,
+   "start_frame": 275,
+   "end_frame": 298,
+   "phoneme": "oː",
+   "word": "o"
+  },
+  {
+   "shape": "u",
+   "weight": 0.9,
+   "start_frame": 301,
+   "end_frame": 324,
+   "phoneme": "uː",
+   "word": "u"
+  },
+  {
+   "shape": "a",
+   "weight": 1.0,
+   "start_frame": 341,
+   "end_frame": 348,
+   "phoneme": "ɑ",
+   "word": "Mama"
+  },
+  {
+   "shape": "a",
+   "weight": 1.0,
+   "start_frame": 371,
+   "end_frame": 379,
+   "phoneme": "a",
+   "word": "backt"
+  },
+  {
+   "shape": "e",
+   "weight": 0.15,
+   "start_frame": 379,
+   "end_frame": 390,
+   "phoneme": "k",
+   "word": "backt"
+  },
+  {
+   "shape": "i",
+   "weight": 0.7,
+   "start_frame": 397,
+   "end_frame": 405,
+   "phoneme": "ɪ",
+   "word": "Pizza"
+  },
+  {
+   "shape": "e",
+   "weight": 0.15,
+   "start_frame": 405,
+   "end_frame": 416,
+   "phoneme": "t",
+   "word": "Pizza"
+  },
+  {
+   "shape": "e",
+   "weight": 0.15,
+   "start_frame": 431,
+   "end_frame": 446,
+   "phoneme": "d",
+   "word": "Der"
+  },
+  {
+   "shape": "u",
+   "weight": 0.3,
+   "start_frame": 455,
+   "end_frame": 464,
+   "phoneme": "f",
+   "word": "Vater"
+  },
+  {
+   "shape": "e",
+   "weight": 0.15,
+   "start_frame": 471,
+   "end_frame": 477,
+   "phoneme": "t",
+   "word": "Vater"
+  },
+  {
+   "shape": "u",
+   "weight": 0.3,
+   "start_frame": 487,
+   "end_frame": 494,
+   "phoneme": "f",
+   "word": "fährt"
+  },
+  {
+   "shape": "e",
+   "weight": 0.8,
+   "start_frame": 494,
+   "end_frame": 505,
+   "phoneme": "ɛː",
+   "word": "fährt"
+  },
+  {
+   "shape": "e",
+   "weight": 0.15,
+   "start_frame": 510,
+   "end_frame": 515,
+   "phoneme": "t",
+   "word": "fährt"
+  },
+  {
+   "shape": "e",
+   "weight": 0.4,
+   "start_frame": 518,
+   "end_frame": 538,
+   "phoneme": "z",
+   "word": "sehr"
+  },
+  {
+   "shape": "e",
+   "weight": 0.5,
+   "start_frame": 547,
+   "end_frame": 575,
+   "phoneme": "ʃ",
+   "word": "schnell"
+  },
+  {
+   "shape": "u",
+   "weight": 0.3,
+   "start_frame": 584,
+   "end_frame": 598,
+   "phoneme": "f",
+   "word": "Fünf"
+  },
+  {
+   "shape": "e",
+   "weight": 0.2,
+   "start_frame": 598,
+   "end_frame": 604,
+   "phoneme": "n",
+   "word": "Fünf"
+  },
+  {
+   "shape": "u",
+   "weight": 0.3,
+   "start_frame": 604,
+   "end_frame": 611,
+   "phoneme": "f",
+   "word": "Fünf"
+  },
+  {
+   "shape": "e",
+   "weight": 0.15,
+   "start_frame": 613,
+   "end_frame": 622,
+   "phoneme": "k",
+   "word": "kleine"
+  },
+  {
+   "shape": "e",
+   "weight": 0.2,
+   "start_frame": 633,
+   "end_frame": 642,
+   "phoneme": "n",
+   "word": "kleine"
+  },
+  {
+   "shape": "e",
+   "weight": 0.15,
+   "start_frame": 645,
+   "end_frame": 649,
+   "phoneme": "t",
+   "word": "Töchter"
+  },
+  {
+   "shape": "o",
+   "weight": 0.45,
+   "start_frame": 649,
+   "end_frame": 656,
+   "phoneme": "œ",
+   "word": "Töchter"
+  },
+  {
+   "shape": "e",
+   "weight": 0.3,
+   "start_frame": 656,
+   "end_frame": 668,
+   "phoneme": "ç",
+   "word": "Töchter"
+  },
+  {
+   "shape": "o",
+   "weight": 0.45,
+   "start_frame": 680,
+   "end_frame": 686,
+   "phoneme": "œ",
+   "word": "möchten"
+  },
+  {
+   "shape": "e",
+   "weight": 0.3,
+   "start_frame": 686,
+   "end_frame": 703,
+   "phoneme": "ç",
+   "word": "möchten"
+  },
+  {
+   "shape": "u",
+   "weight": 0.5,
+   "start_frame": 710,
+   "end_frame": 721,
+   "phoneme": "yː",
+   "word": "Bücher"
+  },
+  {
+   "shape": "e",
+   "weight": 0.3,
+   "start_frame": 721,
+   "end_frame": 727,
+   "phoneme": "ç",
+   "word": "Bücher"
+  },
+  {
+   "shape": "e",
+   "weight": 0.25,
+   "start_frame": 735,
+   "end_frame": 761,
+   "phoneme": "l",
+   "word": "lesen"
+  },
+  {
+   "shape": "i",
+   "weight": 0.7,
+   "start_frame": 771,
+   "end_frame": 782,
+   "phoneme": "ɪ",
+   "word": "Ich"
+  },
+  {
+   "shape": "e",
+   "weight": 0.3,
+   "start_frame": 782,
+   "end_frame": 791,
+   "phoneme": "ç",
+   "word": "Ich"
+  },
+  {
+   "shape": "e",
+   "weight": 0.25,
+   "start_frame": 794,
+   "end_frame": 799,
+   "phoneme": "l",
+   "word": "lache"
+  },
+  {
+   "shape": "a",
+   "weight": 1.0,
+   "start_frame": 799,
+   "end_frame": 810,
+   "phoneme": "aː",
+   "word": "lache"
+  },
+  {
+   "shape": "e",
+   "weight": 0.35,
+   "start_frame": 810,
+   "end_frame": 821,
+   "phoneme": "x",
+   "word": "lache"
+  },
+  {
+   "shape": "i",
+   "weight": 0.7,
+   "start_frame": 823,
+   "end_frame": 835,
+   "phoneme": "ɪ",
+   "word": "in"
+  },
+  {
+   "shape": "e",
+   "weight": 0.2,
+   "start_frame": 835,
+   "end_frame": 845,
+   "phoneme": "n",
+   "word": "in"
+  },
+  {
+   "shape": "e",
+   "weight": 0.15,
+   "start_frame": 848,
+   "end_frame": 862,
+   "phoneme": "d",
+   "word": "der"
+  },
+  {
+   "shape": "e",
+   "weight": 0.5,
+   "start_frame": 871,
+   "end_frame": 878,
+   "phoneme": "ʃ",
+   "word": "Schule"
+  },
+  {
+   "shape": "u",
+   "weight": 0.9,
+   "start_frame": 878,
+   "end_frame": 888,
+   "phoneme": "uː",
+   "word": "Schule"
+  },
+  {
+   "shape": "e",
+   "weight": 0.25,
+   "start_frame": 888,
+   "end_frame": 898,
+   "phoneme": "l",
+   "word": "Schule"
+  }
+ ],
+ "gaze": [],
+ "head_nod": [],
+ "method": "phoneme->viseme (German IPA map, espeak G2P)"
+}
