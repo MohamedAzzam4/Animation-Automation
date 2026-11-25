@@ -10,3 +10,7 @@ art/pack/GLM_IMPLEMENTATION_PROMPT.md
 .godot/
 godot/*.avi
 art/staging/
+.godot/
+output3d/
+*.avi
+__pycache__/
